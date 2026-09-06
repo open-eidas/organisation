@@ -99,3 +99,25 @@ Pour garantir une gouvernance équilibrée conforme aux critères d'utilité pub
 
 1. L'association n'accorde aucune contrepartie directe ou indirecte, matérielle ou immatérielle, aux donateurs et mécènes, conformément aux critères de déductibilité fiscale des dons aux organismes d'intérêt général (articles 200 et 238 bis du CGI).
 2. Aucun don ou subvention assorti de clauses restreignant l'indépendance de l'infrastructure, l'ouverture des codes sources sous licence libre ou l'égalité d'accès des utilisateurs ne peut être accepté.
+
+---
+
+## Titre V — Modèle Économique, Facturation et Équipes Techniques
+
+### Article 12 — Modalités de facturation des usages massifs et services d'infrastructure
+
+1. **Principe du service public numérique gratuit** : L'accès aux services de base d'horodatage qualifié pour les citoyens, développeurs indépendants, projets open source, associations et petites entités est fourni à titre libre et gratuit dans la limite de quotas d'appels raisonnables (*fair use*).
+2. **Contribution aux coûts pour les usages massifs et industriels (*Cost Recovery*)** :
+   - Pour les organisations générant une volumétrie massive d'appels (dépassement des seuils de gratuité, millions d'horodatages mensuels) nécessitant un dimensionnement dédié d'infrastructure, de bande passante et d'opérations sur les modules cryptographiques matériels (HSM), l'association établit une facturation de service ;
+   - La grille tarifaire est déterminée selon une logique stricte de **prix coûtant mutualisé (*cost recovery*)** sans marge spéculative, afin de couvrir l'amortissement du matériel, l'hébergement hautement sécurisé, les audits eIDAS annuels et la maintenance ;
+   - La grille tarifaire est votée par le Conseil d'Administration et publiée publiquement en toute transparence ;
+   - L'intégralité des recettes est réinvestie dans le fonctionnement et la sécurisation de l'infrastructure de bien commun.
+
+### Article 13 — Statut et rémunération des équipes opérationnelles (développeurs et administrateurs système)
+
+1. **Recrutement d'équipes techniques** : Pour assurer le développement continu des logiciels libres (TSA, PKI, validateurs), la haute disponibilité 24/7 des serveurs, l'administration des systèmes et réseaux et les astreintes de sécurité, l'association peut recruter des salariés (en CDI ou CDD) ou contracter avec des prestataires techniques indépendants (ingénieurs système, développeurs, auditeurs cryptographiques).
+2. **Niveaux de rémunération** : Les rémunérations ou forfaits de prestations sont fixés aux conditions normales du marché pour des profils techniques spécialisés, dans le respect des équilibres budgétaires votés par l'Assemblée Générale.
+3. **Séparation stricte avec les mandats de gouvernance bénévoles** :
+   - Les administrateurs siégeant au Conseil d'Administration et les membres du Bureau demeurent **strictement bénévoles et non rémunérés** ;
+   - Aucun salarié technique ou prestataire rémunéré par l'association ne peut être membre élu du Conseil d'Administration ou du Bureau, ni exercer de mandat de direction juridique ou politique ;
+   - Les salariés et prestataires techniques opèrent sous l'autorité du Bureau et sous la coordination technique du TSC, garantissant ainsi la parfaite indépendance et la gestion désintéressée de l'association au sens fiscal (art. 261-7-1° du CGI).

@@ -110,11 +110,15 @@ La qualité de membre se perd par :
 
 ---
 
-### Article 10 — Gratuité des mandats et gestion désintéressée
+### Article 10 — Gratuité des mandats, gestion désintéressée et personnel opérationnel
 
-1. **Strict bénévolat** : Les fonctions d'administrateurs et de membres du Bureau sont strictement bénévoles et gratuites. Les dirigeants ne peuvent recevoir aucune rétribution directe ou indirecte en raison des fonctions qui leur sont confiées.
+1. **Strict bénévolat des dirigeants** : Les fonctions d'administrateurs au Conseil d'Administration et de membres du Bureau sont strictement bénévoles et gratuites. Les dirigeants ne peuvent recevoir aucune rétribution, rémunération ou indemnité directe ou indirecte en raison des fonctions de gouvernance qui leur sont confiées.
 2. **Frais de mission** : Seuls les remboursements de frais réels dûment engagés pour l'accomplissement du mandat associatif sont admis. Ils font l'objet de justificatifs probants vérifiés par le Trésorier et sont soumis au contrôle du Conseil d'Administration et du Commissaire aux comptes.
 3. **Gestion désintéressée** : L'association applique une gestion strictement désintéressée au sens de l'article 261-7-1° du Code Général des Impôts. Aucun dividende, surplus, soulte ou avantage matériel ne peut être distribué directement ou indirectement à ses membres.
+4. **Emploi et rémunération du personnel opérationnel (développeurs, mainteneurs, administrateurs système)** :
+   - Pour assurer la conception, le développement logiciel continu, la maintenance 24/7 des infrastructures, l'administration système et réseau, la sécurité des modules cryptographiques (HSM) et la conformité aux normes eIDAS, l'association peut embaucher du personnel salarié (en contrat de travail de droit commun) ou engager des prestataires techniques indépendants.
+   - Les rémunérations de ces personnels techniques sont fixées aux conditions normales du marché selon les grilles d'emplois techniques.
+   - **Stricte étanchéité de gouvernance** : Afin de préserver sans équivoque la gestion désintéressée et d'éviter tout conflit d'intérêts, aucun salarié technique ou prestataire rémunéré par l'association ne peut être membre du Conseil d'Administration ou du Bureau, ni exercer de fonction de direction statutaire ou de contrôle au sein de l'association.
 
 ---
 
@@ -188,7 +192,10 @@ Les ressources de l'association comprennent :
 3. Les dons de mécénat d'entreprises éligibles aux dispositions de l'article 238 bis du CGI ;
 4. Les subventions de l'Union Européenne, de l'État, des collectivités locales et de leurs établissements publics ;
 5. Les apports d'infrastructures en nature ou en mécénat de compétences (hébergement souverain, connectivité, modules HSM certifiés) ;
-6. Le produit éventuel des rétributions perçues pour des prestations conformes à l'objet social, dans le respect des règles fiscales applicables aux organismes non lucratifs ;
+6. Les redevances d'usage, facturations de prestations et contributions aux coûts d'infrastructure conformes à l'objet social, notamment :
+   - La facturation des volumes massifs d'appels d'API ou d'horodatages industriels excédant les quotas de base gratuits d'intérêt général, afin de couvrir les coûts réels de bande passante, d'hébergement, de puissance de calcul et d'amortissement des modules matériels de sécurité (HSM) selon un principe de mutualisation et de prix coûtant (*cost recovery*) ;
+   - Les prestations de support technique dédié, d'engagements de niveau de service (SLA garanti), d'assistance à l'intégration, d'audit ou de formation professionnelle conformes à l'objet associatif ;
+   - L'ensemble de ces recettes est obligatoirement et intégralement réinvesti dans l'infrastructure de bien commun, sa sécurité et sa pérennité, sans aucune recherche de profit spéculatif, dans le respect des règles fiscales applicables aux organismes sans but lucratif d'intérêt général ;
 7. Toutes autres ressources conformes aux lois en vigueur régissant les organismes d'intérêt général et d'utilité publique.
 
 ---
