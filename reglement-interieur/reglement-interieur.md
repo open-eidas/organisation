@@ -1,105 +1,101 @@
 # Règlement Intérieur de l'Association Open eIDAS
 
-*Adopté par le Conseil d'Administration en application de l'Article 18 des Statuts.*
+*Adopté par le Conseil d'Administration en application de l'Article 20 des Statuts.*  
+*Conforme aux critères d'intérêt général (CGI art. 200 & 238 bis), aux principes directeurs d'utilité publique et à la politique de redevabilité publique intégrale (Public Accountability).*
 
 ---
 
 ## Préambule
 
-Le présent règlement intérieur a pour vocation de préciser les modalités pratiques d'application des statuts de l'Association **Open eIDAS**. Il s'impose à tous les membres de l'association, aux administrateurs, ainsi qu'aux contributeurs participant aux activités et aux projets hébergés.
+Le présent Règlement Intérieur précise les modalités pratiques de mise en œuvre des statuts de l'Association **Open eIDAS**. Il définit les obligations de transparence publique, les procédures de sécurité opérationnelle, les garanties de protection des données personnelles (RGPD) et les règles d'éthique garantissant la gouvernance désintéressée d'une infrastructure numérique d'intérêt général.
 
 ---
 
-## Titre I — Membres et Adhésions
+## Titre I — Redevabilité Publique Intégrale (*Full Public Accountability*)
 
-### Article 1 — Collèges de membres
+### Article 1 — Principe de publication intégrale des travaux et réunions
 
-Pour refléter la diversité des parties prenantes tout en préservant l'indépendance de l'infrastructure, l'association s'articule autour des collèges suivants :
-
-1. **Collège des Développeurs et Contributeurs Actifs** : Personnes physiques contribuant au code source, à l'ingénierie système, à la cryptographie, à la documentation ou aux aspects juridiques.
-2. **Collège des Utilisateurs et Citoyens** : Personnes physiques souhaitant soutenir le développement de la confiance numérique souveraine et ouverte.
-3. **Collège des Personnes Morales et Partenaires Institutionnels** : Entreprises, fondations, universités, associations ou collectivités publiques soutenant la mission d'intérêt général par des dons, des compétences ou de la mise à disposition d'infrastructures.
-
-### Article 2 — Procédure d'adhésion
-
-1. Toute demande d'adhésion est soumise en ligne ou par e-mail adressé au Bureau (`contact@open-eidas.eu`).
-2. Le Bureau valide l'adhésion sous réserve de l'accord du postulant avec les statuts, le présent règlement et la charte d'éthique.
-3. Les adhésions sont renouvelables annuellement.
-
-### Article 3 — Démission et exclusion
-
-1. Toute démission prend effet dès notification écrite au Bureau.
-2. Tout comportement contraire à la sécurité des infrastructures, violation de la charte éthique, tentative d'ingérence malveillante ou atteinte grave à la réputation de l'association peut motiver une procédure d'exclusion immédiate par le Conseil d'Administration, après échange contradictoire.
+1. En application de l'Article 3 des Statuts, toutes les décisions, réunions et orientations stratégiques de l'association font l'objet d'une documentation publique et transparente.
+2. Sont obligatoirement rendus publics en libre accès dans les dépôts ouverts de l'organisation :
+   - Les convocations et ordres du jour des réunions du Conseil d'Administration, des Assemblées Générales et du Comité de Pilotage Technique (TSC) ;
+   - Les comptes-rendus et procès-verbaux de délibérations ;
+   - Les documents de cadrage stratégique, feuilles de route (*roadmaps*) et spécifications techniques (RFCs) ;
+   - Les budgets prévisionnels, comptes annuels certifiés, rapports moraux et financiers ;
+   - Les rapports d'évaluation d'audit de conformité (normes ETSI EN 319 401, EN 319 421 / 422, règlements eIDAS) ;
+   - Les politiques de certification (CP/CPS) et politiques d'horodatage (TSP).
 
 ---
 
-## Titre II — Gouvernance Technique et Opérationnelle
+### Article 2 — Dérogation n°1 : Protection de la vie privée et conformité RGPD
 
-### Article 4 — Le Comité de Pilotage Technique (TSC — Technical Steering Committee)
-
-1. Le Conseil d'Administration institue un **Comité de Pilotage Technique (TSC)** chargé de garantir l'excellence technique, la sécurité cryptographique et la conformité aux normes européennes (ETSI / eIDAS).
-2. **Missions du TSC** :
-   - Évaluer et valider les choix d'architecture technique (PKI, algorithmes cryptographiques, support post-quantique, HSM, protocoles de synchronisation) ;
-   - Superviser le cycle de vie des logiciels ouverts et des déploiements en production ;
-   - Examiner les propositions de modifications majeures (processus RFC — Request for Comments) ;
-   - Veiller à l'alignement continu sur les profils ETSI (EN 319 401, EN 319 421, EN 319 422, etc.).
-3. Les comptes-rendus des réunions du TSC sont publics et archivés dans les dépôts ouverts de l'organisation.
-
-### Article 5 — Processus de décision technique (RFC)
-
-Toute évolution structurelle des protocoles, des formats de données, des API ou des mécanismes de sécurité fait l'objet d'un document RFC (*Request for Comments*) public soumis à relecture ouverte par la communauté avant arbitrage par le TSC.
+1. Conformément au Règlement (UE) 2016/679 (Règlement Général sur la Protection des Données - RGPD), le droit à la protection de la vie privée des membres, votants, donateurs et contributeurs est expressément garanti.
+2. **Mesures d'anonymisation et de pseudonymisation préalables à toute publication** :
+   - Avant publication de tout procès-verbal, relevé de vote ou liste de présences, les données nominatives et personnelles sensibles (adresses postales personnelles, adresses e-mails privées, numéros de téléphone, situations familiales, montants précis des dons nominatifs de particuliers) sont systématiquement expurgées ou anonymisées.
+   - Les adhérents et votants peuvent demander l'usage de leur identifiant public (pseudonyme de contributeur ou identifiant GitHub / PGP) pour la consignation des votes électroniques.
+   - Seuls les noms et prénoms légaux des administrateurs et dirigeants légaux obligatoirement déclarés en préfecture font l'objet d'une mention nominative officielle, sans mention de leurs coordonnées privées.
 
 ---
 
-## Titre III — Sécurité Cryptographique et Exploitation de l'Infrastructure
+### Article 3 — Dérogation n°2 : Sécurité opérationnelle et divulgation coordonnée de vulnérabilités (*Coordinated Vulnerability Disclosure*)
 
-### Article 6 — Principe de souveraineté et d'ouverture logicielle
+1. La sécurité des utilisateurs de l'infrastructure de confiance constitue un impératif d'ordre public. Par exception au principe de publication immédiate, les signalements de vulnérabilités techniques critiques font l'objet d'un protocole de **divulgation coordonnée et responsable** (*Coordinated Vulnerability Disclosure - CVD*) :
+   - Tout signalement reçu sur le canal sécurisé (`security@open-eidas.eu`) est traité sous **embargo de confidentialité temporaire** ;
+   - La période d'embargo est strictement délimitée au temps indispensable à l'analyse de l'impact, au développement, au test et au déploiement en production du correctif de sécurité (délai cible standard de 90 jours maximum, sauf urgence opérationnelle) ;
+   - Dès le correctif déployé, l'embargo est immédiatement levé et un **avis de sécurité public complet (*Security Advisory*)** avec numéro CVE est publié en toute transparence, détaillant la nature de la faille, les risques, les correctifs appliqués et les mesures correctives.
+2. Le secret technique absolu des clés privées racines et des secrets matériels protégés au sein des modules HSM certifiés relève de la sécurité opérationnelle et n'est en aucun cas diffusable.
 
-1. L'ensemble des composants logiciels constitutifs des services de production (serveurs TSA, validation, connecteurs) doit être publié sous licence libre approuvée (GNU AGPLv3 pour le cœur infrastructurel, licences permissives pour les SDKs d'intégration).
-2. Aucun composant privateur ou boîte noire non vérifiable ne peut être intégré dans la chaîne critique de confiance, à l'exception des firmwares certifiés des modules matériels de sécurité (HSM) évalués selon les standards Common Criteria (EAL4+ / EN 419 221-5).
+---
+
+## Titre II — Membres, Collèges et Fonctionnement Démocratique
+
+### Article 4 — Collèges représentatifs
+
+Pour garantir une gouvernance équilibrée conforme aux critères d'utilité publique :
+1. **Collège des Développeurs et Contributeurs Actifs** : Personnes physiques contribuant au développement, à l'infrastructure, à la cryptographie, à la conformité juridique ou à la documentation.
+2. **Collège des Utilisateurs et Citoyens** : Particuliers et bénéficiaires de l'infrastructure soutenant le droit à la confiance numérique ouverte.
+3. **Collège des Personnes Morales et Soutiens Institutionnels** : Entreprises, fondations, universités, associations ou collectivités publiques soutenant la mission d'intérêt général par des dons, des compétences ou de l'infrastructure.
+
+### Article 5 — Procédures d'adhésion et non-discrimination
+
+1. Les demandes d'adhésion s'effectuent par voie dématérialisée auprès du Bureau (`contact@open-eidas.eu`).
+2. Aucune condition financière disproportionnée ne peut faire obstacle à l'adhésion de particuliers. Un tarif réduit de cotisation (ou dispense pour motif économique) est prévu pour garantir l'accès démocratique à tous.
+
+---
+
+## Titre III — Gouvernance Technique et Sécurité Cryptographique
+
+### Article 6 — Le Comité de Pilotage Technique (TSC — Technical Steering Committee)
+
+1. Le TSC est composé d'experts en cryptographie, systèmes distribués, sécurité matérielle (HSM) et conformité réglementaire eIDAS / ETSI.
+2. Toutes les réunions du TSC sont documentées sous forme de comptes-rendus publics archivés dans les dépôts de l'organisation.
+3. Les propositions d'évolution d'architecture ou de protocoles suivent le processus ouvert des **RFCs (*Request for Comments*)**, garantissant à tout membre de la communauté le droit de proposer, commenter et relire les spécifications.
 
 ### Article 7 — Cérémonies de clés et contrôle à quatre yeux (Dual Control)
 
-1. Toute opération critique sur les clés cryptographiques de production (génération de clé d'Autorité d'Horodatage ou de Cachet, révocation, renouvellement, scellement de sauvegarde) est obligatoirement soumise :
-   - Au **principe du double contrôle** (*dual control*) nécessitant la présence et l'authentification conjointe d'au moins deux opérateurs de sécurité habilités ;
-   - À l'exécution d'un protocole de **Cérémonie de Clés** documenté à l'avance ;
-   - À l'établissement d'un **Procès-Verbal de Cérémonie de Clés** signé par les participants et auditeurs présents, publié publiquement dans un souci de transparence totale.
+1. Toute opération sur les clés cryptographiques de confiance (génération de clé d'autorité d'horodatage, renouvellement de certificat, révocation, scellement de sauvegarde) est obligatoirement soumise au **principe du double contrôle (*dual control*)** avec au moins deux officiers de sécurité habilités.
+2. Chaque cérémonie de clés se déroule selon un script prédéfini et fait l'objet d'un **Procès-Verbal de Cérémonie de Clés** signé par les participants et les témoins/auditeurs indépendants, puis publié publiquement.
 
-### Article 8 — Plan de continuité et terminaison d'activité
+### Article 8 — Plan de terminaison d'activité et continuité de service
 
-1. Conformément à la réglementation eIDAS et aux normes ETSI, l'association maintient un **Plan de Terminaison d'Activité** (*Termination Plan*).
-2. Ce plan garantit qu'en cas d'interruption ou d'arrêt programmé de l'association :
-   - Les listes de révocation (CRL) et services OCSP restent consultables pendant toute la durée de validité des certificats émis ;
-   - Les journaux d'horodatage et preuves cryptographiques sont transférés vers un tiers archiveur de confiance ou une institution publique partenaire ;
-   - Les utilisateurs et l'organe de contrôle national (ANSSI en France) sont prévenus dans les délais réglementaires.
+1. Conformément à la norme ETSI EN 319 401 et aux règlements eIDAS, l'association maintient un plan formel de fin d'activité (*Termination Plan*).
+2. Ce plan prévoit la garantie d'accès continu aux listes de révocation (CRL) et journaux d'horodatage pour une durée d'au moins dix (10) ans après émission, même en cas de cessation d'activité de l'association, via un dépôt d'archives probantes auprès d'une institution publique ou d'un tiers de confiance partenaire.
 
 ---
 
-## Titre IV — Éthique, Conflits d'intérêts et Transparence Financière
+## Titre IV — Éthique, Bénévolat Strict et Prévention des Conflits d'Intérêts
 
-### Article 9 — Prévention des conflits d'intérêts
+### Article 9 — Strict bénévolat et absence de rémunération
 
-1. Tout membre du Conseil d'Administration ou du TSC exerçant des responsabilités ou détenant des intérêts financiers dans une entité commerciale opérant dans le domaine des services de confiance ou des technologies connexes doit en faire la déclaration écrite au Bureau.
-2. Tout administrateur en situation de conflit d'intérêt potentiel sur une décision spécifique s'abstient de prendre part au vote délibératif sur ce point précis.
+1. Les mandats d'administrateurs et de dirigeants sont strictement bénévoles.
+2. Les administrateurs et dirigeants ne peuvent en aucun cas percevoir d'honoraires, de gratifications, de commissions ou d'avantages en nature de la part de l'association.
+3. Les remboursements de frais réels engagés pour l'association sont soumis à production de factures originales et à l'approbation conjointe du Président et du Trésorier, et sont annexés au rapport financier annuel.
 
-### Article 10 — Transparence financière et dons
+### Article 10 — Déclaration d'intérêts et prévention des conflits d'intérêts
 
-1. L'association publie annuellement son bilan financier complet et son compte de résultat de manière transparente.
-2. L'association refuse tout financement, subvention ou don qui serait assorti de conditions incompatibles avec l'ouverture du code source, la neutralité du service ou l'indépendance de ses choix cryptographiques.
+1. Chaque membre du Conseil d'Administration et du TSC signe une déclaration publique d'intérêts mentionnant ses liens professionnels ou d'affaires avec des entreprises du secteur de la confiance numérique.
+2. En cas de délibération concernant un contrat, un partenariat ou une décision technique impliquant une structure avec laquelle un administrateur a un lien d'intérêt, celui-ci s'abstient impérativement de participer au vote.
 
----
+### Article 11 — Régime des dons et mécénat
 
-## Titre V — Fonctionnement Quotidien et Frais de Bénévolat
-
-### Article 11 — Outils de communication et vote électronique
-
-1. Les outils officiels de collaboration sont privilégiés parmi les solutions libres, ouvertes ou auditables (dépôts Git de l'organisation, listes de diffusion publiques, messageries chiffrées).
-2. Les votes électroniques pour les réunions du CA, du TSC ou des Assemblées Générales sont réalisés via des systèmes garantissant l'émargement et l'intégrité du scrutin.
-
-### Article 12 — Remboursement des frais de mission
-
-1. Les administrateurs et bénévoles peuvent obtenir le remboursement des frais de déplacement, d'hébergement ou d'achat de matériel engagés pour le compte exclusif de l'association.
-2. Tout remboursement est conditionné à :
-   - Un accord préalable du Bureau pour les dépenses supérieures à un montant fixé par le CA ;
-   - La production de factures originales acquittées ou de justificatifs probants.
-3. Les bénévoles peuvent également renoncer au remboursement de leurs frais et demander l'établissement d'un reçu fiscal pour don (selon l'éligibilité fiscale de l'association au régime du mécénat).
+1. L'association n'accorde aucune contrepartie directe ou indirecte, matérielle ou immatérielle, aux donateurs et mécènes, conformément aux critères de déductibilité fiscale des dons aux organismes d'intérêt général (articles 200 et 238 bis du CGI).
+2. Aucun don ou subvention assorti de clauses restreignant l'indépendance de l'infrastructure, l'ouverture des codes sources sous licence libre ou l'égalité d'accès des utilisateurs ne peut être accepté.
