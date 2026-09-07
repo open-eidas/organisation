@@ -39,7 +39,7 @@ Le présent Règlement Intérieur précise les modalités pratiques de mise en �
 ### Article 3 — Dérogation n°2 : Sécurité opérationnelle et divulgation coordonnée de vulnérabilités (*Coordinated Vulnerability Disclosure*)
 
 1. La sécurité des utilisateurs de l'infrastructure de confiance constitue un impératif d'ordre public. Par exception au principe de publication immédiate, les signalements de vulnérabilités techniques critiques font l'objet d'un protocole de **divulgation coordonnée et responsable** (*Coordinated Vulnerability Disclosure - CVD*) :
-   - Tout signalement reçu sur le canal sécurisé (`security@open-eidas.eu`) est traité sous **embargo de confidentialité temporaire** ;
+   - Tout signalement reçu sur l'adresse de contact (`contact@open-eidas.eu`, avec mention `[Sécurité]` en objet) ou via les Security Advisories privés de GitHub est traité sous **embargo de confidentialité temporaire** ;
    - La période d'embargo est strictement délimitée au temps indispensable à l'analyse de l'impact, au développement, au test et au déploiement en production du correctif de sécurité (délai cible standard de 90 jours maximum, sauf urgence opérationnelle) ;
    - Dès le correctif déployé, l'embargo est immédiatement levé et un **avis de sécurité public complet (*Security Advisory*)** avec numéro CVE est publié en toute transparence, détaillant la nature de la faille, les risques, les correctifs appliqués et les mesures correctives.
 2. Le secret technique absolu des clés privées racines et des secrets matériels protégés au sein des modules HSM certifiés relève de la sécurité opérationnelle et n'est en aucun cas diffusable.

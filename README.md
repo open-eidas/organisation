@@ -72,5 +72,4 @@ Open eIDAS fonctionne selon un principe de **transparence radicale et d'auditabi
 
 ## 📬 Contacts
 
-- **Contact général & adhésions** : [contact@open-eidas.eu](mailto:contact@open-eidas.eu)
-- **Sécurité et signalement de vulnérabilités** : [security@open-eidas.eu](mailto:security@open-eidas.eu)
+- **Contact officiel unique (général, adhésions & signalements)** : [contact@open-eidas.eu](mailto:contact@open-eidas.eu)

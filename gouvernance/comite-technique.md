@@ -32,8 +32,8 @@ Le TSC adopte une philosophie inspirée de l'IETF : **« Rough consensus and run
 
 La sécurité de nos utilisateurs et de l'infrastructure de confiance est notre priorité absolue.
 
-- **Signalement de vulnérabilités** : Tout chercheur en sécurité ou utilisateur ayant identifié une vulnérabilité potentielle est invité à la signaler en toute confidentialité à l'adresse dédiée :  
-  📧 **security@open-eidas.eu** (ou via PGP / GitHub Security Advisories privés).
+- **Signalement de vulnérabilités** : Tout chercheur en sécurité ou utilisateur ayant identifié une vulnérabilité potentielle est invité à la signaler en toute confidentialité à l'adresse de contact officielle (en précisant `[Sécurité]` en objet) :  
+  📧 **contact@open-eidas.eu** (ou via PGP / GitHub Security Advisories privés).
 - **Délai de correction** : Le TSC s'engage à accuser réception sous 48 heures ouvrées et à publier un correctif avant toute divulgation publique.
 - **Transparence après résolution** : Un avis de sécurité public (Security Advisory avec CVE si applicable) est publié conjointement avec la mise à jour corrective.
 
