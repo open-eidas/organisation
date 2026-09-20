@@ -23,7 +23,8 @@ Le présent Règlement Intérieur opérationnalise les principes généraux fix�
 Conformément à l'Article 5 des Statuts, l'association comprend :
 1. **Membres sympathisants** : Personnes physiques ou morales soutenant les buts de l'association, à jour de cotisation. Ils disposent d'une voix consultative et exercent la faculté de refus collective prévue aux Articles 9 et 11 des Statuts.
 2. **Membres titulaires** : Personnes physiques ou personnes morales dûment représentées participant de manière substantielle et active à la gouvernance, à la conformité ou aux opérations critiques. Ils disposent d'une voix délibérative pleine et entière.
-3. **Membres d'honneur** : Personnalités ayant rendu des services signalés à l'association, dispensées de cotisation sur décision du Conseil d'Administration.
+3. **Membres bienfaiteurs** : Personnes morales apportant une contribution annuelle significative supérieure à cinq mille euros (5 000 € / an) sous forme de dons financiers, de mécénat matériel (serveurs, HSMs) ou de prise en charge locative. Ce statut honorifique n'ouvre aucun droit de vote (ni délibératif ni consultatif) afin de garantir la stricte neutralité et l'indépendance de l'infrastructure.
+4. **Membres d'honneur** : Personnalités ayant rendu des services signalés à l'association, dispensées de cotisation sur décision du Conseil d'Administration.
 
 ### Article 2 — Vérification formelle de l'identité civile des membres titulaires
 Conformément à l'Article 5 quater des Statuts, aucune voix délibérative ne peut être exercée sous statut pseudonyme ou anonyme :
@@ -110,12 +111,15 @@ Conformément à l'Article 8 bis des Statuts :
 ## Titre IV — Finances, Cotisations, Recouvrement et Plafonds de Dépenses
 
 ### Article 9 — Barème des cotisations annuelles et justification
-1. **Principe de couverture stricte de l'assurance** :  
-   Conformément au modèle d'intérêt général de l'association, les cotisations des membres n'ont pas vocation à financer l'infrastructure technique (qui relève des dons et du mécénat), mais à **couvrir strictement les coûts d'assurance (RC Pro et Protection Juridique)** et de gestion administrative individuelle.
+1. **Principe de couverture de l'assurance et contributions** :  
+   - Pour les personnes physiques, les cotisations n'ont pas vocation à financer l'infrastructure technique (qui relève des dons et du mécénat), mais à **couvrir strictement les coûts d'assurance (RC Pro et Protection Juridique)** et de gestion administrative individuelle. La contribution majeure des membres titulaires résulte de leur investissement bénévole en temps, compétences techniques et responsabilités opérationnelles.
+   - Pour les personnes morales, la cotisation contribue aux frais de gouvernance, aux audits de conformité réglementaire et au fonctionnement institutionnel.
 2. **Barème annuel** (exigible au 1er janvier ou à l'adhésion) :
    - **Membres sympathisants (personnes physiques)** : **15 € / an** (tarif solidaire / réduit : **5 € / an** pour étudiants et demandeurs d'emploi) ;
-   - **Membres titulaires (personnes physiques)** : **10 € / an** (la contribution principale des membres titulaires étant constituée par leur apport substantiel en temps, compétences techniques, conformité ou rôles opérationnels d'Officiers d'Autorité) ;
-   - **Personnes morales (sympathisantes ou titulaires)** : **50 € / an** (cotisation statutaire couvrant la gestion administrative et assurantielle).
+   - **Membres titulaires (personnes physiques)** : **10 € / an** ;
+   - **Personnes morales sympathisantes** : **500 € / an** ;
+   - **Personnes morales titulaires** : **2 500 € / an** ;
+   - **Membres bienfaiteurs (personnes morales)** : Statut octroyé pour une contribution annuelle significative **supérieure à 5 000 € / an** (en dons financiers, dons de matériels ou prise en charge de locations/hébergement). Ce statut n'ouvre aucun droit de vote.
 3. **Mécénat et dons complémentaires** :  
    Tout versement excédant ces montants statutaires constitue un don d'intérêt général ouvrant droit à la réduction d'impôt (articles 200 et 238 bis du CGI).
 

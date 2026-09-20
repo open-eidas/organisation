@@ -48,6 +48,7 @@ La durée de l'association est illimitée.
 L'association se compose de :
 * **Membres sympathisants :** personnes physiques ou morales adhérant aux buts de l'association, à jour de leur cotisation annuelle. Ils participent aux travaux et aux Assemblées Générales avec voix consultative, et disposent de la faculté de refus collective prévue aux présents statuts ;
 * **Membres titulaires :** personnes physiques ou personnes morales dûment représentées, participant de façon substantielle et active à la gouvernance, à la conformité ou aux opérations critiques de l'association. Ils disposent d'une voix délibérative pleine et entière sur l'ensemble des scrutins ;
+* **Membres bienfaiteurs :** personnes morales apportant un soutien financier, matériel ou de mise à disposition de locaux/infrastructures significatif (défini par le Règlement Intérieur, supérieur à 5 000 € par an). Cette qualité honorifique n'ouvre aucun droit de vote au sein des Assemblées Générales, préservant l'indépendance de l'association ;
 * **Membres d'honneur :** personnes ayant rendu des services signalés à l’association, dispensées de cotisation sur proposition du Conseil d’Administration.
 
 Les fondateurs initiaux, signataires des statuts constitutifs, disposent de plein droit du statut de membre titulaire.

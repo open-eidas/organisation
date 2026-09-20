@@ -26,6 +26,10 @@ Conformément aux Articles 5, 5 bis et 5 quater des Statuts :
      - Authentification multifacteur matérielle obligatoire (clé physique FIDO2 / WebAuthn ou jeton cryptographique certifié) ;
      - Justification de contributions substantielles et pérennes (développement libre, infrastructure, conformité réglementaire, rôle d'Officier d'Autorité ou mise à disposition de moyens).
 
+3. **Membres bienfaiteurs** :
+   - Ouvert aux personnes morales apportant une contribution annuelle significative supérieure à 5 000 € / an (dons financiers, mécénat matériel ou prise en charge locative) ;
+   - Qualité honorifique conférée par le Conseil d'Administration, **n'ouvrant aucun droit de vote** (ni délibératif, ni consultatif) afin de préserver l'indépendance et la neutralité de l'infrastructure.
+
 ---
 
 ## 2. Formulaire pour Personne Physique
@@ -88,16 +92,19 @@ Signature :
 - **Délégué(e) physique mandaté(e) pour représenter l'entité** (Art. 5 quater & 9 bis des Statuts) :
   - Nom & Prénom : 
   - E-mail : 
-  - *Note : Le représentant désigné doit justifier d'une identité vérifiée et détenir une clé matérielle fournie ou configurée par l'association.*
+  - *Note : Pour les membres titulaires, le représentant désigné doit justifier d'une identité vérifiée et détenir une clé matérielle fournie ou configurée par l'association.*
 
-- **Collège sollicité** :
-  [ ] Membre sympathisant
-  [ ] Candidature au collège des Membres titulaires
+- **Statut / Collège sollicité** :
+  [ ] Membre sympathisant (500 € / an)
+  [ ] Candidature au collège des Membres titulaires (2 500 € / an)
+  [ ] Qualité de Membre bienfaiteur (contribution > 5 000 € / an, sans droit de vote)
 
-- **Modalités de soutien financier** :
-  [ ] Cotisation annuelle personne morale standard (50 €)
+- **Modalités de soutien financier et matériel** :
+  [ ] Cotisation annuelle personne morale sympathisante (500 €)
+  [ ] Cotisation annuelle personne morale titulaire (2 500 €)
   [ ] Mécénat financier d'intérêt général (CGI art. 238 bis — déductible à 60 % de l'IS) : Montant libre (______ €)
-  [ ] Mécénat de compétences ou mise à disposition d'infrastructures (serveurs, hébergement SecNumCloud, HSM)
+  [ ] Mécénat matériel (mise à disposition de modules HSM qualifiés, serveurs, baies)
+  [ ] Prise en charge de baux, hébergement datacenter souverain (SecNumCloud) ou connectivité
 
 **Engagement de l'organisation** :
 L'organisation soussignée certifie souscrire sans réserve aux statuts, à la charte éthique et au modèle d'intérêt général d'OTSPI.
