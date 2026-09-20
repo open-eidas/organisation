@@ -1,123 +1,163 @@
-# Règlement Intérieur de l'Association Open eIDAS
+# Règlement Intérieur de l'Association OTSPI
+## « Open Trusted Service Provider Initiative »
 
-*Adopté par le Conseil d'Administration en application de l'Article 20 des Statuts.*  
-*Conforme aux critères d'intérêt général (CGI art. 200 & 238 bis), aux principes directeurs d'utilité publique et à la politique de redevabilité publique intégrale (Public Accountability).*
+*Adopté par le Conseil d'Administration après avis conforme du Comité des Politiques de Confiance (CPC), en application de l'Article 14 des Statuts.*  
+*Conforme aux critères d'intérêt général (CGI art. 200 & 238 bis), aux principes directeurs d'utilité publique, aux exigences ETSI EN 319 401 / WebTrust et à la politique de redevabilité publique intégrale (Public Accountability).*
 
 ---
 
 ## Préambule
 
-Le présent Règlement Intérieur précise les modalités pratiques de mise en œuvre des statuts de l'Association **Open eIDAS**. Il définit les obligations de transparence publique, les procédures de sécurité opérationnelle, les garanties de protection des données personnelles (RGPD) et les règles d'éthique garantissant la gouvernance désintéressée d'une infrastructure numérique d'intérêt général.
+Le présent Règlement Intérieur opérationnalise les principes généraux fixés dans les Statuts de l'Association **« Open Trusted Service Provider Initiative » (OTSPI)**. Il définit les règles précises relatives :
+- À la qualification des membres, à la vérification d'identité civile et à la gestion des équipements cryptographiques matériels ;
+- Au cursus d'habilitation, au serment éthique et au régime des Officiers d'Autorité et des Gardiens de clés (*Key Custodians*) ;
+- À la ségrégation stricte des devoirs entre la direction opérationnelle (Bureau) et l'autorité normative (CPC / PMA) ;
+- Aux règles financières, barèmes de cotisation, procédures de relance et plafonds d'engagement de dépenses ;
+- Aux impératifs de transparence publique, de protection des données personnelles (RGPD) et de divulgation coordonnée de vulnérabilités (CVD).
 
 ---
 
-## Titre I — Redevabilité Publique Intégrale (*Full Public Accountability*)
+## Titre I — Membres, Identités Civiles et Authentification Matérielle
 
-### Article 1 — Principe de publication intégrale des travaux et réunions
+### Article 1 — Collèges et catégories de membres
+Conformément à l'Article 5 des Statuts, l'association comprend :
+1. **Membres sympathisants** : Personnes physiques ou morales soutenant les buts de l'association, à jour de cotisation. Ils disposent d'une voix consultative et exercent la faculté de refus collective prévue aux Articles 9 et 11 des Statuts.
+2. **Membres titulaires** : Personnes physiques ou personnes morales dûment représentées participant de manière substantielle et active à la gouvernance, à la conformité ou aux opérations critiques. Ils disposent d'une voix délibérative pleine et entière.
+3. **Membres d'honneur** : Personnalités ayant rendu des services signalés à l'association, dispensées de cotisation sur décision du Conseil d'Administration.
 
-1. En application de l'Article 3 des Statuts, toutes les décisions, réunions et orientations stratégiques de l'association font l'objet d'une documentation publique et transparente.
-2. Sont obligatoirement rendus publics en libre accès dans les dépôts ouverts de l'organisation :
-   - Les convocations et ordres du jour des réunions du Conseil d'Administration, des Assemblées Générales et du Comité de Pilotage Technique (TSC) ;
-   - Les comptes-rendus et procès-verbaux de délibérations ;
-   - Les documents de cadrage stratégique, feuilles de route (*roadmaps*) et spécifications techniques (RFCs) ;
-   - Les budgets prévisionnels, comptes annuels certifiés, rapports moraux et financiers ;
-   - Les rapports d'évaluation d'audit de conformité (normes ETSI EN 319 401, EN 319 421 / 422, règlements eIDAS) ;
-   - Les politiques de certification (CP/CPS) et politiques d'horodatage (TSP).
+### Article 2 — Vérification formelle de l'identité civile des membres titulaires
+Conformément à l'Article 5 quater des Statuts, aucune voix délibérative ne peut être exercée sous statut pseudonyme ou anonyme :
+1. **Procédure de contrôle d'identité préalable** :
+   - Tout candidat personne physique au statut titulaire (ou tout représentant physique désigné par une personne morale membre titulaire) doit présenter une pièce d'identité officielle en cours de validité (carte nationale d'identité, passeport ou titre de séjour émis par un État souverain).
+   - La vérification est effectuée soit en présentiel par un membre du Bureau ou un Officier d'Autorité, soit par un moyen de vérification d'identité à distance conforme au référentiel d'exigences PVID (Prestataire de Vérification d'Identité à Distance) de l'ANSSI ou équivalent eIDAS de niveau substantiel ou élevé.
+2. **Conservation et purge des données d'identité** :  
+   Les copies des pièces justificatives d'identité sont chiffrées et conservées dans un espace à accès strictement restreint sous la responsabilité du Secrétaire Général pendant la seule durée du mandat de titulaire, aux fins de justification de la régularité des scrutins devant les auditeurs et autorités de contrôle.
 
----
+### Article 3 — Standard technique d'authentification matérielle et dotation
+1. **Exigence d'authentification multifacteur (MFA) matérielle** :  
+   L'accès aux plateformes de vote délibératif, aux systèmes de communication chiffrée interne et aux consoles d'administration requiert impérativement un mécanisme d'authentification matérielle FIDO2 / WebAuthn ou jeton cryptographique certifié au minimum :
+   - **FIPS 140-2 / 140-3 Niveau 2** (ou supérieur) ;
+   - Ou bénéficiant d'une **Certification de Sécurité de Premier Niveau (CSPN)** délivrée par l'ANSSI.
+2. **Dotation matérielle par l'association (Article 5 quater.3 des Statuts)** :  
+   L'association remet à chaque membre titulaire et Officier d'Autorité une clé de sécurité matérielle préconfigurée.
+   - Ces équipements demeurent la propriété inaliénable de l'association ;
+   - Un registre d'inventaire contradictoire (identifiant du jeton, numéro de série, date de remise, accusé de réception signé) est tenu par le RSSI ;
+   - En cas de perte, vol ou dysfonctionnement, le titulaire a l'obligation d'en notifier sans délai le RSSI. Les certificats et accès associés sont immédiatement révoqués et une clé de remplacement est configurée.
+3. **Prohibition des procurations physiques** :  
+   En application de l'Article 9 bis des Statuts, les délégations de vote et procurations entre personnes physiques sont strictement nulles. Seule une personne morale peut mandater un représentant physique unique muni d'une clé matérielle configurée et enregistrée.
 
-### Article 2 — Dérogation n°1 : Protection de la vie privée et conformité RGPD
-
-1. Conformément au Règlement (UE) 2016/679 (Règlement Général sur la Protection des Données - RGPD), le droit à la protection de la vie privée des membres, votants, donateurs et contributeurs est expressément garanti.
-2. **Mesures d'anonymisation et de pseudonymisation préalables à toute publication** :
-   - Avant publication de tout procès-verbal, relevé de vote ou liste de présences, les données nominatives et personnelles sensibles (adresses postales personnelles, adresses e-mails privées, numéros de téléphone, situations familiales, montants précis des dons nominatifs de particuliers) sont systématiquement expurgées ou anonymisées.
-   - Les adhérents et votants peuvent demander l'usage de leur identifiant public (pseudonyme de contributeur ou identifiant GitHub / PGP) pour la consignation des votes électroniques.
-   - Seuls les noms et prénoms légaux des administrateurs et dirigeants légaux obligatoirement déclarés en préfecture font l'objet d'une mention nominative officielle, sans mention de leurs coordonnées privées.
-
----
-
-### Article 3 — Dérogation n°2 : Sécurité opérationnelle et divulgation coordonnée de vulnérabilités (*Coordinated Vulnerability Disclosure*)
-
-1. La sécurité des utilisateurs de l'infrastructure de confiance constitue un impératif d'ordre public. Par exception au principe de publication immédiate, les signalements de vulnérabilités techniques critiques font l'objet d'un protocole de **divulgation coordonnée et responsable** (*Coordinated Vulnerability Disclosure - CVD*) :
-   - Tout signalement reçu sur l'adresse de contact (`contact@open-eidas.eu`, avec mention `[Sécurité]` en objet) ou via les Security Advisories privés de GitHub est traité sous **embargo de confidentialité temporaire** ;
-   - La période d'embargo est strictement délimitée au temps indispensable à l'analyse de l'impact, au développement, au test et au déploiement en production du correctif de sécurité (délai cible standard de 90 jours maximum, sauf urgence opérationnelle) ;
-   - Dès le correctif déployé, l'embargo est immédiatement levé et un **avis de sécurité public complet (*Security Advisory*)** avec numéro CVE est publié en toute transparence, détaillant la nature de la faille, les risques, les correctifs appliqués et les mesures correctives.
-2. Le secret technique absolu des clés privées racines et des secrets matériels protégés au sein des modules HSM certifiés relève de la sécurité opérationnelle et n'est en aucun cas diffusable.
-
----
-
-## Titre II — Membres, Collèges et Fonctionnement Démocratique
-
-### Article 4 — Collèges représentatifs
-
-Pour garantir une gouvernance équilibrée conforme aux critères d'utilité publique :
-1. **Collège des Développeurs et Contributeurs Actifs** : Personnes physiques contribuant au développement, à l'infrastructure, à la cryptographie, à la conformité juridique ou à la documentation.
-2. **Collège des Utilisateurs et Citoyens** : Particuliers et bénéficiaires de l'infrastructure soutenant le droit à la confiance numérique ouverte.
-3. **Collège des Personnes Morales et Soutiens Institutionnels** : Entreprises, fondations, universités, associations ou collectivités publiques soutenant la mission d'intérêt général par des dons, des compétences ou de l'infrastructure.
-
-### Article 5 — Procédures d'adhésion et non-discrimination
-
-1. Les demandes d'adhésion s'effectuent par voie dématérialisée auprès du Bureau (`contact@open-eidas.eu`).
-2. Aucune condition financière disproportionnée ne peut faire obstacle à l'adhésion de particuliers. Un tarif réduit de cotisation (ou dispense pour motif économique) est prévu pour garantir l'accès démocratique à tous.
+### Article 4 — Déchéance pour défaut d'assiduité (Article 5 ter des Statuts)
+1. Tout membre titulaire absent à deux (2) sessions consécutives de l'Assemblée Générale Ordinaire sans avoir pris part aux votes (par vote électronique préalable ou en direct) perd automatiquement sa qualité de membre titulaire et bascule dans le collège des sympathisants.
+2. Le Secrétaire Général notifie formellement le basculement à l'intéressé sous quinze (15) jours ouvrés.
+3. Pour les personnes morales, la déchéance ne s'applique qu'après l'expiration du délai de préavis de **soixante (60) jours calendaires** imparti à la personne morale pour désigner un nouveau délégué physique habilité.
 
 ---
 
-## Titre III — Gouvernance Technique et Sécurité Cryptographique
+## Titre II — Rôles de Confiance, Officiers d'Autorité et Gardiens de Clés
 
-### Article 6 — Le Comité de Pilotage Technique (TSC — Technical Steering Committee)
+### Article 5 — Cursus d'évaluation et habilitation des Officiers d'Autorité
+L'Officier d'Autorité exerce un rôle de confiance critique au sens des normes ETSI EN 319 401 et WebTrust.
+1. **Critères d'éligibilité** :
+   - Être membre titulaire ou contributeur de l'association depuis au moins six (6) mois (sauf durant la phase d'amorçage de 24 mois visée à l'Article 5 bis.3 des Statuts) ;
+   - Avoir une identité civile vérifiée et un casier judiciaire vierge (bulletin n°3 ou équivalent international de moins de 3 mois) ;
+   - Justifier de compétences avérées en sécurité des systèmes d'information, administration PKI, cryptographie à clé publique et environnement Linux sécurisé.
+2. **Cursus d'épreuves et habilitation sous le contrôle du CPC** :
+   - Le candidat suit un cursus pratique supervisé par le CPC comprenant :
+     * La maîtrise intégrale de la CP/CPS et des protocoles de cérémonies de clés ;
+     * Une épreuve pratique en bac à sable (manipulation de HSM, partitionnement cryptographique, application des règles de dual-control, simulation d'incident critique) ;
+     * Une épreuve théorique de conformité sur les référentiels eIDAS, ETSI et WebTrust.
+   - À l'issue des épreuves, le CPC délibère et prononce, le cas échéant, l'habilitation technique formelle.
+3. **Serment déontologique et engagement éthique** :  
+   Avant toute prise de fonction opérationnelle, l'Officier d'Autorité prête serment et signe la **Déclaration d'Engagement Déontologique de Confiance**, par laquelle il s'engage solennellement à :
+   - Préserver le secret absolu des fragments de clés et informations confidentielles dont il a connaissance ;
+   - Appliquer rigoureusement les procédures sans jamais contourner les règles de double contrôle (*Dual Control*) ;
+   - Exécuter sans délai toute révocation d'urgence nécessaire à la protection de la confiance publique (Article 8 ter des Statuts).
+4. **Formation continue et maintien de qualification** :  
+   Les Officiers d'Autorité participent obligatoirement à un exercice pratique de simulation de crise ou à un audit interne de compétences au moins une fois par an.
 
-1. Le TSC est composé d'experts en cryptographie, systèmes distribués, sécurité matérielle (HSM) et conformité réglementaire eIDAS / ETSI.
-2. Toutes les réunions du TSC sont documentées sous forme de comptes-rendus publics archivés dans les dépôts de l'organisation.
-3. Les propositions d'évolution d'architecture ou de protocoles suivent le processus ouvert des **RFCs (*Request for Comments*)**, garantissant à tout membre de la communauté le droit de proposer, commenter et relire les spécifications.
+### Article 6 — Récusation, suspension technique et destitution d'un Officier d'Autorité
+1. **Suspension conservatoire d'urgence (Article 6.3 des Statuts)** :  
+   En cas d'anomalie de sécurité, de suspicion de compromission de clé, de négligence matérielle ou d'incident d'exploitation, le RSSI, le Président ou un membre du CPC peut prononcer la **suspension conservatoire immédiate** des privilèges d'accès physiques et logiques de l'Officier d'Autorité concerné. Cette mesure conservatoire n'emporte aucune sanction disciplinaire préalable et préserve les droits de la défense.
+2. **Procédure contradictoire** : Le CPC instruit l'incident sous quinze (15) jours et entend l'intéressé. Le CPC peut :
+   - Prononcer la levée de la suspension après vérification technique ;
+   - Prescrire une formation de remise à niveau ;
+   - Retirer définitivement l'habilitation d'Officier d'Autorité.
+3. **Protection statutaire (Article 6.6 des Statuts)** : Le retrait de l'habilitation technique n'emporte pas exclusion disciplinaire de l'association, celle-ci ne pouvant être prononcée que dans le respect des majorités qualifiées prévues à l'Article 8 bis.
 
-### Article 7 — Cérémonies de clés et contrôle à quatre yeux (Dual Control)
-
-1. Toute opération sur les clés cryptographiques de confiance (génération de clé d'autorité d'horodatage, renouvellement de certificat, révocation, scellement de sauvegarde) est obligatoirement soumise au **principe du double contrôle (*dual control*)** avec au moins deux officiers de sécurité habilités.
-2. Chaque cérémonie de clés se déroule selon un script prédéfini et fait l'objet d'un **Procès-Verbal de Cérémonie de Clés** signé par les participants et les témoins/auditeurs indépendants, puis publié publiquement.
-
-### Article 8 — Plan de terminaison d'activité et continuité de service
-
-1. Conformément à la norme ETSI EN 319 401 et aux règlements eIDAS, l'association maintient un plan formel de fin d'activité (*Termination Plan*).
-2. Ce plan prévoit la garantie d'accès continu aux listes de révocation (CRL) et journaux d'horodatage pour une durée d'au moins dix (10) ans après émission, même en cas de cessation d'activité de l'association, via un dépôt d'archives probantes auprès d'une institution publique ou d'un tiers de confiance partenaire.
+### Article 7 — Protocole des Gardiens de Clés (*Key Custodians*)
+1. **Rôle et attribution des fragments de clés** :  
+   Les clés privées racines ou autorités majeures font l'objet d'un secret partagé selon un schéma cryptographique vérifiable (schéma de Shamir à seuil $k$-parmi-$n$, validé par le CPC). Les fragments de secrets (*key shares*) sont confiés à des Gardiens de clés (*Key Custodians*) distincts et indépendants.
+2. **Conservation physique des secrets** :
+   - Chaque fragment est inscrit sur un support physique sécurisé (carte à puce cryptographique ou papier inaltérable) scellé sous **enveloppe inviolable numérotée à témoin d'effraction (*Tamper-Evident Envelope*)** ;
+   - L'enveloppe est déposée dans un coffre-fort individuel sécurisé ignifuge, dont la localisation géographique est déclarée au RSSI ;
+   - Il est formellement interdit à un gardien de secret de communiquer, numériser, photographier ou dupliquer son fragment sous quelque forme que ce soit.
+3. **Inventaire contradictoire et restitution** :
+   - Le RSSI et l'Auditeur Interne procèdent à un audit physique contradictoire annuel de l'intégrité des scellés de chaque gardien de clé ;
+   - En cas de démission, de vacance ou de fin de mandat d'un gardien de secret, la restitution ou destruction contrôlée du fragment s'effectue obligatoirement en présence d'au moins deux témoins désignés par le CPC et fait l'objet d'un Procès-Verbal officiel de restitution.
 
 ---
 
-## Titre IV — Éthique, Bénévolat Strict et Prévention des Conflits d'Intérêts
+## Titre III — Ségrégation des Fonctions et Fonctionnement du CPC
 
-### Article 9 — Strict bénévolat et absence de rémunération
-
-1. Les mandats d'administrateurs et de dirigeants sont strictement bénévoles.
-2. Les administrateurs et dirigeants ne peuvent en aucun cas percevoir d'honoraires, de gratifications, de commissions ou d'avantages en nature de la part de l'association.
-3. Les remboursements de frais réels engagés pour l'association sont soumis à production de factures originales et à l'approbation conjointe du Président et du Trésorier, et sont annexés au rapport financier annuel.
-
-### Article 10 — Déclaration d'intérêts et prévention des conflits d'intérêts
-
-1. Chaque membre du Conseil d'Administration et du TSC signe une déclaration publique d'intérêts mentionnant ses liens professionnels ou d'affaires avec des entreprises du secteur de la confiance numérique.
-2. En cas de délibération concernant un contrat, un partenariat ou une décision technique impliquant une structure avec laquelle un administrateur a un lien d'intérêt, celui-ci s'abstient impérativement de participer au vote.
-
-### Article 11 — Régime des dons et mécénat
-
-1. L'association n'accorde aucune contrepartie directe ou indirecte, matérielle ou immatérielle, aux donateurs et mécènes, conformément aux critères de déductibilité fiscale des dons aux organismes d'intérêt général (articles 200 et 238 bis du CGI).
-2. Aucun don ou subvention assorti de clauses restreignant l'indépendance de l'infrastructure, l'ouverture des codes sources sous licence libre ou l'égalité d'accès des utilisateurs ne peut être accepté.
+### Article 8 — Étanchéité de gouvernance et incompatibilités
+Conformément à l'Article 8 bis des Statuts :
+1. **Incompatibilité absolue** : Les fonctions de membre du Bureau (Président, Trésorier, Secrétaire Général) sont strictement incompatibles avec celles de membre du Comité des Politiques de Confiance (CPC) et avec celles d'Auditeur Interne indépendant.
+2. **Rôle des administrateurs du CA** : Les membres du Conseil d'Administration n'exerçant pas de fonction exécutive au Bureau peuvent siéger au CPC, sous réserve de s'abstenir lors de tout vote du Conseil d'Administration portant sur la ratification ou le contrôle des décisions du CPC.
+3. **Désignation du RSSI (CISO)** : Le RSSI est nommé par le CPC pour un mandat d'un (1) an renouvelable. Il rapporte techniquement au CPC et fonctionnellement au Bureau.
 
 ---
 
-## Titre V — Modèle Économique, Facturation et Équipes Techniques
+## Titre IV — Finances, Cotisations, Recouvrement et Plafonds de Dépenses
 
-### Article 12 — Modalités de facturation des usages massifs et services d'infrastructure
+### Article 9 — Barème des cotisations annuelles
+Les cotisations annuelles sont exigibles au 1er janvier de chaque année civile (ou à la date d'adhésion pour les nouveaux membres) :
+1. **Membres sympathisants** :
+   - Personne physique (tarif plein) : **40 €** ;
+   - Personne physique (tarif réduit solidaire : étudiants, demandeurs d'emploi) : **15 €** ;
+   - Personne morale sympathisante : **300 €**.
+2. **Membres titulaires** :
+   - Personne physique titulaire : **80 €** ;
+   - Personne morale titulaire / soutien institutionnel : **1 500 €** (montant minimal).
+3. **Membres bienfaiteurs et mécènes** : Tout versement supérieur au tarif standard est qualifié de don d'intérêt général ouvrant droit aux reçus fiscaux légaux.
 
-1. **Principe du service public numérique gratuit** : L'accès aux services de base d'horodatage qualifié pour les citoyens, développeurs indépendants, projets open source, associations et petites entités est fourni à titre libre et gratuit dans la limite de quotas d'appels raisonnables (*fair use*).
-2. **Contribution aux coûts pour les usages massifs et industriels (*Cost Recovery*)** :
-   - Pour les organisations générant une volumétrie massive d'appels (dépassement des seuils de gratuité, millions d'horodatages mensuels) nécessitant un dimensionnement dédié d'infrastructure, de bande passante et d'opérations sur les modules cryptographiques matériels (HSM), l'association établit une facturation de service ;
-   - La grille tarifaire est déterminée selon une logique stricte de **prix coûtant mutualisé (*cost recovery*)** sans marge spéculative, afin de couvrir l'amortissement du matériel, l'hébergement hautement sécurisé, les audits eIDAS annuels et la maintenance ;
-   - La grille tarifaire est votée par le Conseil d'Administration et publiée publiquement en toute transparence ;
-   - L'intégralité des recettes est réinvestie dans le fonctionnement et la sécurisation de l'infrastructure de bien commun.
+### Article 10 — Procédure de relance et échéancier de non-paiement (Article 6.2 des Statuts)
+1. **Calendrier de relance** :
+   - **Échéance (J0)** : Envoi de l'avis d'appel de cotisation par voie électronique ;
+   - **Premier rappel (J+30)** : Rappel amiable par courriel en cas de non-paiement ;
+   - **Deuxième rappel (J+45)** : Relance avec avertissement sur la suspension des droits de vote ;
+   - **Mise en demeure formelle (J+60)** : Notification formelle par lettre recommandée électronique (LRE) ou courriel certifié accordant un **délai ultime de trente (30) jours calendaires**.
+2. **Conséquences à l'expiration du préavis de 30 jours (J+90)** :
+   - *Membres ordinaires* : Radiation automatique d'office de l'association ;
+   - *Régime dérogatoire de sécurité (Article 6.2 des Statuts)* : Pour les administrateurs, membres du CPC, Officiers d'Autorité et Gardiens de secrets, aucune radiation automatique n'est prononcée. Leurs habilitations et actes techniques demeurent pleinement valides et opposables. Seul l'exercice personnel du droit de vote en AG est suspendu jusqu'à régularisation.
 
-### Article 13 — Statut et rémunération des équipes opérationnelles (développeurs et administrateurs système)
+### Article 11 — Plafonds d'engagement de dépenses autonomes du Bureau
+Afin de concilier réactivité opérationnelle et contrôle budgétaire de l'Assemblée et du Conseil d'Administration :
+1. **Dépenses courantes autonomes du Bureau** : Le Président et le Trésorier peuvent engager conjointement les dépenses d'exploitation courante (abonnements d'infrastructure d'hébergement, télécoms, petit matériel, frais de mission justifiés) dans la limite d'un plafond de **cinq mille euros (5 000 €) hors taxes par opération**, dans le cadre du budget annuel voté.
+2. **Autorisation préalable obligatoire du Conseil d'Administration** : Requiert une délibération préalable du Conseil d'Administration :
+   - Tout investissement matériel unitaire ou contrat de prestation excédant **cinq mille euros (5 000 €) HT** ;
+   - Tout contrat de bail ou engagement financier pluriannuel récurrent d'un montant annuel supérieur à **dix mille euros (10 000 €) HT** ;
+   - La souscription de tout emprunt ou ligne de crédit (sous réserve de l'approbation de l'AG conformément à l'Article 10 des Statuts).
 
-1. **Recrutement d'équipes techniques** : Pour assurer le développement continu des logiciels libres (TSA, PKI, validateurs), la haute disponibilité 24/7 des serveurs, l'administration des systèmes et réseaux et les astreintes de sécurité, l'association peut recruter des salariés (en CDI ou CDD) ou contracter avec des prestataires techniques indépendants (ingénieurs système, développeurs, auditeurs cryptographiques).
-2. **Niveaux de rémunération** : Les rémunérations ou forfaits de prestations sont fixés aux conditions normales du marché pour des profils techniques spécialisés, dans le respect des équilibres budgétaires votés par l'Assemblée Générale.
-3. **Séparation stricte avec les mandats de gouvernance bénévoles** :
-   - Les administrateurs siégeant au Conseil d'Administration et les membres du Bureau demeurent **strictement bénévoles et non rémunérés** ;
-   - Aucun salarié technique ou prestataire rémunéré par l'association ne peut être membre élu du Conseil d'Administration ou du Bureau, ni exercer de mandat de direction juridique ou politique ;
-   - Les salariés et prestataires techniques opèrent sous l'autorité du Bureau et sous la coordination technique du TSC, garantissant ainsi la parfaite indépendance et la gestion désintéressée de l'association au sens fiscal (art. 261-7-1° du CGI).
+---
+
+## Titre V — Redevabilité Publique, RGPD et Divulgation Responsable (CVD)
+
+### Article 12 — Principe de publication intégrale des travaux
+En application de l'Article 2 des Statuts, l'ensemble des délibérations, budgets prévisionnels, comptes annuels certifiés, rapports moraux, résolutions normatives du CPC et rapports d'audit de conformité (ETSI, eIDAS, WebTrust) sont publiés en libre accès sur le dépôt public de l'organisation.
+
+### Article 13 — Caviardage RGPD
+Avant toute mise en ligne, les coordonnées privées (adresses postales personnelles, numéros de téléphone et e-mails privés) des membres et votants sont systématiquement expurgées. Seuls les dirigeants légaux mentionnés au registre préfectoral apparaissent avec leur identité civile officielle.
+
+### Article 14 — Divulgation coordonnée de vulnérabilités (*Coordinated Vulnerability Disclosure — CVD*)
+1. Tout signalement de vulnérabilité technique reçu sur `security@otspi.org` est placé sous embargo temporaire de confidentialité.
+2. La période d'embargo n'excède pas quatre-vingt-dix (90) jours, sauf accord mutuel motivé par la complexité de déploiement d'un correctif matériel ou cryptographique.
+3. À l'issue du déploiement en production, un avis de sécurité public (*Security Advisory*) avec CVE est publié en toute transparence.
+
+---
+
+## Titre VI — Droit d'Évocation à Cinq (5) Membres
+
+### Article 15 — Mise en œuvre du droit d'évocation
+1. Conformément à l'**Article 14 alinéa 3 des Statuts**, toute modification du présent Règlement Intérieur arrêtée par le Conseil d'Administration est notifiée aux membres par voie électronique.
+2. Dès cette notification, la demande conjointe formulée par au moins **cinq (5) membres** à jour de leurs obligations (titulaires ou sympathisants) oblige le Conseil d'Administration à convoquer une **Assemblée Générale sous un délai maximal de trente (30) jours calendaires** pour statuer souverainement sur le texte contesté.
+3. La demande d'évocation suspend l'application de la clause contestée jusqu'au vote souverain de l'Assemblée Générale.

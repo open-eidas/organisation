@@ -1,253 +1,280 @@
-# Statuts de l'Association « Open eIDAS »
+---
+title: "STATUTS DE L'ASSOCIATION OTSPI"
+author: "Membres Fondateurs"
+date: "20 septembre 2026"
+---
 
-**Association régie par la loi du 1er juillet 1901 et le décret du 16 août 1901**  
-*Statuts conformes aux exigences d'intérêt général (articles 200 et 238 bis du CGI) et aux principes directeurs des associations reconnues d'utilité publique (RUP).*
+# STATUTS DE L'ASSOCIATION
+## « Open Trusted Service Provider Initiative » (OTSPI)
 
 ---
 
-## Titre I — Constitution, Dénomination, Objet, Siège, Durée
+### TITRE I — FONDATION, DÉNOMINATION, OBJET ET SIÈGE
 
-### Article 1 — Dénomination
+#### Article 1 — Dénomination
+Il est fondé entre les adhérents aux présents statuts une association régie par la loi du 1er juillet 1901 et le décret du 16 août 1901, ayant pour dénomination exacte :  
+**« Open Trusted Service Provider Initiative »**, désignée par le sigle **« OTSPI »**.
 
-Il est fondé entre les adhérents aux présents statuts une association régie par la loi du 1er juillet 1901 et le décret du 16 août 1901, ayant pour titre :
+#### Article 2 — Objet
+L’association a pour but d'intérêt général de lever les barrières économiques, techniques, administratives et éducatives à la sécurité, à la confidentialité et à la confiance numérique dans les communications électroniques mondiales.
 
-> **Open eIDAS**
+L’association est régie par les principes d'une **gestion désintéressée** au sens de la législation fiscale. Son activité présente un **caractère scientifique, éducatif et de diffusion des technologies ouvertes**, et ne s'exerce au profit d'aucun cercle restreint de personnes ou d'intérêts économiques particuliers. L'ensemble des livrables, travaux de standardisation et logiciels conçus par l'association concourent exclusivement à l'intérêt public de la sécurité numérique collective et sont mis à disposition selon des licences et modalités non lucratives.
 
-L'association pourra également faire usage de la dénomination d'usage « Association Open eIDAS » ou « Open eIDAS Foundation ».
+L’association a pour vocation de promouvoir, concevoir, opérer et pérenniser des infrastructures critiques de confiance numérique ouvertes, souveraines, transparentes et universellement accessibles.
 
----
+À ce titre, l’association a notamment pour missions, directes ou indirectes, en France et à l'international :
+1. **L'opération et la fourniture de services de confiance :** concevoir, déployer, opérer et maintenir des infrastructures et services de confiance numérique (notamment la gestion des identités, les infrastructures à clés publiques, l'émission de certificats, l'horodatage électronique qualifié, le scellement, la signature numérique, l'archivage probatoire et la préservation ou validation de preuves cryptographiques) ;
+2. **L'obtention et le maintien d'accréditations, de qualifications et de certifications :** instruire et pérenniser toute démarche d'évaluation, d'audit technique ou de qualification auprès des autorités publiques compétentes, des organismes de normalisation, des consortiums de l'industrie et des programmes de confiance des éditeurs de plateformes ;
+3. **La conception et la diffusion de technologies ouvertes :** concevoir, maintenir et publier sous licences libres ou ouvertes des spécifications, protocoles, briques logicielles et architectures matérielles vérifiables concourant à la transparence des chaînes de confiance ;
+4. **La recherche, la formation et la standardisation :** conduire ou soutenir des travaux de recherche en cryptographie appliquée et sécurité des systèmes d'information, dispenser des formations techniques de confiance, sensibiliser les acteurs publics et privés et contribuer aux travaux de standardisation internationale ;
+5. **La résilience numérique :** œuvrer pour la neutralité, l'interopérabilité et la robustesse des infrastructures numériques face aux risques de dépendance technologique ou d'enfermement propriétaire.
 
-### Article 2 — Objet social et mission d'intérêt général
+L’association peut accomplir toutes les opérations mobilières, immobilières ou financières se rattachant directement ou indirectement à son objet, dans le respect strict de sa gestion désintéressée.
 
-L'association a un caractère exclusivement d'**intérêt général**, **d'utilité publique**, **scientifique, éducatif et technique**, à but non lucratif.
+#### Article 3 — Siège social
+Le siège social est fixé à :  
+**Métropole de Lyon (France)**.
 
-Elle a pour objet d'assurer la gouvernance, la conception, le développement, le maintien, l'audit et l'exploitation d'infrastructures ouvertes, souveraines, transparentes et vérifiables de services de confiance numérique, dans le respect des règlements européens applicables (notamment le Règlement UE n° 910/2014 dit *eIDAS* et le Règlement UE 2024/1183 dit *eIDAS 2.0*).
+En raison de la nature technique distribuée et décentralisée de l'association, le siège social peut être transféré en tout autre lieu du territoire français par **simple décision du ou de la Président(e)**. Cette décision emporte l'obligation d'accomplir les formalités légales de déclaration modificative en préfecture et d'en informer les membres lors de la plus prochaine Assemblée Générale.
 
-À cette fin, l'association poursuit les missions d'utilité publique suivantes :
-1. **Fourniture de services de confiance numérique en tant que bien commun** :
-   - Fournir, selon un modèle d'infrastructure d'intérêt général inspiré de l'ISRG (*Internet Security Research Group / Let's Encrypt*), des services d'horodatage électronique qualifié (RFC 3161, ETSI EN 319 421 / 422), de cachet électronique qualifié, de signature électronique qualifiée, de vérification et de préservation à long terme ;
-   - Garantir l'accès universel, libre, équitable et non discriminatoire à ces briques essentielles de la sécurité numérique pour tous les citoyens, associations, entreprises et institutions publiques européennes, en éliminant les barrières tarifaires oligopolistiques et les rentes d'intermédiation ;
-2. **Développement de logiciels libres et souveraineté numérique** :
-   - Concevoir et distribuer l'ensemble des architectures logicielles sous licences libres auditables (notamment AGPLv3 pour les infrastructures serveurs) ;
-   - Contribuer à l'indépendance technologique européenne vis-à-vis des solutions propriétaires fermées ou soumises à des législations extraterritoriales intrusives ;
-3. **Recherche, standardisation et pédagogie** :
-   - Promouvoir les standards ouverts, participer aux travaux de spécification technique européenne et internationale (IETF, ETSI, CEN, W3C) ;
-   - Former, sensibiliser et informer le public, la communauté académique et les acteurs économiques aux enjeux de la cryptographie, de l'identité numérique et de la preuve électronique.
-
-L'association ne poursuit aucun but lucratif et ne bénéficie pas à un cercle restreint de personnes. Ses activités s'adressent à l'ensemble de la collectivité.
-
----
-
-### Article 3 — Principe fondamental de transparence et de redevabilité publique intégrale (*Public Accountability*)
-
-Fidèle à sa mission de confiance publique, l'association érige la **transparence absolue et la redevabilité publique** en règle d'ordre public interne :
-
-1. **Publicité intégrale des actes et travaux** :
-   - L'association maintient et publie publiquement en libre accès (*open access*) l'ensemble de ses documents de gouvernance, feuilles de route stratégiques (*roadmaps*), documents de cadrage technique, politiques de certification et d'horodatage (CP/CPS, TSP), budgets prévisionnels, comptes annuels certifiés, rapports moraux et financiers, ainsi que les procès-verbaux et délibérations des Assemblées Générales, du Conseil d'Administration et des comités techniques.
-2. **Seules exceptions expressément réservées** :
-   Ne peuvent être soustraits à la publication publique intégrale que :
-   - **a) La protection des données à caractère personnel et de la vie privée (RGPD)** : les informations nominatives et coordonnées privées des membres, votants, contributeurs et donateurs sont strictement protégées, anonymisées ou pseudonymisées avant toute publication ou diffusion publique, conformément au Règlement (UE) 2016/679 ;
-   - **b) La sécurité opérationnelle et cryptographique en matière de divulgation coordonnée de vulnérabilités (*Coordinated Vulnerability Disclosure*)** : les signalements de failles de sécurité ou de vulnérabilités critiques font l'objet d'un embargo de confidentialité strictement temporaire et proportionné, le temps d'élaborer et de déployer le correctif technique avant publication du rapport d'incident complet (*security advisory*) ; ainsi que le secret technique absolu des clés privées racines et matérielles hébergées au sein des modules HSM qualifiés.
-
----
-
-### Article 4 — Siège social
-
-Le siège social est fixé à :
-
-> **[Adresse du siège social fixée lors de l'AG Constitutive — France]**
-
-Il pourra être transféré en tout autre lieu du même département ou d'un département limitrophe par décision du Conseil d'Administration, sous réserve de ratification par la plus prochaine Assemblée Générale Ordinaire, et partout ailleurs en vertu d'une délibération de l'Assemblée Générale Extraordinaire.
-
----
-
-### Article 5 — Durée
-
+#### Article 4 — Durée
 La durée de l'association est illimitée.
 
 ---
 
-## Titre II — Composition, Adhésion, Droits et Devoirs des Membres
+### TITRE II — COMPOSITION, QUALIFICATION ET DROITS DES MEMBRES
 
-### Article 6 — Composition de l'association
+#### Article 5 — Catégories de membres
+L'association se compose de :
+* **Membres sympathisants :** personnes physiques ou morales adhérant aux buts de l'association, à jour de leur cotisation annuelle. Ils participent aux travaux et aux Assemblées Générales avec voix consultative, et disposent de la faculté de refus collective prévue aux présents statuts ;
+* **Membres titulaires :** personnes physiques ou personnes morales dûment représentées, participant de façon substantielle et active à la gouvernance, à la conformité ou aux opérations critiques de l'association. Ils disposent d'une voix délibérative pleine et entière sur l'ensemble des scrutins ;
+* **Membres d'honneur :** personnes ayant rendu des services signalés à l’association, dispensées de cotisation sur proposition du Conseil d’Administration.
 
-L'association garantit un fonctionnement démocratique et ouvert à tous. Elle est composée de :
+Les fondateurs initiaux, signataires des statuts constitutifs, disposent de plein droit du statut de membre titulaire.
 
-1. **Membres fondateurs** : Personnes physiques ou morales ayant concouru à la constitution de l'association et à l'adoption des statuts originels.
-2. **Membres actifs (adhérents)** : Personnes physiques ou morales qui participent régulièrement aux activités, travaux techniques ou scientifiques, et s'acquittent de la cotisation annuelle fixée par l'Assemblée Générale.
-3. **Membres bienfaiteurs et soutiens d'intérêt général** : Personnes physiques ou morales apportant un soutien financier, en mécénat de compétences ou matériel, sans contrepartie directe.
-4. **Membres d'honneur** : Personnalités désignées par le Conseil d'Administration pour leur contribution éminente à la souveraineté numérique ou à la cryptographie ouverte.
+#### Article 5 bis — Modalités d’accès au collège des membres titulaires et rôles de confiance
+1. **Critères d'accès au statut de titulaire :**  
+   La qualité de membre titulaire est attribuée par décision du Conseil d'Administration aux membres justifiant :
+   * D'une identité civile formellement vérifiée et de l'usage obligatoire d'une authentification multifacteur matérielle ;
+   * D'un engagement pérenne et de contributions substantielles et vérifiables au bénéfice de l'association (développement logiciel libre, maintenance d'infrastructure, travaux de conformité réglementaire, participation aux comités techniques ou mise à disposition de moyens opérationnels).
+2. **Articulation avec les fonctions d'Officier d'Autorité :**  
+   L'exercice effectif et régulier de fonctions d'**Officier d'Autorité** (*rôle de confiance au sens des référentiels de sécurité applicables*) constitue une contribution de premier ordre justifiant l'examen prioritaire d'une candidature au statut de membre titulaire.  
+   Toutefois, l'habilitation technique délivrée par le Comité des Politiques de Confiance (CPC) et la qualité statutaire de membre titulaire demeurent strictement distinctes. L'attribution définitive du statut de membre titulaire relève de l'agrément souverain du Conseil d'Administration.
+3. **Phase transitoire d'amorçage :**  
+   Durant les vingt-quatre (24) premiers mois suivant la déclaration constitutive de l'association, la condition d'ancienneté d'adhésion préalable est levée au profit de tout contributeur apportant un concours déterminant au déploiement initial des services de confiance ou à la préparation des audits réglementaires.
+4. **Régime transitoire des membres fondateurs :**  
+   Pour assurer l'amorçage technique initial, les membres fondateurs signataires des présents statuts assument transitoirement les prérogatives opérationnelles d'Officier d'Autorité. Cette habilitation transitoire prend fin de plein droit dès la proclamation des résultats de la première session d'examen d'Officier d'Autorité et obligatoirement avant toute mise en validation ou audit d'accréditation auprès d'une autorité de contrôle ou d'un organisme certificateur.
 
-Chaque membre actif ou fondateur dispose d'une voix délibérative au sein des Assemblées Générales.
+#### Article 5 ter — Perte de la qualité de membre titulaire et sauvegarde du quorum
+1. **Déchéance pour défaut d'assiduité :**  
+   Tout membre titulaire absent à deux (2) séances consécutives de l'Assemblée Générale Ordinaire sans avoir pris part aux votes (par voie électronique préalable ou synchrone) perd automatiquement la qualité de membre titulaire et bascule sans délai dans le collège des membres sympathisants.
+2. **Exceptions limitatives :**  
+   Ne sont pas soumis à cette déchéance automatique :
+   * Les membres en exercice du Conseil d'Administration et le ou la Président(e) ;
+   * Les membres ayant notifié au Conseil d'Administration une incapacité majeure justifiée (motif médical avéré ou contrainte familiale grave) avant la clôture des votes.
+3. **Garantie de sincérité du corps électoral :**  
+   L'engagement d'une procédure de révision statutaire gèle les collèges des membres en l'état ; aucune nouvelle déchéance ne peut être prononcée durant cette consultation à des fins d'altération du corps électoral. Toutefois, les déchéances déjà régulièrement acquises et constatées lors des Assemblées Générales antérieures demeurent définitives et exécutoires.
+4. **Préservation des personnes morales représentées :**  
+   En cas de carence ou d'absence répétée du représentant physique désigné par une personne morale membre titulaire, celle-ci en est formellement avisée par écrit et dispose d'un délai de **soixante (60) jours calendaires** pour notifier la désignation d'un nouveau représentant physique habilité. La déchéance d'assiduité ne peut être opposée à la personne morale avant l'expiration de ce délai.
 
----
+#### Article 5 quater — Identification formelle et authentification matérielle des membres titulaires
+1. **Vérification d'identité préalable :**  
+   L'accès et le maintien au statut de membre titulaire sont conditionnés à la vérification préalable et formelle de l'identité civile de la personne physique ou, pour une personne morale, de la personne physique désignée pour la représenter. Aucune voix délibérative ne peut être exercée sous statut pseudonyme ou anonyme. Les modalités pratiques de contrôle sont fixées par le Règlement Intérieur.
+2. **Authentification forte obligatoire :**  
+   L'exercice de toute prérogative attachée au statut de membre titulaire requiert obligatoirement un mécanisme d'authentification multifacteur (MFA) fondé sur la possession d'un élément matériel de sécurité cryptographique.
+3. **Dotation matérielle :**  
+   L'association a la faculté d'acquérir, de configurer et de mettre à la disposition de ses membres titulaires et Officiers d'Autorité les équipements matériels de sécurité nécessaires (clés de sécurité physiques, jetons cryptographiques ou cartes à puce). Ces équipements demeurent, sauf décision contraire, la propriété de l'association.
 
-### Article 7 — Adhésion et non-discrimination
-
-1. L'adhésion est ouverte à toute personne physique ou morale sans distinction d'origine, de nationalité, de genre, de conviction philosophique, politique ou religieuse.
-2. Les candidats s'engagent à respecter les présents statuts, la charte d'éthique et le règlement intérieur.
-3. L'agrément des membres est prononcé par le Bureau ou le Conseil d'Administration. En cas de refus, la décision doit être motivée par des critères objectifs liés à l'objet associatif ou à la sécurité de l'infrastructure.
-
----
-
-### Article 8 — Perte de la qualité de membre
-
-La qualité de membre se perd par :
-1. La démission adressée par écrit au Bureau ;
-2. Le décès de la personne physique ou la dissolution de la personne morale ;
-3. La radiation pour non-paiement de la cotisation annuelle après mise en demeure restée infructueuse pendant un mois ;
-4. L'exclusion prononcée par le Conseil d'Administration pour motif grave, non-respect des statuts ou atteinte à l'intégrité de l'infrastructure de confiance. L'intéressé aura été préalablement invité à présenter ses observations contradictoires écrites ou orales dans le respect des droits de la défense.
-
----
-
-## Titre III — Administration et Gouvernance Démocratique
-
-### Article 9 — Le Conseil d'Administration
-
-1. **Composition** : L'association est administrée par un Conseil d'Administration comprenant **3 à 12 membres**, élus au scrutin secret ou électronique par l'Assemblée Générale Ordinaire parmi les membres de l'association.
-2. **Durée du mandat** : Les administrateurs sont élus pour une durée de **trois (3) ans**. Le renouvellement a lieu par tiers chaque année afin de garantir la continuité institutionnelle. Les membres sortants sont rééligibles.
-3. **Vacance** : En cas de vacance par décès, démission ou empêchement définitif, le Conseil d'Administration peut pourvoir provisoirement au remplacement de ses membres par cooptation. Ces désignations sont soumises à la ratification de la plus prochaine Assemblée Générale.
-
----
-
-### Article 10 — Gratuité des mandats, gestion désintéressée et personnel opérationnel
-
-1. **Strict bénévolat des dirigeants** : Les fonctions d'administrateurs au Conseil d'Administration et de membres du Bureau sont strictement bénévoles et gratuites. Les dirigeants ne peuvent recevoir aucune rétribution, rémunération ou indemnité directe ou indirecte en raison des fonctions de gouvernance qui leur sont confiées.
-2. **Frais de mission** : Seuls les remboursements de frais réels dûment engagés pour l'accomplissement du mandat associatif sont admis. Ils font l'objet de justificatifs probants vérifiés par le Trésorier et sont soumis au contrôle du Conseil d'Administration et du Commissaire aux comptes.
-3. **Gestion désintéressée** : L'association applique une gestion strictement désintéressée au sens de l'article 261-7-1° du Code Général des Impôts. Aucun dividende, surplus, soulte ou avantage matériel ne peut être distribué directement ou indirectement à ses membres.
-4. **Emploi et rémunération du personnel opérationnel (développeurs, mainteneurs, administrateurs système)** :
-   - Pour assurer la conception, le développement logiciel continu, la maintenance 24/7 des infrastructures, l'administration système et réseau, la sécurité des modules cryptographiques (HSM) et la conformité aux normes eIDAS, l'association peut embaucher du personnel salarié (en contrat de travail de droit commun) ou engager des prestataires techniques indépendants.
-   - Les rémunérations de ces personnels techniques sont fixées aux conditions normales du marché selon les grilles d'emplois techniques.
-   - **Stricte étanchéité de gouvernance** : Afin de préserver sans équivoque la gestion désintéressée et d'éviter tout conflit d'intérêts, aucun salarié technique ou prestataire rémunéré par l'association ne peut être membre du Conseil d'Administration ou du Bureau, ni exercer de fonction de direction statutaire ou de contrôle au sein de l'association.
-
----
-
-### Article 11 — Réunions et délibérations du Conseil d'Administration
-
-1. Le Conseil d'Administration se réunit au moins **deux (2) fois par an** sur convocation du Président ou à la demande du tiers de ses membres.
-2. **Dématérialisation et accessibilité** : Les réunions peuvent se tenir par visioconférence ou moyens de télécommunication électronique garantissant l'identification des participants et la transmission continue des délibérations.
-3. **Quorum et majorité** : Le Conseil ne délibère valablement que si la moitié au moins de ses membres est présente ou représentée. Les décisions sont prises à la majorité des membres présents ou représentés. En cas de partage égal des voix, celle du Président est prépondérante.
-4. Les délibérations font l'objet de procès-verbaux publiés publiquement, sous réserve des règles de protection RGPD et d'embargo temporaire de sécurité définies à l'Article 3.
-
----
-
-### Article 12 — Le Bureau
-
-Le Conseil d'Administration élit parmi ses membres, pour une durée de trois ans, un Bureau composé de :
-1. **Un(e) Président(e)** :
-   - Représente l'association dans tous les actes de la vie civile et en justice ;
-   - Ordonnance les dépenses et veille au respect des missions d'utilité publique ;
-   - Présente le rapport moral annuel.
-2. **Un(e) Trésorier(e)** :
-   - Assure la gestion financière et la comptabilité régulière de l'association ;
-   - Élabore le budget prévisionnel et arrête les comptes annuels sous la supervision du CA ;
-   - Présente le rapport financier à l'Assemblée Générale.
-3. **Un(e) Secrétaire Général(e)** :
-   - Assure le secrétariat administratif, la tenue des registres légaux et la publication transparente des procès-verbaux.
-
-Le Bureau peut comprendre des Vice-Présidents, Trésoriers adjoints et Secrétaires adjoints.
+#### Article 6 — Perte de la qualité de membre
+La qualité de membre de l'association se perd par :
+1. **La démission :** adressée par écrit au Conseil d'Administration, prenant effet à sa réception ;
+2. **Le non-paiement de la cotisation :**  
+   * **Régime de droit commun :** Le défaut de paiement de la cotisation annuelle à l'échéance fixée par le Règlement Intérieur, demeuré infructueux trente (30) jours calendaires après mise en demeure par voie électronique, entraîne la **radiation automatique d'office** de l'association. Pour un membre titulaire n'exerçant aucun mandat statutaire ni rôle de confiance actif, le défaut de régularisation emporte la perte immédiate de la qualité de membre titulaire et de ses droits de vote délibératifs.  
+   * **Régime dérogatoire de continuité opérationnelle et de sécurité :** Par dérogation stricte, **la radiation automatique ne s'applique pas aux membres en exercice du Conseil d'Administration, aux membres du Comité des Politiques de Confiance (CPC), aux personnes dûment habilitées exerçant des fonctions actives d'Officier d'Autorité, aux gardiens de secrets ou détenteurs de fragments de clés partagées (*Key Custodians*), ni à toute autre catégorie opérationnelle sensible expressément désignée par le Règlement Intérieur**.  
+   Afin de prévenir toute vacance institutionnelle, toute rupture de conformité réglementaire ou toute contestation de la validité juridique et probatoire des actes d'exploitation des services de confiance :  
+     * Les mandats d'administrateurs, les fonctions au sein du CPC, les habilitations techniques d'Officier d'Autorité ainsi que les engagements de garde cryptographique **demeurent pleinement valides et opposables aux tiers** ;  
+     * L'ensemble des opérations techniques, cérémonies de clés, révocations d'urgence et actes de validation accomplis par un Officier d'Autorité ou gardien de secret en cours de régularisation de cotisation conservent leur **pleine valeur probatoire et leur qualification légale** ;  
+     * Seul l'exercice personnel du droit de vote délibératif en Assemblée Générale est temporairement suspendu jusqu'à parfait paiement ;  
+     * L'association a la faculté de régulariser la cotisation par compensation avec d'éventuelles notes de frais de mission ou d'abandon de créance en attente au bénéfice de l'intéressé.  
+     Pour les Officiers d'Autorité et gardiens de secrets, le retrait des prérogatives techniques relève de la compétence exclusive du CPC selon les procédures fixées par le Règlement Intérieur et les Politiques de Service, et ne peut résulter d'un simple incident comptable.
+3. **Suspension conservatoire d'accès pour investigation technique :**  
+   En cas de suspicion de faille de sécurité, d'incident opérationnel, de compromission matérielle ou d'enquête de conformité interne, le Comité des Politiques de Confiance (CPC) ou le Conseil d'Administration peut prononcer **la suspension conservatoire immédiate des accès logiques, matériels et des privilèges techniques** de tout membre, administrateur, Officier d'Autorité ou gardien de secret, pour le temps strictement nécessaire à l'investigation.  
+   **Cette mesure conservatoire purement technique n'affecte en rien la qualité de membre de l'association**, l'intéressé demeurant pleinement assujetti aux statuts, au Règlement Intérieur ainsi qu'aux obligations de confidentialité et de coopération technique jusqu'à clôture des investigations.
+4. **Le décès :** pour les personnes physiques, ou la **dissolution/liquidation :** pour les personnes morales ;
+5. **La déchéance d'assiduité :** dans les conditions strictes prévues à l'Article 5 ter pour les membres titulaires ;
+6. **L'exclusion disciplinaire pour motif grave :** prononcée par le Conseil d'Administration pour faute grave, manquement caractérisé à la Charte éthique ou atteinte avérée à l'intégrité des services de confiance, l'intéressé ayant été préalablement invité à présenter ses moyens de défense dans le respect du principe du contradictoire.  
+   Toutefois, pour les membres du Comité des Politiques de Confiance (CPC) et les personnes exerçant des fonctions d'Officier d'Autorité ou de gardien de secrets en exercice, **aucune exclusion de l'association ne peut être prononcée sans respecter la procédure de destitution solennelle et les majorités qualifiées prévues à l'Article 8 bis**, prévenant tout contournement disciplinaire de l'indépendance de ces rôles critiques.
 
 ---
 
-## Titre IV — Assemblées Générales
+### TITRE III — GOUVERNANCE, ADMINISTRATION ET SÉPARATION DES DEVOIRS
 
-### Article 13 — Modalités communes aux Assemblées Générales
+#### Article 7 — Conseil d’Administration
+1. **Composition et mandat :** L’association est administrée par un Conseil d’Administration composé de **deux (2) à neuf (9) membres**, personnes physiques ou personnes morales représentées, élus par l’Assemblée Générale au scrutin transparent parmi les membres titulaires pour un mandat de **trois (3) ans**. Les membres sortants sont rééligibles.
+2. **Souveraineté exclusive de l'élection :** Le nombre de sièges ouverts au renouvellement est déterminé par l'Assemblée Générale. Seule l'Assemblée Générale dispose du pouvoir de conférer le mandat d'administrateur, à l'exclusion de toute cooptation définitive.
+3. **Déclaration d'intérêts :** Chaque administrateur déclare publiquement tout lien d'intérêt direct ou indirect avec des tiers opérant dans le secteur des services de confiance ou du logiciel. Tout administrateur en situation de conflit d’intérêts sur une délibération s’abstient obligatoirement de prendre part au vote.
+4. **Délibérations et partage des voix :** Les décisions sont prises à la majorité simple des membres présents physiquement ou prenant part aux délibérations par moyen de télécommunication interactive. En cas de partage égal des voix (y compris au sein d'un Conseil d'Administration restreint à deux membres), **la voix du ou de la Président(e) est prépondérante**.
 
-1. L'Assemblée Générale réunit tous les membres de l'association à jour de leur cotisation.
-2. **Convocations** : Les convocations sont transmises par le Président par voie électronique au moins **quinze (15) jours francs** avant la date de la réunion, accompagnées de l'ordre du jour arrêté par le Conseil d'Administration et des documents financiers et moraux soumis à approbation.
-3. **Démocratie numérique et vote ouvert** : Les Assemblées peuvent se tenir en présentiel, en distanciel ou de façon hybride. Le vote électronique préalable et en temps réel par des plateformes sécurisées et auditables est expressément garanti.
-4. Chaque membre présent ou votant à distance ne peut détenir plus de trois (3) pouvoirs de représentation.
+#### Article 8 — Le Bureau et Direction Opérationnelle (Executive Management)
+1. **Composition et qualification au sens des normes :** Le Conseil d'Administration choisit en son sein un Bureau composé au minimum d'un(e) **Président(e)** et d'un(e) **Trésorier(e)**. Dès lors que le Conseil compte trois membres ou plus, il désigne un(e) **Secrétaire général(e)**. Les fonctions de Président(e) et de Trésorier(e) ne sont pas cumulables.  
+   Le Bureau constitue collégialement **la Direction Opérationnelle (*Executive Management*)** du prestataire de services de confiance au sens des normes ETSI et ISO applicables. À ce titre, il porte la responsabilité ultime de la mise en œuvre de la politique de sécurité des systèmes d'information, approuve formellement les analyses de risques, les plans de continuité et de reprise d'activité (PCA/PRA) et assure les relations de gouvernance avec l'autorité nationale de contrôle compétente.
+2. **Représentation légale et habilitation judiciaire :** Le ou la Président(e) représente légalement l'association dans tous les actes de la vie civile. Il ou elle est **habilité(e) de plein droit à ester en justice au nom de l'association, tant en demande qu'en défense, sans qu'une autorisation préalable de l'Assemblée Générale ou du Conseil d'Administration ne soit requise**, et dispose du pouvoir de former tout recours conservatoire ou d'urgence pour préserver l'intégrité de l'association, de ses infrastructures ou de ses clés cryptographiques.
 
----
+#### Article 8 bis — Comité des Politiques de Confiance (CPC), RSSI et Ségrégation des Fonctions
+1. **Institution et indépendance :** Il est institué un organe collégial technique indépendant dénommé **Comité des Politiques de Confiance (CPC)** (*faisant office d'autorité de gestion des politiques — PMA*). Le CPC est garant de la conformité réglementaire, de la rigueur cryptographique et de l'intégrité opérationnelle de l'ensemble des services de confiance exploités par l'association.
+2. **Séparation absolue des devoirs :** La gestion administrative et opérationnelle courante de l'association est strictement dissociée de l'autorité normative cryptographique. Les membres du Bureau et du Conseil d’Administration ne peuvent imposer une décision technique contraire aux avis conformes et résolutions du CPC.  
+   En application des exigences strictes de séparation des fonctions des référentiels WebTrust et ETSI, **l'appartenance au Bureau de l'association est strictement incompatible avec les fonctions de membre du Comité des Politiques de Confiance (CPC) ainsi qu'avec celles d'Auditeur Interne indépendant**. Tout membre du Bureau accédant au CPC démissionne immédiatement de son mandat exécutif au Bureau.
+3. **Attributions exclusives et désignation du RSSI :** Relèvent de la compétence exclusive du CPC :
+   * L'élaboration, l'approbation formelle et la révision continue des Politiques de Certification, Déclarations des Pratiques de Certification (CP/CPS) et Politiques de Service ;
+   * L'approbation préalable des protocoles de cérémonies de clés, la validation de génération ou de révocation des racines, et l'autorisation de déploiement des modules matériels de sécurité (HSM) ;
+   * La supervision du cursus d'évaluation, d'habilitation et de contrôle continu des Officiers d’Autorité ;
+   * **La désignation formelle du Responsable de la Sécurité des Systèmes d'Information (RSSI / CISO)** de l'association, nommé pour un mandat d'**un (1) an renouvelable**. Le RSSI veille à l'application continue de la politique de sécurité et dispose d'une ligne d'alerte et de reporting direct auprès du Bureau et du CPC, en toute indépendance des équipes d'exploitation courante.
+4. **Mandat, composition et prise de fonction différée du CPC :**  
+   Les membres du CPC sont nommés pour une durée de **six (6) ans**. Le CPC est renouvelé **par tiers tous les deux (2) ans**, ainsi qu'en cas de vacance par démission ou destitution.  
+   Afin de préserver la continuité de la traçabilité et l'intégrité des dossiers d'évaluation face aux auditeurs et autorités de contrôle, **la prise de fonction effective d'un membre nouvellement nommé ou renouvelé est alignée sur la clôture formelle de la période d'audit de conformité ou de surveillance la plus proche**. Jusqu'à cette date d'effet, le membre sortant demeure en fonction pour assurer l'achèvement de la période d'audit en cours et la transmission ordonnée des dossiers.
+5. **Constitution initiale du CPC :**  
+   Lors de la phase de lancement, les premiers membres du CPC sont choisis parmi les premiers Officiers d'Autorité qualifiés, jusqu'à atteindre l'effectif cible requis pour son fonctionnement collégial.
+6. **Procédure de nomination (Confirmation par les pairs) :**  
+   Les membres du CPC sont nommés sur **proposition motivée du Conseil d'Administration**, sous réserve de leur **confirmation formelle par un vote de l'Assemblée Générale** réunissant le collège des membres titulaires. Ils sont choisis pour leur intégrité et leur expertise en cryptographie, en sécurité des systèmes d'information ou en conformité réglementaire.
+7. **Protection du mandat et procédure de destitution solennelle :**  
+   Afin de préserver leur indépendance face au Conseil d'Administration, les membres du CPC ne peuvent être démis de leurs fonctions avant l'expiration de leur mandat, sauf en cas de **faute grave avérée, manquement éthique caractérisé ou incapacité permanente constatée**. Cette destitution ne peut être prononcée que par **décision conjointe du Conseil d'Administration statuant à la majorité qualifiée des deux tiers (2/3) et confirmée par un vote à la majorité qualifiée des deux tiers (2/3) de l'Assemblée Générale des membres titulaires**, l'intéressé ayant été mis en mesure de présenter ses observations.
 
-### Article 14 — Assemblée Générale Ordinaire (AGO)
-
-1. L'Assemblée Générale Ordinaire se réunit au moins **une fois par an**, dans les six mois suivant la clôture de l'exercice financier.
-2. Elle entend :
-   - Le rapport moral d'activité présenté par le Président ;
-   - Le rapport de gestion financière présenté par le Trésorier ;
-   - Le rapport du Commissaire aux comptes ;
-   - Le rapport public d'audit et de conformité eIDAS / ETSI du Comité Technique.
-3. Elle approuve les comptes de l'exercice écoulé, vote le budget prévisionnel et pourvoit au renouvellement des membres du Conseil d'Administration.
-4. Les délibérations de l'AGO sont adoptées à la **majorité simple des suffrages exprimés**.
-
----
-
-### Article 15 — Assemblée Générale Extraordinaire (AGE)
-
-1. L'Assemblée Générale Extraordinaire est seule compétente pour modifier les statuts, décider de la fusion ou prononcer la dissolution anticipée de l'association.
-2. Elle est convoquée par le Président soit à l'initiative du CA, soit sur demande formelle de la moitié au moins des membres de l'association.
-3. **Quorum** : Pour délibérer valablement, l'AGE doit réunir au moins un tiers (1/3) des membres inscrits. Si cette condition n'est pas remplie, une nouvelle assemblée est convoquée dans un délai de quinze jours et peut alors valablement délibérer quel que soit le nombre de membres représentés.
-4. Les résolutions sont adoptées à la **majorité qualifiée des deux tiers (2/3) des voix exprimées**.
-
----
-
-## Titre V — Ressources, Contrôle Financier et Continuité
-
-### Article 16 — Ressources de l'association
-
-Les ressources de l'association comprennent :
-1. Les cotisations annuelles des membres ;
-2. Les dons manuels de particuliers éligibles aux dispositions de l'article 200 du CGI ;
-3. Les dons de mécénat d'entreprises éligibles aux dispositions de l'article 238 bis du CGI ;
-4. Les subventions de l'Union Européenne, de l'État, des collectivités locales et de leurs établissements publics ;
-5. Les apports d'infrastructures en nature ou en mécénat de compétences (hébergement souverain, connectivité, modules HSM certifiés) ;
-6. Les redevances d'usage, facturations de prestations et contributions aux coûts d'infrastructure conformes à l'objet social, notamment :
-   - La facturation des volumes massifs d'appels d'API ou d'horodatages industriels excédant les quotas de base gratuits d'intérêt général, afin de couvrir les coûts réels de bande passante, d'hébergement, de puissance de calcul et d'amortissement des modules matériels de sécurité (HSM) selon un principe de mutualisation et de prix coûtant (*cost recovery*) ;
-   - Les prestations de support technique dédié, d'engagements de niveau de service (SLA garanti), d'assistance à l'intégration, d'audit ou de formation professionnelle conformes à l'objet associatif ;
-   - L'ensemble de ces recettes est obligatoirement et intégralement réinvesti dans l'infrastructure de bien commun, sa sécurité et sa pérennité, sans aucune recherche de profit spéculatif, dans le respect des règles fiscales applicables aux organismes sans but lucratif d'intérêt général ;
-7. Toutes autres ressources conformes aux lois en vigueur régissant les organismes d'intérêt général et d'utilité publique.
+#### Article 8 ter — Statut des clés cryptographiques et révocation d'urgence
+1. **Séquestre technique et inaliénabilité :** Les clés privées cryptographiques, certificats d'autorités racines ou intermédiaires, secrets partagés et accès d'administration aux modules matériels de sécurité (HSM) constituent des actifs opérationnels sous séquestre technique, affectés exclusivement à l'accomplissement des services de confiance. Aucun membre, dirigeant ou tiers ne peut revendiquer de droit privatif ou de propriété intellectuelle sur ces éléments.
+2. **Délégation d'urgence :** En cas de suspicion légitime ou de constat avéré de compromission de clé, de faille critique immédiate ou d'injonction réglementaire urgente, les Officiers d'Autorité habilités disposent des pleins pouvoirs opérationnels pour ordonner et exécuter sans délai la révocation des certificats concernés et la publication des données de révocation, par dérogation à toute consultation préalable des instances. Le CPC et le Conseil d'Administration en sont informés immédiatement.
+3. **Intangibilité opérationnelle :** Les dispositions du présent article sont intangibles et ne peuvent faire l'objet d'aucune modification unilatérale. Par exception stricte, elles ne peuvent être amendées que selon la procédure exceptionnelle prévue à l'Article 11 bis.
 
 ---
 
-### Article 17 — Contrôle des comptes et Commissaire aux Comptes
+### TITRE IV — ASSEMBLÉES GÉNÉRALES, SCRUTINS ET REFUS COLLECTIF
 
-1. Les comptes annuels (bilan, compte de résultat et annexe) sont tenus selon le plan comptable associatif en vigueur.
-2. Un **Commissaire aux comptes titulaire et un suppléant** sont nommés par l'Assemblée Générale Ordinaire pour accomplir leur mission de contrôle légal et certifier la régularité et la sincérité des comptes dès le franchissement des seuils légaux ou par décision volontaire de transparence prise par l'Assemblée Générale.
-3. Le rapport du Commissaire aux comptes est publié dans son intégralité dans le cadre de la politique de redevabilité publique de l'association.
+#### Article 9 — Assemblée Générale Ordinaire
+L’Assemblée Générale comprend tous les membres de l'association. Elle se réunit au moins une fois par an sur convocation du Conseil d'Administration ou à la demande d'au moins un quart (1/4) des membres titulaires.
 
----
+1. **Quorum :** L'Assemblée Générale ne délibère valablement que si au moins **soixante-quinze pour cent (75 %)** des membres titulaires prennent part aux délibérations ou aux votes. À défaut, une seconde assemblée est convoquée sous quinze (15) jours ouvrés avec le même quorum.
+2. **Adoption par les titulaires :** Dès lors que le quorum de 75 % est atteint, les décisions et résolutions sont adoptées à la **majorité simple des suffrages exprimés par les membres titulaires participant au scrutin**.
+3. **Faculté de refus des sympathisants :** Les membres sympathisants participent au scrutin. Une résolution adoptée par les membres titulaires est rejetée et réputée non avenue si la majorité simple des suffrages exprimés par l'ensemble des membres (titulaires et sympathisants réunis prenant part au scrutin) émet un vote d'opposition.  
+   Cette faculté de refus s'exerce exclusivement pendant la durée du scrutin de l'Assemblée Générale. À la clôture des votes et de l'assemblée, les résolutions non rejetées deviennent définitives et immédiatement applicables.
+4. **Nature du vote des sympathisants :** Les membres sympathisants disposent d'un pouvoir de contrôle et de refus, sans pouvoir d'initiative unilatérale. Ils ne peuvent ni inscrire une résolution engageante à l'ordre du jour sans l'accord des membres titulaires, ni adopter seuls une décision positive.
 
-### Article 18 — Fonds de terminaison et de continuité des services de confiance
+#### Article 9 bis — Délibérations dématérialisées, absence de procuration et représentation morale
+1. **Gouvernance distribuée et vote électronique :** Les réunions des assemblées et du Conseil d'Administration se tiennent prioritairement ou exclusivement par visioconférence ou moyen de télécommunication interactive. Le vote électronique est la règle pour l'ensemble des scrutins, de manière synchrone ou par consultation asynchrone préalable à l'assemblée. L'association peut opérer elle-même l'infrastructure technique assurant ce vote, sous réserve de garantir l'authentification forte, l'intégrité et la sincérité des suffrages.
+2. **Exclusion expresse des procurations entre personnes physiques :**  
+   Eu égard à la disponibilité permanente des mécanismes de vote électronique sécurisé et à l'exigence d'un facteur matériel d'authentification nominatif et incessible, **les délégations de vote et procurations entre membres personnes physiques sont formellement prohibées**.
+3. **Représentation des personnes morales :**  
+   Par dérogation unique, une personne morale membre titulaire peut mandater une personne physique pour exercer ses prérogatives de vote, à la condition stricte que ladite personne physique soit formellement identifiée et détienne une clé matérielle configurée et délivrée par l'association.
 
-Conformément à la réglementation européenne eIDAS et aux exigences des normes ETSI relatives aux prestataires de services de confiance (TSP) :
-- L'association constitue et maintient un **fonds de réserve dédié à la continuité et à la terminaison d'activité** ;
-- En cas de cessation programmée ou d'incident majeur, ce fonds garantit le maintien de l'accès public aux listes de révocation (CRL), aux validateurs OCSP et aux journaux d'horodatage pour l'entière durée de validité des preuves cryptographiques délivrées, ainsi que le transfert ordonné des archives sous le contrôle de l'autorité de supervision (ANSSI).
-
----
-
-## Titre VI — Surveillance Administrative et Dévolution des Biens
-
-### Article 19 — Surveillance, communication administrative et droit de contrôle
-
-1. Le/la Président(e) de l'association fait connaître dans les trois mois à la Préfecture du département ou au représentant de l'État compétent tous les changements survenus dans l'administration ou la direction de l'association.
-2. Le rapport moral annuel, les comptes financiers certifiés et le budget prévisionnel sont tenus à la disposition de l'autorité préfectorale et des ministères de tutelle.
-3. Les agents habilités de l'autorité publique et les auditeurs accrédités des organismes de contrôle eIDAS ont le droit de visiter les installations physiques et de vérifier les documents comptables et registres de l'association.
-
----
-
-### Article 20 — Règlement intérieur
-
-Un règlement intérieur, approuvé par le Conseil d'Administration et communiqué à l'Assemblée Générale, précise les modalités d'application des présents statuts, notamment en ce qui concerne le Comité de Pilotage Technique (TSC), les cérémonies de clés cryptographiques, la gestion des conflits d'intérêts et l'application stricte des règles RGPD.
+#### Article 10 — Domaine réservé de l'Assemblée Générale
+Relèvent de la compétence exclusive de l'Assemblée Générale, sans délégation possible :
+1. L’élection et la révocation des administrateurs, ainsi que la fixation du nombre de sièges ;
+2. L’approbation annuelle des comptes financiers, l'affectation du résultat et le vote du budget prévisionnel ;
+3. L’autorisation préalable de tout emprunt ou engagement financier pluriannuel excédant les seuils fixés par le Règlement Intérieur ;
+4. La ratification obligatoire à la plus prochaine session de toute convention réglementée conclue entre l'association et l'un de ses administrateurs ou membres, préalablement autorisée par le Conseil d'Administration ;
+5. La confirmation des nominations et la ratification des éventuelles destitutions des membres du CPC ;
+6. La création, l’arrêt définitif ou la cession de services de confiance majeurs ou d’infrastructures racines.
 
 ---
 
-### Article 21 — Dissolution et Dévolution obligatoire des biens
+### TITRE V — MODIFICATIONS STATUTAIRES ET PROCÉDURE D'AUDIT
 
-1. En cas de dissolution statutaire, volontaire ou forcée de l'association, l'Assemblée Générale Extraordinaire désigne un ou plusieurs liquidateurs chargés de la liquidation des biens associatifs.
-2. **Interdiction de dévolution aux membres** : Conformément à la loi et aux principes des organismes reconnus d'utilité publique et d'intérêt général, **aucun bien ou actif net subsistant ne peut être attribué, directement ou indirectement, aux fondateurs, membres ou dirigeants**.
-3. **Dévolution à un organisme d'intérêt général** : L'actif net disponible est obligatoirement dévolu en totalité à une ou plusieurs associations reconnues d'utilité publique, à une fondation d'utilité publique ou à un établissement public poursuivant des missions analogues de développement de biens communs numériques, de recherche ouverte en sécurité informatique ou de logiciels libres.
+#### Article 11 — Assemblée Générale Extraordinaire (Régime ordinaire)
+L'Assemblée Générale Extraordinaire est seule compétente pour modifier les présents statuts ou prononcer la dissolution de l'association, sous réserve des dispositions intangibles prévues aux Articles 8 ter et 13.
+1. **Quorum :** Participation d'au moins **soixante-quinze pour cent (75 %)** des membres titulaires.
+2. **Unanimité des votants :** Aucune modification ne peut être adoptée sans recueillir le vote favorable de **cent pour cent (100 %) des membres titulaires participant au scrutin**.
+3. **Contrôle global :** Même approuvée à l'unanimité des titulaires votants, la révision est rejetée si la majorité simple des suffrages exprimés par l'ensemble des membres (titulaires et sympathisants réunis prenant part au scrutin) émet un vote d'opposition.
+
+#### Article 11 bis — Procédure exceptionnelle sur injonction d’audit réglementaire ou légale
+1. **Conditions préalables et motifs d'ouverture :**  
+   Par dérogation expresse aux règles ordinaires d'intangibilité, les stipulations des articles protégés (notamment les Articles 2, 8 ter et 13) peuvent faire l'objet d'une révision exceptionnelle :
+   * Au motif d'une non-conformité réglementaire formellement constatée et notifiée par un organisme d'évaluation de la conformité accrédité ou par une autorité de contrôle compétente dans le cadre d'un audit officiel ;
+   * **Au motif d'une demande formelle et écrite émanant de l'administration publique ou d'une décision juridictionnelle**, dès lors que l'adaptation rédactionnelle requise conditionne la conformité légale ou fiscale de l'association au regard de ses missions non lucratives d'intérêt général.  
+   Dans tous les cas, la modification soumise au vote doit être strictement circonscrite aux termes indispensables pour satisfaire aux exigences notifiées.
+2. **Scrutin des membres titulaires :**
+   * *Quorum initial :* 75 % des membres titulaires prenant part au vote ;
+   * *Abaissement du quorum :* En cas d'échec du quorum constaté lors de **cinq (5) scrutins successifs**, le quorum requis pour les membres titulaires est automatiquement **abaissé à cinquante pour cent (50 %)** pour la sixième consultation ;
+   * *Adoption :* Vote favorable de **cent pour cent (100 %) des suffrages exprimés par les membres titulaires prenant part au vote**.
+3. **Scrutin des membres sympathisants :**
+   * *Quorum initial :* Participation d'au moins **dix pour cent (10 %)** des membres sympathisants inscrits ;
+   * *Levée du quorum :* En cas d'échec du quorum lors de **deux (2) scrutins successifs**, la condition de quorum pour ce collège est **intégralement levée** lors de la troisième consultation ;
+   * *Approbation :* Vote favorable d'au moins **cinquante pour cent (50 %)** des suffrages exprimés par les sympathisants ayant pris part au vote.
+4. À défaut de satisfaire à l'ensemble des conditions des deux collèges, l'amendement est caduc.
+
+#### Article 11 ter — Régime de la Reconnaissance d'Utilité Publique (RUP)
+Dans l'hypothèse où l'association viendrait à être reconnue d'utilité publique par décret en Conseil d'État :
+* Les clauses et règles de tutelle prévues par les statuts types approuvés par le Conseil d'État se substituent de plein droit aux stipulations des Articles 11 et 11 bis pour les révisions statutaires ;
+* Le contrôle de légalité, l'approbation préalable par décret ministériel et l'avis conforme du Conseil d'État constituent dès lors le garant institutionnel de l'inaliénabilité des missions d'intérêt général de l'association.
 
 ---
 
-Fait à ______________________, le ______________________
+### TITRE VI — RESSOURCES, GARANTIES FINANCIÈRES ET BÉNÉVOLAT DES DIRIGEANTS
 
-En autant d'exemplaires originaux que requis par la loi.
+#### Article 12 — Ressources, gestion financière et bénévolat des dirigeants
+1. **Ressources :** Les ressources de l'association comprennent les cotisations, subventions publiques ou institutionnelles, dons, mécénats, recettes issues de prestations accessoires, d'accès API à grand volume ou de formations, et toute ressource autorisée par la loi. Aucun excédent ne peut faire l'objet d'une distribution directe ou indirecte.
+2. **Bénévolat strict des mandats et salariat de tiers :**  
+   Conformément aux règles de la gestion désintéressée régissant les organismes d'intérêt général, **les fonctions de membres du Conseil d'Administration et de membres du Bureau sont exercées à titre strictement bénévole**. Les administrateurs ne peuvent recevoir aucune rétribution en raison des fonctions qui leur sont confiées ; seuls les remboursements de frais réels et justifiés engagés pour le compte de l'association sont admis, ou font l'objet d'un abandon exprès ouvrant droit au régime fiscal du mécénat.  
+   L'association peut employer des salariés pour assurer ses opérations techniques et administratives, à la condition expresse que **lesdits salariés ne siègent ni au Bureau ni au Conseil d'Administration**.
 
-**Signatures des membres fondateurs :**
+#### Article 12 bis — Fonds de réserve opérationnelle, garanties de solvabilité et séquestres
+1. **Sanctuarisation de la garantie financière :** Il est constitué au bilan un **Fonds de réserve et de garantie opérationnelle**, sanctuarisé et non distribuable, exclusivement affecté à couvrir la responsabilité civile professionnelle et les garanties de solvabilité exigées des prestataires de confiance qualifiés.
+2. **Affectation exclusive à la cessation d'activité :** Ce fonds garantit en tout état de cause le financement complet de l'exécution du plan de fin d'activité (*Termination Plan*), la notification aux utilisateurs, ainsi que le versement et l'archivage probatoire des journaux d'audit et des états de révocation auprès d'un tiers séquestre désigné.
+3. **Modalités de protection contre l'insolvabilité :** Sur décision du Conseil d'Administration, cette garantie financière peut être constituée sous la forme d'un **compte sous séquestre bloqué, d'une caution bancaire autonome à première demande, ou de toute garantie financière légalement affectée**, insaisissable par des créanciers d'exploitation de droit commun et réservée en priorité absolue aux engagements de sécurité publique et de maintien des services de révocation.  
+   Le Conseil d'Administration est habilité à souscrire les contrats d'assurance responsabilité civile professionnelle (RC Pro) nécessaires.
 
-| Nom et Prénom | Qualité au sein de l'Association | Signature |
-|:---|:---|:---|
-| | **Président(e)** | |
-| | **Trésorier(e)** | |
-| | **Secrétaire Général(e)** | |
+#### Article 12 ter — Protection fonctionnelle et couverture d'assurance des membres
+1. **Souscription d'assurance et protection juridique :** L'association souscrit et maintient les polices d'assurance responsabilité civile et de protection juridique (PJ) destinées à garantir et défendre l'association ainsi que l'ensemble de ses administrateurs, mandataires, bénévoles et Officiers d'Autorité dans l'exercice régulier et de bonne foi de leurs missions associatives.
+2. **Indemnisation :** L'association prend en charge, dans la limite des contrats souscrits et de ses ressources disponibles, les frais de défense et les condamnations civiles visant un membre pour des actes de service conformes aux procédures. Cette garantie est expressément exclue en cas de dol, de faute lourde intentionnelle ou de manquement délibéré aux procédures de sécurité.
+
+#### Article 12 quater — Principe d'accès universel et respect de la légalité
+L'accès aux services de confiance et briques logicielles édités par l'association est universel, neutre et non discriminatoire.  
+Par dérogation légale impérative, l'association applique les restrictions techniques, suspensions d'accès ou refus de délivrance strictement requis par l'exécution des embargos, contrôles des exportations et régimes de sanctions internationales légalement opposables.
+
+---
+
+### TITRE VII — PÉRENNITÉ, CONTINUITÉ OPÉRATIONNELLE ET DISSOLUTION
+
+#### Article 13 — Inaliénabilité, dévolution éternelle et priorité de cessation
+1. **Interdiction perpétuelle de transformation :** L’association ne peut en aucun cas, ni à aucune époque, faire l’objet d’une transformation sous forme de société commerciale ou de toute autre entité à but lucratif.
+2. **Inaliénabilité des actifs immatériels :** Les dépôts logiciels libres, marques, noms de domaine et matériels opérationnels sont affectés irrévocablement à la réalisation de l'objet statutaire. Ils ne peuvent faire l’objet d’aucune cession au profit d’une entité lucrative.
+3. **Priorité absolue au plan de fin d'activité (Termination Plan) :**  
+   En cas de dissolution de l'association, la liquidation de l'actif net réserve en **priorité absolue et préalable** les provisions et moyens financiers nécessaires à l'exécution intégrale des engagements de cessation d'activité prescrits par les règlements européens et autorités de contrôle compétentes (notamment l'archivage probatoire d'au moins dix ans et le maintien de la disponibilité publique des données et listes de révocation).
+4. **Dévolution perpétuelle conforme aux critères d'intérêt général :**  
+   Après exécution complète et certifiée des obligations de cessation d'activité, l'actif net subsistant est obligatoirement et irrévocablement **dévolu à un ou plusieurs organismes sans but lucratif poursuivant des missions analogues et remplissant les conditions des articles 200 et 238 bis du Code général des impôts** en matière de logiciel libre, de standards ouverts ou de confiance numérique, ou à une fondation reconnue d'utilité publique.
+5. **Dérogation pour obligations de continuité technique :** Ne constituent pas des aliénations ou transferts interdits les accords d'hébergement sécurisé, de séquestre technique, ou de versement d'archives probatoires et de listes de révocation auprès d'un tiers désigné, dès lors que ces opérations sont strictement requises par les textes législatifs, réglementaires ou référentiels d'audit applicables.
+6. **Caractère intangible :** Les dispositions du présent Article 13 ainsi que celles de l'Article 2 sont déclarées permanentes et intangibles, sous la seule réserve de la procédure exceptionnelle prévue à l'Article 11 bis et de l'Article 11 ter.
+
+#### Article 13 bis — Continuité d’infrastructure et association successeur
+Par dérogation aux règles ordinaires de liquidation, l’Assemblée Générale Extraordinaire statuant selon les règles de l'Article 11 peut décider du transfert de tout ou partie des infrastructures, dépôts logiciels, marques et qualifications vers une nouvelle personne morale sans but lucratif (*association successeur*), à la condition expresse et préalable que celle-ci :
+* Soit constituée sous forme non lucrative (loi 1901 ou équivalent européen) ;
+* Reprenne textuellement dans ses statuts les mêmes clauses d'inaliénabilité, d'interdiction de transformation lucrative et d'engagement envers les licences libres ;
+* S'engage formellement à assurer la continuité intégrale des obligations souscrites auprès des autorités de contrôle et des programmes de confiance internationaux.
+
+---
+
+### TITRE VIII — RÈGLEMENT INTÉRIEUR
+
+#### Article 14 — Règlement Intérieur et droit d'évocation
+1. **Élaboration et modification :** Le Règlement Intérieur est établi et modifié par décision du Conseil d'Administration, après avis conforme du Comité des Politiques de Confiance (CPC) pour les aspects relatifs à la sécurité et aux rôles de confiance. Il fixe les règles pratiques d'organisation, les cursus d'examen des Officiers d'Autorité, la désignation éventuelle d'autres catégories protégées et la gestion interne.
+2. **Effet immédiat et ratification :** Toute modification du Règlement Intérieur entre en vigueur dès sa notification formelle aux membres. Elle est obligatoirement inscrite à l'ordre du jour de la plus prochaine Assemblée Générale Ordinaire pour ratification.
+3. **Droit d'évocation à cinq membres :** Dès notification d'une modification du Règlement Intérieur, la demande conjointe d'au moins **cinq (5) membres** (titulaires ou sympathisants à jour de leurs obligations) oblige le Conseil d'Administration à convoquer une **Assemblée Générale sous un délai maximal de trente (30) jours calendaires** pour statuer souverainement sur le texte contesté.
+
+---
+
+Fait à **Lyon**, le **20 septembre 2026**  
+En deux (2) exemplaires originaux.
+
+*(Signatures précédées de la mention manuscrite « Lu et approuvé »)*
+
+\
+**Pour les Membres Fondateurs :**
+
+\
+\
+__________________________________  
+**[Nom, Prénom du Fondateur 1]**  
+*Président(e)*
+
+\
+\
+__________________________________  
+**[Nom, Prénom du Fondateur 2]**  
+*Trésorier(e)*

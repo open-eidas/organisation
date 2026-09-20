@@ -1,53 +1,82 @@
-# Comité de Pilotage Technique (TSC — Technical Steering Committee)
+# Organisation Technique et Comité des Politiques de Confiance (CPC)
+
+**Association « Open Trusted Service Provider Initiative » (OTSPI)**
 
 ---
 
-## 1. Rôle et Mandat
+## 1. Architecture de la Gouvernance Technique
 
-Le **Comité de Pilotage Technique (TSC)** est l'organe collégial responsable de la direction technique, de la politique de sécurité cryptographique et de la conformité normative des logiciels et infrastructures d'Open eIDAS.
+La gouvernance technique de l'association repose sur une séparation stricte des rôles entre l'autorité normative cryptographique et les comités d'ingénierie logicielle et opérationnelle :
 
-Le TSC opère sous la supervision du Conseil d'Administration de l'association.
-
-### Domaines de compétence :
-- **Architecture PKI & TSA** : Définition des profils de certificats, politiques d'horodatage (TSP / *Time-Stamping Policy*), politiques de certification (CP/CPS).
-- **Conformité eIDAS & Normes ETSI** : Veille et application des normes ETSI EN 319 401 (exigences générales de sécurité des TSP), ETSI EN 319 421 / 422 (profils d'horodatage), ETSI TS 119 312 (algorithmes cryptographiques).
-- **Sécurité Matérielle (HSM)** : Gestion des modules cryptographiques qualifiés (QSCD / CC EAL4+), procédures de cérémonies de clés, dual-control, plan de reprise après sinistre (DRP).
-- **Projets Open Source & Codebase** : Validation des architectures, revues de code critiques, maintien des dépôts officiels sur l'organisation GitHub `@open-eidas`.
-
----
-
-## 2. Processus de Décision et RFC (*Request for Comments*)
-
-Le TSC adopte une philosophie inspirée de l'IETF : **« Rough consensus and running code »** (consensus général et code fonctionnel).
-
-### Cycle de vie d'une proposition (RFC) :
-1. **Élaboration** : Tout contributeur ou membre peut soumettre une proposition d'évolution technique sous forme d'une RFC ou d'une Issue documentée sur GitHub.
-2. **Débat public** : Période de discussion ouverte de 14 jours minimum permettant à la communauté d'émettre des objections ou suggestions.
-3. **Évaluation de sécurité et de conformité** : Le TSC vérifie que la proposition ne compromet ni la qualification eIDAS, ni la sécurité physique ou cryptographique.
-4. **Adoption** : Validation par consensus au sein du TSC (ou vote à la majorité qualifiée en cas de désaccord persistant).
-
----
-
-## 3. Politique de Sécurité et Divulgation Responsable (*Responsible Disclosure*)
-
-La sécurité de nos utilisateurs et de l'infrastructure de confiance est notre priorité absolue.
-
-- **Signalement de vulnérabilités** : Tout chercheur en sécurité ou utilisateur ayant identifié une vulnérabilité potentielle est invité à la signaler en toute confidentialité à l'adresse de contact officielle (en précisant `[Sécurité]` en objet) :  
-  📧 **contact@open-eidas.eu** (ou via PGP / GitHub Security Advisories privés).
-- **Délai de correction** : Le TSC s'engage à accuser réception sous 48 heures ouvrées et à publier un correctif avant toute divulgation publique.
-- **Transparence après résolution** : Un avis de sécurité public (Security Advisory avec CVE si applicable) est publié conjointement avec la mise à jour corrective.
+```
+┌────────────────────────────────────────────────────────┐
+│             Assemblée Générale & Statuts               │
+└──────────────────────────┬─────────────────────────────┘
+                           │
+         ┌─────────────────┴─────────────────┐
+         ▼                                   ▼
+┌──────────────────────────┐       ┌──────────────────────────┐
+│  Conseil d'Administration │       │   Comité des Politiques  │
+│         & Bureau         │       │    de Confiance (CPC)    │
+│  (Direction Opérationnelle│       │(PMA - Autorité Normative)│
+│    Executive Management) │       │   [Article 8 bis]        │
+└────────────┬─────────────┘       └─────────────┬────────────┘
+             │                                   │
+             ▼                                   ▼
+┌──────────────────────────┐       ┌──────────────────────────┐
+│ Comité Technique & Dév.  │◄──────┤ Politiques CP/CPS, TSP,  │
+│   (TSC / Projets Open)   │ Avis  │ Habilitations Officiers, │
+│  Ingénierie, RFCs, CI/CD │ Conforme│ Désignation du RSSI    │
+└──────────────────────────┘       └──────────────────────────┘
+```
 
 ---
 
-## 4. Politique de Releases et Environnements
+## 2. Le Comité des Politiques de Confiance (CPC / PMA)
 
-Pour concilier innovation et stabilité réglementaire, les services sont divisés en deux environnements distincts :
+Conformément à l'**Article 8 bis des Statuts**, le CPC est l'organe collégial indépendant faisant office d'**Autorité de Gestion des Politiques (*Policy Management Authority - PMA*)** :
+- **Garantie d'indépendance** : Strictement dissocié de la direction exécutive (incompatibilité absolue avec le Bureau) ;
+- **Compétences exclusives** :
+  - Élaboration, approbation et révision des Politiques de Certification et des Pratiques (CP/CPS, TSP) ;
+  - Approbation préalable des protocoles de cérémonies de clés et déploiements HSM ;
+  - Cursus d'évaluation, d'examen et d'habilitation des Officiers d'Autorité ;
+  - Désignation formelle du Responsable de la Sécurité des Systèmes d'Information (RSSI / CISO) pour un mandat d'un an renouvelable ;
+- **Mandat et renouvellement** : Mandat de 6 ans renouvelable par tiers tous les 2 ans, avec prise de fonction différée calée sur la clôture des cycles d'audit réglementaires.
 
-1. **Staging / Bac à Sable (Staging Environment)** :
-   - URL et endpoints dédiés aux tests d'intégration, CI/CD et développeurs ;
-   - Même niveau technique et algorithmique que la production, mais certificats non qualifiés ;
-   - Déploiements continus des nouvelles fonctionnalités.
-2. **Production Qualifiée (eIDAS Production)** :
-   - Hébergement hautement sécurisé avec HSM certifiés en environnement datacenter certifié ISO 27001 / SecNumCloud ;
-   - Certificats qualifiés émis après audit formel de conformité ;
-   - Mises à jour strictement encadrées par des fenêtres de maintenance et validation collégiale du TSC.
+---
+
+## 3. Le Comité de Pilotage Technique (TSC — Technical Steering Committee)
+
+Le **TSC** rassemble les ingénieurs, mainteneurs de code et experts en systèmes distribués assurant le développement et l'exploitation quotidienne des briques logicielles libres :
+- **Ingénierie logicielle** : Développement des composants d'horodatage qualifié (TSA), PKI, protocoles d'émission et de validation (RFC 3161, ACME, REST/JSON, CMP, OCSP) ;
+- **Maintien des dépôts open source** : Revues de code, tests automatisés, intégration continue (CI/CD) ;
+- **Processus de décision par RFC (*Request for Comments*)** :
+  1. *Élaboration* : Soumission d'une proposition ouverte (RFC) sur les dépôts de l'association ;
+  2. *Débat public* : Consultation ouverte de 14 jours minimum ;
+  3. *Vérification de conformité* : Validation que la RFC respecte les exigences du CPC et des référentiels ETSI / eIDAS ;
+  4. *Adoption* : Consensus technique au sein de l'équipe d'ingénierie.
+
+---
+
+## 4. Politique de Sécurité et Signalement de Vulnérabilités
+
+La sécurité de l'infrastructure de confiance est assurée sous la coordination directe du RSSI et du CPC :
+- **Signalement confidentiel** :  
+  📧 **security@otspi.org** (ou via GitHub Private Security Advisories) avec chiffrement PGP.
+- **Protocole CVD (Coordinated Vulnerability Disclosure)** :
+  - Accusé de réception sous 48 heures ouvrées ;
+  - Traitement sous embargo temporaire de confidentialité ;
+  - Déploiement du correctif puis publication conjointe d'un *Security Advisory* transparent (avec numéro CVE).
+
+---
+
+## 5. Environnements et Qualification
+
+Les services opèrent sur deux environnements strictement cloisonnés :
+1. **Environnement Bac à Sable (Staging / Test)** :
+   - Endpoints publics dédiés aux intégrations partenaires et tests communautaires ;
+   - Fonctionnalités identiques à la production mais avec certificats de test non qualifiés.
+2. **Environnement de Production Qualifiée (eIDAS / ETSI Production)** :
+   - Modules matériels de sécurité (HSM) certifiés CC EAL4+ / QSCD en datacenters hautement sécurisés (SecNumCloud / ISO 27001) ;
+   - Clés opérées sous contrôle strict à quatre yeux (*Dual Control*) et cérémonies formelles approuvées par le CPC ;
+   - Certificats qualifiés inscrits sur la liste de confiance européenne (EU Trusted List / TSL).

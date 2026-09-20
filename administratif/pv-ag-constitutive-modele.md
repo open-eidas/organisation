@@ -1,107 +1,138 @@
 # Procès-Verbal de l'Assemblée Générale Constitutive
 
-**Association : Open eIDAS**  
+**Association : « Open Trusted Service Provider Initiative » (OTSPI)**  
 **Régie par la loi du 1er juillet 1901 et le décret du 16 août 1901**
 
 ---
 
-Le ______________________ [date], à ________ heures, les membres fondateurs de l'association « **Open eIDAS** » se sont réunis en Assemblée Générale Constitutive au __________________________________________________________________ [adresse ou par visioconférence].
+Le **20 septembre 2026**, à ________ heures, les fondateurs de l'association **« Open Trusted Service Provider Initiative » (OTSPI)** se sont réunis en Assemblée Générale Constitutive à Lyon (et par moyen de télécommunication interactive sécurisé).
 
-Sont présents :
+### Sont présents en qualité de membres fondateurs :
 1. **M. / Mme __________________________________**, demeurant à ________________________________________ ;
 2. **M. / Mme __________________________________**, demeurant à ________________________________________ ;
 3. **M. / Mme __________________________________**, demeurant à ________________________________________.
 
-L'assemblée désigne :
+L'assemblée procède à la désignation de son bureau de séance :
 - **Président(e) de séance** : M. / Mme __________________________________
 - **Secrétaire de séance** : M. / Mme __________________________________
 
-Le/la Président(e) de séance constate que les membres fondateurs sont tous présents ou représentés, et déclare que l'Assemblée Générale Constitutive est régulièrement constituée et peut valablement délibérer.
+Le/la Président(e) de séance constate que les membres fondateurs sont tous présents ou représentés, et déclare que l'Assemblée Générale Constitutive est régulièrement constituée, en mesure de délibérer valablement et d'adopter les résolutions requises.
 
 ---
 
 ## Ordre du Jour
 
-1. Présentation du projet associatif d'infrastructure de confiance numérique ouverte « Open eIDAS ».
-2. Examen et adoption des statuts constitutifs de l'association.
-3. Désignation des premiers membres du Conseil d'Administration et du Bureau.
-4. Fixation du montant des cotisations pour le premier exercice.
-5. Autorisation d'ouverture des comptes bancaires et pouvoirs pour l'accomplissement des formalités de déclaration et de publication.
+1. Constat de constitution et exposé du projet associatif d'infrastructure de confiance ouverte.
+2. Examen et adoption des statuts constitutifs de l'association OTSPI.
+3. Fixation du siège social initial.
+4. Élection du Conseil d'Administration et nomination de l'Executive Management (Bureau).
+5. Résolution d'amorçage technique : habilitation transitoire des Officiers d'Autorité et constitution du CPC (Art. 5 bis et 8 bis).
+6. Fixation des cotisations annuelles initiales.
+7. Mandats et pouvoirs pour les formalités administratives et d'immatriculation (Préfecture, JOAFE, SIREN/SIRET).
+8. Mandats financiers, assurantiels et fiscaux :
+   - Autorisation d'ouverture des comptes bancaires et opérations financières ;
+   - Mandat express pour le dépôt du rescrit fiscal mécénat (CGI art. 200 et 238 bis, LPF art. L. 80 CB) ;
+   - Mandat pour la souscription des assurances obligatoires (RC Pro et Protection Juridique).
 
 ---
 
 ## Délibérations et Résolutions
 
-### Première résolution : Présentation et adoption du projet associatif
-
-Le/la Président(e) de séance expose les origines du projet, son ambition de créer un bien commun numérique à l'échelle européenne pour les services de confiance qualifiés eIDAS (horodatage, cachet, signature), selon un modèle d'intérêt général à but non lucratif inspiré de Let's Encrypt / ISRG.
-
-Après échange et délibération, cette résolution est adoptée à l'unanimité.
+### Première résolution — Constat de constitution et adoption du projet
+L'Assemblée Générale Constitutive approuve la création de l'association ayant pour dénomination **« Open Trusted Service Provider Initiative » (OTSPI)** et pour objet la fourniture, l'opération et la pérennisation d'infrastructures ouvertes, souveraines et d'intérêt général de confiance numérique (horodatage qualifié, signature, scellement, archivage probatoire, PKI).  
+*Cette résolution est adoptée à l'unanimité.*
 
 ---
 
-### Deuxième résolution : Adoption des statuts constitutifs
+### Deuxième résolution — Adoption des statuts constitutifs
+Lecture est donnée du projet de statuts rédigé en quatorze (14) articles principaux et leurs articles subsidiaires. Les membres fondateurs approuvent expressément :
+- Le caractère d'intérêt général et la gestion désintéressée stricte (Article 2) ;
+- La distinction entre membres sympathisants (droit de refus) et membres titulaires (voix délibérative, authentification forte matérielle) (Articles 5 à 5 quater) ;
+- La ségrégation absolue des devoirs entre le Bureau et le Comité des Politiques de Confiance (CPC / PMA) (Article 8 bis) ;
+- Le statut des clés cryptographiques en séquestre inaliénable et la révocation d'urgence par les Officiers d'Autorité (Article 8 ter) ;
+- L'inaliénabilité des dépôts logiciels libres et la dévolution perpétuelle à des organismes d'intérêt général (Article 13).
 
-Lecture est donnée du projet de statuts de l'association. Les membres fondateurs discutent des différents articles, notamment l'objet social, la gestion désintéressée stricte et la gouvernance ouverte.
-
-Les statuts sont adoptés article par article, puis dans leur ensemble, à l'unanimité des présents.  
-Un exemplaire original paraphé et signé est annexé au présent procès-verbal.
-
-Cette résolution est adoptée à l'unanimité.
+Les statuts sont adoptés article par article, puis dans leur ensemble, sans réserve ni modification.  
+Deux originaux paraphés et signés sont annexés au présent procès-verbal.  
+*Cette résolution est adoptée à l'unanimité.*
 
 ---
 
-### Troisième résolution : Élection des premiers dirigeants
+### Troisième résolution — Fixation du siège social initial
+Conformément à l'Article 3 des statuts, le siège social initial de l'association est fixé à :  
+**Métropole de Lyon (France)**, à l'adresse suivante :  
+__________________________________________________________________________________  
+*Cette résolution est adoptée à l'unanimité.*
 
-L'Assemblée procède à l'élection des membres du premier Conseil d'Administration et du Bureau.
+---
 
-Sont élus à l'unanimité :
+### Quatrième résolution — Élection du Conseil d'Administration et nomination de l'Executive Management (Bureau)
+L'Assemblée élit les membres fondateurs au Conseil d'Administration. Réuni immédiatement, le Conseil désigne en son sein la Direction Opérationnelle (*Executive Management*) au sens des normes ETSI :
 
 - **Président(e)** :  
   Nom, Prénom : ________________________________________  
-  Date et lieu de naissance : ___________________________  
+  Date et lieu de naissance : ___________________________ à ___________________________  
   Nationalité : ___________________________  
   Profession : ___________________________  
-  Adresse personnelle : ________________________________________  
+  Adresse personnelle : _______________________________________________________________  
 
 - **Trésorier(e)** :  
   Nom, Prénom : ________________________________________  
-  Date et lieu de naissance : ___________________________  
+  Date et lieu de naissance : ___________________________ à ___________________________  
   Nationalité : ___________________________  
   Profession : ___________________________  
-  Adresse personnelle : ________________________________________  
+  Adresse personnelle : _______________________________________________________________  
 
-- **Secrétaire Général(e)** *(le cas échéant)* :  
+- **Secrétaire Général(e)** *(si le CA compte 3 membres ou plus)* :  
   Nom, Prénom : ________________________________________  
-  Date et lieu de naissance : ___________________________  
+  Date et lieu de naissance : ___________________________ à ___________________________  
   Nationalité : ___________________________  
   Profession : ___________________________  
-  Adresse personnelle : ________________________________________  
+  Adresse personnelle : _______________________________________________________________  
 
-Les personnes élues déclarent accepter leurs fonctions et certifient sur l'honneur n'être frappées d'aucune déchéance ou incapacité juridique leur interdisant de gérer et d'administrer une association.
-
-Cette résolution est adoptée à l'unanimité.
-
----
-
-### Quatrième résolution : Fixation du siège social
-
-Le siège social de l'association est fixé à l'adresse suivante :  
-**__________________________________________________________________________________**
-
-Cette résolution est adoptée à l'unanimité.
+Les personnes élues acceptent expressément leurs fonctions et confirment exercer leurs mandats à **titre strictement bénévole**, sans aucune rétribution directe ou indirecte, conformément à l'Article 12 des statuts. Elles certifient sur l'honneur n'être frappées d'aucune déchéance ou incapacité civile leur interdisant d'administrer une association.  
+*Cette résolution est adoptée à l'unanimité.*
 
 ---
 
-### Cinquième résolution : Pouvoirs pour l'accomplissement des formalités légales
+### Cinquième résolution — Amorçage technique, Officiers d'Autorité et CPC
+En application de l'**Article 5 bis alinéa 4 des statuts**, l'Assemblée constate que pour assurer l'amorçage technique initial, les membres fondateurs signataires assument transitoirement les prérogatives opérationnelles d'**Officier d'Autorité** (*rôle de confiance*). Cette habilitation prendra fin de plein droit dès la proclamation des résultats de la première session d'examen d'Officier d'Autorité et préalablement à toute mise en validation ou audit d'accréditation auprès d'un organisme certificateur.
 
-L'Assemblée Générale Constitutive donne tous pouvoirs au/à la Président(e), ou à toute personne mandatée par lui/elle, pour effectuer toutes les démarches prescrites par la loi, notamment :
-- La déclaration initiale auprès de la Préfecture compétente (ou télédéclaration via le portail Service-Public.fr) ;
-- La demande de publication au Journal Officiel des Associations et Fondations d'Entreprise (JOAFE) ;
-- La demande d'immatriculation au répertoire national des entreprises (obtention des numéros SIREN / SIRET et code APE/NAF auprès de l'INSEE) ;
-- L'ouverture d'un compte bancaire au nom de l'association.
+Conformément à l'**Article 8 bis alinéa 5 des statuts**, le Conseil d'Administration est mandaté pour organiser la constitution initiale du **Comité des Politiques de Confiance (CPC)**, en veillant au strict respect de la séparation des fonctions avec les membres du Bureau.  
+*Cette résolution est adoptée à l'unanimité.*
 
-Cette résolution est adoptée à l'unanimité.
+---
+
+### Sixième résolution — Barème des cotisations initiales
+Pour le premier exercice associatif, les cotisations sont arrêtées comme suit :
+- Membre sympathisant (personne physique) : 40 € / an (tarif réduit solidaire : 15 € / an) ;
+- Membre titulaire (personne physique) : 80 € / an ;
+- Personne morale sympathisante : 300 € / an ;
+- Personne morale titulaire / soutien : à partir de 1 500 € / an.  
+*Cette résolution est adoptée à l'unanimité.*
+
+---
+
+### Septième résolution — Mandat pour les formalités administratives et légales
+L'Assemblée confère tous pouvoirs au/à la Président(e), ou à toute personne désignée par lui/elle, pour effectuer toutes démarches de publicité légale :
+1. Déclaration initiale de création auprès de la Préfecture du Rhône / Métropole de Lyon (télédéclaration e-création) ;
+2. Demande de publication au Journal Officiel des Associations et Fondations d'Entreprise (JOAFE) ;
+3. Demande d'attribution des identifiants SIREN, SIRET et code APE auprès de l'INSEE.  
+*Cette résolution est adoptée à l'unanimité.*
+
+---
+
+### Huitième résolution — Mandats financiers, fiscaux et assurantiels
+L'Assemblée Générale Constitutive confère expressément au/à la Président(e) les mandats suivants :
+
+1. **Ouverture de comptes bancaires et opérations financières** :  
+   Ouvrir tout compte courant ou compte sur livret au nom d'OTSPI auprès de l'établissement bancaire de son choix, souscrire aux moyens de paiement et signer toutes conventions de services financiers.
+2. **Mandat express pour le rescrit fiscal mécénat (CGI art. 200, 238 bis et LPF art. L. 80 CB)** :  
+   Déposer auprès de la Direction Générale des Finances Publiques (DGFIP - Direction Départementale des Finances Publiques du Rhône) la demande formelle de rescrit fiscal afin de faire confirmer le caractère d'intérêt général de l'association et son éligibilité au régime du mécénat.  
+   Le/la Président(e) est expressément habilité(e) à conduire tout échange avec l'administration fiscale et, en cas de réponse défavorable ou contestée, à exercer l'ensemble des voies de recours prévues par la loi, notamment le **recours pour second examen devant le collège territorialement compétent prévu à l'article L. 80 CB du Livre des procédures fiscales**.
+3. **Souscription des assurances obligatoires** :  
+   Négocier et souscrire les polices d'assurance indispensables à l'activité, notamment l'assurance **Responsabilité Civile Professionnelle (RC Pro)** couvrant les risques inhérents aux prestations de services de confiance, ainsi que le contrat de **Protection Juridique (PJ)** garantissant la protection fonctionnelle des administrateurs, Officiers d'Autorité et bénévoles conformément à l'Article 12 ter des statuts.  
+*Cette résolution est adoptée à l'unanimité.*
 
 ---
 
@@ -109,10 +140,11 @@ L'ordre du jour étant épuisé et personne ne demandant plus la parole, la séa
 
 De tout ce qui précède, il a été dressé le présent procès-verbal, signé par le/la Président(e) de séance et le/la Secrétaire de séance.
 
-Fait à ______________________, le ______________________
-
+Fait à **Lyon**, le **20 septembre 2026**  
 En ________ originaux.
 
 | Le/la Président(e) de séance | Le/la Secrétaire de séance |
 |:---|:---|
-| *(Signature)* | *(Signature)* |
+| *(Signature précédée de la mention manuscrite « Bon pour accord »)* | *(Signature précédée de la mention manuscrite « Bon pour accord »)* |
+| | |
+| **[Nom, Prénom]** | **[Nom, Prénom]** |

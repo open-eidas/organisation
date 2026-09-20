@@ -1,54 +1,65 @@
 # Réunions et Comptes-Rendus Publics (*Public Accountability*)
 
-Conformément à l'Article 3 des Statuts et à l'Article 1 du Règlement Intérieur, l'Association Open eIDAS applique un principe de **redevabilité publique intégrale**.
+**Association « Open Trusted Service Provider Initiative » (OTSPI)**
 
-Toutes les réunions formelles de l'association font l'objet d'un ordre du jour préalable et d'un compte-rendu public archivé dans ce dossier.
+Conformément à l'Article 2 des Statuts et au Règlement Intérieur, l'association applique un principe de **redevabilité publique intégrale**.
+
+Toutes les réunions formelles de gouvernance font l'objet d'un ordre du jour préalable et d'un compte-rendu archivé dans ce dossier.
 
 ---
 
 ## 🏛️ Typologie des Réunions
 
-1. **Assemblées Générales (AG)** : Annuelles (AGO) ou extraordinaires (AGE). Comptes-rendus, votes, rapports moraux et financiers.
-2. **Conseil d'Administration (CA)** : Réunions périodiques de gouvernance stratégique, budgétaire et de partenariats.
-3. **Comité de Pilotage Technique (TSC)** : Décisions d'architecture, révisions des normes ETSI, RFCs et gestion des versions logicielles.
+1. **Assemblées Générales (AG)** :
+   - Assemblée Générale Ordinaire (AGO) : Approbation des comptes, rapport moral, budget, renouvellement du CA, confirmation des membres du CPC.
+   - Assemblée Générale Extraordinaire (AGE) : Révisions statutaires, fusions ou dissolutions.
+2. **Conseil d'Administration (CA) & Bureau** :
+   - Réunions de direction opérationnelle (*Executive Management*) : validation des analyses de risques, partenariats, conventions réglementées, budgets et suivi général.
+3. **Comité des Politiques de Confiance (CPC / PMA)** :
+   - Délibérations relatives aux politiques de certification (CP/CPS), politiques d'horodatage, protocoles de cérémonies de clés et habilitations des Officiers d'Autorité.
+4. **Comités Techniques et d'Ingénierie (TSC)** :
+   - Réunions relatives aux spécifications ouvertes, RFCs, intégrations logicielles et revues de code.
 
 ---
 
-## 🛡️ Règles de Publication et Protection RGPD
+## 🛡️ Règles de Publication et Protection RGPD / Sécurité
 
-Avant tout commit et publication publique d'un compte-rendu ou d'un procès-verbal :
+Avant toute publication publique d'un compte-rendu :
 
-1. **Anonymisation / Pseudonymisation des membres** :
-   - Les adresses postales, numéros de téléphone et adresses e-mails personnelles sont **strictement purgés**.
-   - Les membres intervenants ou votants peuvent être désignés par leur prénom + initiale, ou par leur identifiant public de contributeur (ex. handle GitHub / identifiant PGP) s'ils ne souhaitent pas l'exposition de leur patronyme complet.
-   - Seuls les mandataires sociaux et dirigeants légaux officiellement déclarés en préfecture apparaissent avec leur identité civile (sans coordonnées privées).
-2. **Embargo de Sécurité Technique** :
-   - Aucun détail d'exploitation relatif à une vulnérabilité critique sous embargo actif (CVD) ne peut être consigné dans un compte-rendu public avant publication du patch et du Security Advisory officiel.
+1. **Protection des Données Personnelles (RGPD)** :
+   - Les adresses postales, numéros de téléphone et adresses électroniques privées sont systématiquement caviardées ou anonymisées.
+   - Les membres titulaires et votants sont identifiés par leur nom ou identifiant public de contributeur conformément aux règles de redevabilité.
+2. **Secrets Techniques et Divulgation Coordonnée** :
+   - Aucun détail d'exploitation relatif à une vulnérabilité critique sous embargo actif (protocole CVD) ne peut être consigné avant publication du correctif et de l'avis de sécurité officiel.
+   - Les secrets cryptographiques et clés sous séquestre HSM ne figurent dans aucun compte-rendu public.
 
 ---
 
 ## 📝 Modèle Type de Compte-Rendu Public
 
 ```markdown
-# Compte-Rendu : [Conseil d'Administration / TSC / AG] du [AAAA-MM-JJ]
+# Compte-Rendu : [Conseil d'Administration / CPC / AG / TSC] du [AAAA-MM-JJ]
 
 - **Date & Heure** : AAAA-MM-JJ de HH:MM à HH:MM (Heure de Paris)
-- **Format** : Visioconférence ouverte / Présentiel
+- **Format** : Visioconférence sécurisée / Présentiel (Lyon)
 - **Présidence / Animation** : [Prénom Nom ou Identifiant]
 - **Secrétariat de séance** : [Prénom Nom ou Identifiant]
 - **Participants** : [Liste des membres avec respect de la vie privée RGPD]
+- **Quorum constaté** : [Pourcentage et conformité statutaire]
 
 ### 1. Ordre du Jour
 1. Point de situation opérationnelle et technique
-2. Examen des partenariats et finances
-3. Décisions soumises à délibération
+2. Examen de conformité réglementaire et audits
+3. Résolutions soumises au vote
 
 ### 2. Synthèse des Débats
-[Résumé factuel et transparent des discussions]
+[Résumé factuel et transparent des échanges]
 
 ### 3. Décisions et Votes
 - **Résolution 1** : [Description de la décision]
-  - *Vote* : Pour (X) / Contre (Y) / Abstention (Z) — Adopté à l'unanimité / majorité.
+  - *Vote des titulaires* : Pour (X) / Contre (Y) / Abstention (Z)
+  - *Faculté de refus des sympathisants* : Opposition exprimée (Oui/Non, suffrages)
+  - *Résultat* : Adopté / Rejeté
 
 ### 4. Prochaines Échéances
 - [Actions planifiées et responsables désignés]

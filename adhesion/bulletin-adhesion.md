@@ -1,77 +1,108 @@
 # Bulletin et Procédure d'Adhésion
 
-**Association Open eIDAS (Loi 1901)**
+**Association « Open Trusted Service Provider Initiative » (OTSPI)**  
+*Régie par la loi du 1er juillet 1901*
 
 ---
 
-L'association **Open eIDAS** accueille toute personne physique ou morale désireuse de soutenir la construction d'une infrastructure européenne ouverte, souveraine et d'intérêt général pour la confiance numérique.
+L'association **OTSPI** accueille toute personne physique ou morale désireuse de soutenir ou de participer activement à la construction et à l'opération d'infrastructures de confiance numérique ouvertes, souveraines et d'intérêt général.
 
 ---
 
-## 1. Comment Adhérer ?
+## 1. Collèges et Conditions d'Adhésion
 
-1. Prenez connaissance des [Statuts](../statuts/statuts-association.md), du [Règlement Intérieur](../reglement-interieur/reglement-interieur.md) et de la [Charte d'Éthique](../gouvernance/charte-ethique.md).
-2. Complétez le bulletin ci-dessous (au choix : personne physique ou personne morale).
-3. Transmettez votre demande par e-mail à :  
-   📧 **[contact@open-eidas.eu](mailto:contact@open-eidas.eu)**  
-   *(Objet : Demande d'adhésion — [Votre Nom ou Nom de votre Structure])*.
-4. Le Bureau de l'association examine votre demande et vous adresse la confirmation d'agrément ainsi que les modalités de règlement de la cotisation.
+Conformément aux Articles 5, 5 bis et 5 quater des Statuts :
+
+1. **Membres sympathisants** :
+   - Ouvert à toute personne physique ou morale adhérant aux buts de l'association ;
+   - Voix consultative et faculté de refus collective lors des Assemblées Générales ;
+   - Adhésion simple après paiement de la cotisation.
+
+2. **Membres titulaires** :
+   - Voix délibérative pleine et entière sur tous les scrutins ;
+   - Conditionné à l'agrément souverain du Conseil d'Administration ;
+   - **Exigences préalables impératives** :
+     - Vérification formelle de l'identité civile (aucune voix délibérative sous pseudonyme) ;
+     - Authentification multifacteur matérielle obligatoire (clé physique FIDO2 / WebAuthn ou jeton cryptographique certifié) ;
+     - Justification de contributions substantielles et pérennes (développement libre, infrastructure, conformité réglementaire, rôle d'Officier d'Autorité ou mise à disposition de moyens).
 
 ---
 
-## 2. Formulaire pour Personne Physique (Particulier / Développeur / Chercheur)
+## 2. Formulaire pour Personne Physique
 
 ```markdown
 ### Demande d'adhésion — Personne Physique
 
-- **Nom** : 
-- **Prénom** : 
-- **Adresse postale** : 
+- **Nom légal** : 
+- **Prénom(s)** : 
+- **Date et lieu de naissance** : 
+- **Nationalité** : 
+- **Adresse postale personnelle** : 
 - **E-mail de contact** : 
-- **Identifiant GitHub / GitLab** (facultatif) : 
-- **Collège souhaité** :
-  [ ] Développeurs et Contributeurs Actifs
-  [ ] Utilisateurs et Citoyens
+- **Identifiant public (GitHub / GitLab / PGP)** : 
+
+- **Collège sollicité** :
+  [ ] Membre sympathisant (voix consultative)
+  [ ] Candidature au statut de Membre titulaire (voix délibérative)
+      *Pour les titulaires : je confirme être disposé(e) à faire vérifier mon identité civile et à utiliser une clé matérielle de sécurité.*
+
 - **Cotisation annuelle proposée** :
-  [ ] Tarif réduit (étudiant, demandeur d'emploi) : 10 €
-  [ ] Tarif individuel standard : 30 €
+  [ ] Tarif réduit sympathisant (étudiant, demandeur d'emploi) : 15 €
+  [ ] Tarif individuel standard sympathisant : 40 €
+  [ ] Cotisation membre titulaire : 80 €
   [ ] Membre bienfaiteur : Montant libre (______ €)
 
-**Engagement** :
-Je déclare avoir pris connaissance des statuts et de la charte éthique de l'association Open eIDAS et m'engage à en respecter les principes.
+- **Contributions envisagées pour l'association** (obligatoire pour le statut titulaire) :
+  [ ] Développement logiciel libre (PKI, TSA, ACME, validateurs)
+  [ ] Administration système, infrastructure et sécurité HSM
+  [ ] Conformité réglementaire eIDAS / ETSI / WebTrust
+  [ ] Candidature au rôle d'Officier d'Autorité / Gardien de clés (*Key Custodian*)
+  [ ] Recherche, formation, standardisation
 
-Date : ______________________
+**Déclaration et engagement** :
+Je déclare adhérer aux statuts, au règlement intérieur et à la charte éthique de l'association OTSPI et m'engage à en respecter les principes de gestion désintéressée et d'intérêt général.
+
+Date : ______________________  
 Signature :
 ```
 
 ---
 
-## 3. Formulaire pour Personne Morale (Entreprise / Association / Institution)
+## 3. Formulaire pour Personne Morale
 
 ```markdown
 ### Demande d'adhésion — Personne Morale
 
 - **Raison sociale de l'organisation** : 
-- **Forme juridique** (ex. SAS, SARL, Association, Établissement Public) : 
+- **Forme juridique** (ex. Association, Fondation, SA, SAS, Établissement Public) : 
 - **Numéro SIREN / TVA intra-communautaire** : 
 - **Adresse du siège social** : 
 - **Site web officiel** : 
+
 - **Représentant(e) légal(e)** : 
   - Nom & Prénom : 
-  - Fonction : 
+  - Fonction / Titre : 
   - E-mail professionnel : 
-- **Délégué(e) technique ou contact opérationnel** :
+
+- **Délégué(e) physique mandaté(e) pour représenter l'entité** (Art. 5 quater & 9 bis des Statuts) :
   - Nom & Prénom : 
   - E-mail : 
-- **Modalités de soutien envisagées** :
-  [ ] Cotisation annuelle personne morale standard (200 €)
-  [ ] Membre soutien institutionnel / Mécénat financier (à partir de 1 000 €)
-  [ ] Mécénat de compétences ou mise à disposition d'infrastructures (serveurs, hébergement, HSM)
+  - *Note : Le représentant désigné doit justifier d'une identité vérifiée et détenir une clé matérielle fournie ou configurée par l'association.*
 
-**Engagement de la gouvernance** :
-L'organisation soussignée s'engage à respecter les statuts et principes de transparence et de non-lucrativité d'Open eIDAS.
+- **Collège sollicité** :
+  [ ] Membre sympathisant
+  [ ] Candidature au collège des Membres titulaires
 
-Date : ______________________
-Nom et qualité du signataire :
+- **Modalités de soutien** :
+  [ ] Cotisation annuelle personne morale standard (300 €)
+  [ ] Cotisation titulaire / Soutien institutionnel (à partir de 1 500 €)
+  [ ] Mécénat financier d'intérêt général (CGI art. 238 bis)
+  [ ] Mécénat de compétences ou mise à disposition d'infrastructures (serveurs, hébergement SecNumCloud, HSM)
+
+**Engagement de l'organisation** :
+L'organisation soussignée certifie souscrire sans réserve aux statuts, à la charte éthique et au modèle d'intérêt général d'OTSPI.
+
+Date : ______________________  
+Nom et qualité du représentant légal :  
 Signature et cachet :
 ```

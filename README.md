@@ -1,75 +1,70 @@
-# Association Open eIDAS — Organisation, Gouvernance & Redevabilité Publique
+# Association OTSPI — Organisation, Gouvernance & Redevabilité Publique
+## « Open Trusted Service Provider Initiative »
 
-[![Site Web](https://img.shields.io/badge/Site_Web-open--eidas.eu-blue?style=flat-square)](https://open-eidas.eu)
-[![Contact](https://img.shields.io/badge/Contact-contact%40open--eidas.eu-green?style=flat-square)](mailto:contact@open-eidas.eu)
+[![Structure](https://img.shields.io/badge/Structure-Intérêt_Général_&_Gestion_Désintéressée-purple?style=flat-square)](#)
+[![Normes](https://img.shields.io/badge/Normes-eIDAS_2.0_|_ETSI_|_WebTrust-blue?style=flat-square)](#)
+[![Gouvernance](https://img.shields.io/badge/Gouvernance-Ségrégation_des_Devoirs-green?style=flat-square)](#)
+[![Redevabilité](https://img.shields.io/badge/Redevabilité-100%25_Publique-orange?style=flat-square)](#)
 [![Licence](https://img.shields.io/badge/Licence-CC--BY--4.0-lightgrey?style=flat-square)](LICENSE)
-[![Structure](https://img.shields.io/badge/Structure-Intérêt_Général_&_Utilité_Publique-purple?style=flat-square)](#)
-[![Accountability](https://img.shields.io/badge/Redevabilité-100%25_Publique-orange?style=flat-square)](#)
 
-Ce dépôt centralise l'ensemble des documents juridiques, administratifs, réglementaires et de gouvernance de l'**Association Open eIDAS**, structure régie par la loi du 1er juillet 1901, conforme aux critères de l'**intérêt général** (articles 200 et 238 bis du CGI) et aux statuts types des **associations reconnues d'utilité publique**.
+Ce dépôt centralise l'ensemble des documents juridiques, administratifs, réglementaires et de conformité de l'association **« Open Trusted Service Provider Initiative » (OTSPI)**, régie par la loi du 1er juillet 1901, conforme aux critères de l'**intérêt général** (articles 200 et 238 bis du CGI) et aux exigences des **prestataires de services de confiance qualifiés (eIDAS / ETSI / WebTrust)**.
 
 ---
 
-## 🏛️ Mission d'Intérêt Général et Utilité Publique
+## 🏛️ Mission d'Intérêt Général et Confiance Numérique
 
-L'**Association Open eIDAS** a été créée pour porter, développer et exploiter une infrastructure publique, souveraine et ouverte de services de confiance numérique conformes aux règlements européens **eIDAS** (Règlement UE n° 910/2014 et eIDAS 2.0 - UE 2024/1183).
+L'association **OTSPI** a pour vocation d'intérêt général de lever les barrières économiques, techniques, administratives et éducatives à la sécurité, à la confidentialité et à la confiance numérique dans les communications électroniques mondiales.
 
 À l'instar du modèle d'intérêt général développé par l'**ISRG (*Let's Encrypt*)** pour le chiffrement du Web :
-- Nous considérons la confiance numérique (horodatage qualifié, cachet électronique, signature légale) comme une **infrastructure de bien commun numérique** universelle, sans rente oligopolistique ni barrière à l'entrée.
-- La gouvernance est strictement **désintéressée** (bénévolat strict des dirigeants, absence de distribution d'actifs) et ne profite pas à un cercle restreint.
-- Tous les codes sources des services de confiance sont publiés sous licence libre (AGPLv3 pour le cœur infrastructurel).
-- En cas de dissolution, l'actif net est obligatoirement dévolu à un organisme d'intérêt général ou d'utilité publique poursuivant des buts similaires.
+- Nous concevons, opérons et pérennisons des **infrastructures critiques de confiance numérique ouvertes, souveraines, transparentes et universellement accessibles** (horodatage électronique qualifié, scellement, signature numérique, archivage probatoire, gestion des identités) conformes aux règlements européens **eIDAS / eIDAS 2.0** et aux standards internationaux **ETSI** et **WebTrust** ;
+- La gouvernance est strictement **désintéressée** (bénévolat strict des dirigeants, inaliénabilité des logiciels libres et des marques, absence de distribution d'actifs) ;
+- Un **Fonds de réserve et de garantie opérationnelle** sanctuarisé (Article 12 bis des Statuts) finance l'exécution du plan de fin d'activité (*Termination Plan*, maintien des CRL/OCSP pendant 10 ans), et l'actif net subsistant est dévolu à un organisme d'intérêt général similaire.
 
 ---
 
-## 🔍 Redevabilité Publique Intégrale (*Full Public Accountability*)
+## ⚖️ Architecture de Gouvernance et Ségrégation des Fonctions
 
-Open eIDAS fonctionne selon un principe de **transparence radicale et d'auditabilité publique**. L'association maintient et publie publiquement tout ce qu'elle fait :
-- Ordres du jour, débats et comptes-rendus de réunions (Conseil d'Administration, Bureau, Assemblées Générales, Comité Technique TSC) ;
-- Documents de cadrage stratégique, feuilles de route (*roadmaps*) et spécifications ouvertes (RFCs) ;
-- Budgets prévisionnels, comptes annuels certifiés, rapports moraux et financiers ;
-- Politiques de confiance (TSP, CP/CPS) et rapports d'évaluation d'audit de conformité (ETSI / eIDAS).
+La gouvernance d'OTSPI applique une séparation stricte des devoirs conformément aux normes ETSI EN 319 401 et WebTrust :
 
-### Les deux seules exceptions expressément réservées :
-1. **Protection de la vie privée et conformité RGPD** : Les données personnelles des membres, votants, contributeurs et donateurs (adresses postales personnelles, e-mails privés, montants individuels de dons de particuliers) sont systématiquement expurgées, anonymisées ou pseudonymisées avant toute publication (Règlement UE 2016/679).
-2. **Sécurité opérationnelle et divulgation coordonnée de vulnérabilités (*Coordinated Vulnerability Disclosure*)** : Les signalements de failles de sécurité critiques font l'objet d'un embargo de confidentialité temporaire et strictement délimité dans le temps afin de permettre le développement et le déploiement du correctif de sécurité avant la publication d'un Security Advisory transparent (avec CVE) ; ainsi que le secret absolu des clés privées matérielles dans les HSMs certifiés.
+1. **Direction Opérationnelle (*Executive Management*)** :  
+   Assurée par le **Bureau** issu du **Conseil d'Administration** (Président, Trésorier, Secrétaire Général). Il porte la responsabilité juridique et financière, assure la mise en œuvre de la politique de sécurité et les relations institutionnelles.
+2. **Comité des Politiques de Confiance (CPC / PMA)** :  
+   Organe collégial technique indépendant garant de la rigueur cryptographique et normative. Il approuve les CP/CPS et politiques de service, valide les protocoles de cérémonies de clés, supervise l'habilitation des Officiers d'Autorité et nomme le Responsable de la Sécurité des Systèmes d'Information (RSSI / CISO). L'appartenance au Bureau est strictement incompatible avec le CPC.
+3. **Officiers d'Autorité & Gardiens de Clés (*Key Custodians*)** :  
+   Opérateurs habilités assurant sous contrôle à quatre yeux (*Dual Control*) les cérémonies de clés et disposant d'un pouvoir autonome de **révocation d'urgence** sans délai.
 
 ---
 
-## 📁 Sommaire des Documents
+## 📁 Panoplie Documentaire Complète
 
 ```
 ├── statuts/
-│   └── statuts-association.md       # Statuts constitutifs (Intérêt général, utilité publique & redevabilité)
+│   └── statuts-association.md       # Statuts constitutifs adoptés (OTSPI, Lyon, 20 septembre 2026)
 ├── reglement-interieur/
-│   └── reglement-interieur.md       # Modalités d'application, collèges, votes, dual-control HSM, règles RGPD
-├── gouvernance/
-│   ├── charte-ethique.md            # Charte d'éthique, de transparence et de souveraineté européenne
-│   └── comite-technique.md          # Organisation du Technical Steering Committee (TSC) & RFCs
-├── reunions/
-│   └── README.md                    # Registre public des réunions et procès-verbaux (avec caviardage RGPD)
-├── cadrage/
-│   └── README.md                    # Documents de cadrage stratégique, roadmap et politiques TSP/CP
+│   └── reglement-interieur.md       # RI complet : cursus Officiers, MFA FIPS/ANSSI, Key Custodians, dépenses
 ├── administratif/
-│   ├── pv-ag-constitutive-modele.md # Modèle de PV d'Assemblée Générale Constitutive
+│   ├── pv-ag-constitutive-modele.md # PV d'AG Constitutive (élections, amorçage CPC, mandats fiscaux L.80 CB)
+│   ├── rescrit-fiscal-mecenat.md    # Dossier formel de rescrit fiscal DGFIP (Méthode 4P, CGI 200/238 bis)
 │   └── declaration-prefecture.md    # Guide des démarches administratives (Préfecture, JOAFE, SIRET)
+├── cadrage/
+│   ├── cp-cps-cadre.md              # Cadre général CP/CPS conforme RFC 3647 & ETSI EN 319 411
+│   ├── pssi.md                      # Politique de Sécurité des SI (ISO 27001 & ETSI EN 319 401, RSSI)
+│   ├── termination-plan.md          # Plan de fin d'activité (archivage 10-30 ans, séquestre financier)
+│   └── README.md                    # Présentation du socle d'audit initial TSP / PKI
+├── gouvernance/
+│   ├── charte-ethique.md            # Charte d'éthique, de déontologie et de gestion désintéressée
+│   └── comite-technique.md          # Articulation CPC (PMA), TSC (ingénierie logicielle) & RFCs
 ├── adhesion/
-│   └── bulletin-adhesion.md         # Modalités d'adhésion (personnes physiques et morales)
+│   └── bulletin-adhesion.md         # Formulaires d'adhésion (sympathisants et candidats titulaires)
+├── reunions/
+│   └── README.md                    # Registre public des réunions et procès-verbaux (caviardage RGPD)
 ├── LICENSE                          # Licence Creative Commons Attribution 4.0 International
 └── README.md
 ```
 
 ---
 
-## 🔗 Écosystème Open eIDAS
-
-- 🌐 **Site officiel** : [https://open-eidas.eu](https://open-eidas.eu)
-- 💻 **Code source principal (TSA / eIDAS Engine)** : [open-eidas/open-eidas](https://github.com/open-eidas/open-eidas)
-- 🌐 **Dépôt du site web** : [open-eidas/website](https://github.com/open-eidas/website)
-- 🏛️ **Dépôt organisation & gouvernance** : [open-eidas/organisation](https://github.com/open-eidas/organisation)
-
----
-
 ## 📬 Contacts
 
-- **Contact officiel unique (général, adhésions & signalements)** : [contact@open-eidas.eu](mailto:contact@open-eidas.eu)
+- **Général & Adhésions** : `contact@otspi.org` / `contact@open-eidas.eu`
+- **Sécurité & Signalement de vulnérabilités (CVD)** : `security@otspi.org` *(avec mention [Sécurité] en objet)*

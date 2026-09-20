@@ -1,28 +1,38 @@
-# Documents de Cadrage et Feuilles de Route (*Strategic Framing*)
+# Documents de Cadrage Stratégique et Socle de Conformité Initial (TSP / PKI)
 
-Ce dossier rassemble l'ensemble des documents de cadrage stratégique, réglementaire et technique de l'**Association Open eIDAS**, dans le respect du principe de redevabilité publique intégrale.
+**Association « Open Trusted Service Provider Initiative » (OTSPI)**
 
----
-
-## 🧭 Documents Clés de Cadrage
-
-1. **Vision et Manifeste de l'Infrastructure Ouverte** :
-   - Fondements du modèle d'intérêt général inspiré de l'ISRG / Let's Encrypt appliqué aux services de confiance qualifiés de l'Union Européenne.
-   - Souveraineté cryptographique, open source (AGPLv3) et rejet des rentes de situation économiques.
-2. **Feuille de Route Institutionnelle et Technique (*Roadmap*)** :
-   - Jalons vers la qualification eIDAS de l'autorité d'horodatage (TSA) et des services associés.
-   - Calendrier des audits d'évaluation de la conformité (CAB - Conformity Assessment Body).
-   - Intégration future avec les portefeuilles européens d'identité numérique (EUDI Wallet / eIDAS 2.0).
-3. **Politiques Publiques de Confiance (TSP / CP / CPS)** :
-   - Politique d'Horodatage (*Time-Stamping Policy - TSP*) conforme à la norme ETSI EN 319 421 / 422 ;
-   - Politique de Certification (*Certificate Policy / Certification Practice Statement - CP/CPS*) conforme à la norme ETSI EN 319 401 / 411.
-4. **Plan de Terminaison et de Continuité d'Activité (*Termination Plan*)** :
-   - Garanties opérationnelles et financières pour la préservation et la vérifiabilité à long terme des preuves cryptographiques (au moins 10 ans), même en cas de dissolution de l'association.
+Ce dossier rassemble l'ensemble des documents de cadrage stratégique, réglementaire et technique constituant le **socle d'audit initial** d'OTSPI, soumis à l'approbation conjointe du **Comité des Politiques de Confiance (CPC / PMA)** et du **Bureau (Executive Management)** avant toute cérémonie de clé.
 
 ---
 
-## 🔒 Règles de Redevabilité et Sécurité
+## 🏛️ Le Socle de Conformité Initial (Corpus d'Audit)
 
-- Tous les documents de cadrage sont publics et soumis à discussion ouverte avec la communauté.
-- Les seules exceptions concernent les secrets cryptographiques matériels (clés privées protégées dans les HSMs) et les embargos temporaires de sécurité sur les vulnérabilités non corrigées (*Coordinated Vulnerability Disclosure*).
-- Aucune donnée personnelle de membre ou d'utilisateur n'est intégrée dans ces documents (RGPD *by design*).
+1. **[Cadre Général des Politiques de Certification et Pratiques (CP/CPS)](cp-cps-cadre.md)** :
+   - Document maître conforme à la **RFC 3647**, à l'**ETSI EN 319 401**, à l'**ETSI EN 319 411-1 / 411-2** et aux exigences **WebTrust / CA/Browser Forum** ;
+   - Régit l'ensemble du cycle de vie des clés et certificats (génération en HSM qualifié, profils d'émission, algorithmes cryptographiques autorisés, procédures de révocation d'urgence sous 24h/1h).
+
+2. **[Politique de Sécurité des Systèmes d'Information (PSSI)](pssi.md)** :
+   - Conforme aux standards internationaux **ISO/IEC 27001:2022** et européens **ETSI EN 319 401** ;
+   - Définit l'organisation de la sécurité, le rôle indépendant du RSSI (CISO) nommé par le CPC, le statut de l'Auditeur Interne indépendant, le contrôle d'accès avec authentification matérielle FIPS/ANSSI, et la procédure de notification des incidents de sécurité (ANSSI sous 24h).
+
+3. **[Plan de Fin d'Activité et Cessation de Service (*Termination Plan*)](termination-plan.md)** :
+   - Conforme à l'**article 24.2.e du Règlement eIDAS** et à la clause 7.12 de l'**ETSI EN 319 401** ;
+   - Organise le maintien de la disponibilité publique des annuaires de révocation (CRL / OCSP) pendant au moins 10 ans ;
+   - Fixe le protocole d'archivage probatoire des journaux d'audit sur 10 à 30 ans auprès d'un tiers séquestre qualifié ;
+   - Met en œuvre le **fonds de réserve opérationnelle sanctuarisé** (Article 12 bis des Statuts).
+
+---
+
+## 🧭 Documents Complémentaires de Cadrage
+
+- **Vision et Manifeste d'Infrastructure Ouverte** : Modèle d'intérêt général à but non lucratif inspiré de l'ISRG / Let's Encrypt appliqué aux services qualifiés eIDAS.
+- **Politique d'Horodatage (*Time-Stamping Policy - TSP*)** : Profils d'horodatage qualifié conformes à l'ETSI EN 319 421 / 422 et RFC 3161.
+- **Feuille de Route Institutionnelle et Technique (*Roadmap*)** : Calendrier d'évaluation de la conformité (CAB), intégration EUDI Wallet (eIDAS 2.0) et préparation aux algorithmes post-quantiques.
+
+---
+
+## 🔒 Principes d'Auditabilité et Sécurité
+
+- Tous les documents de cadrage normatifs sont publics et consultables en libre accès dans le cadre de la redevabilité publique intégrale ;
+- Les seules exceptions concernent les secrets cryptographiques matériels (clés sous séquestre HSM) et les embargos temporaires de sécurité sur les vulnérabilités non corrigées (*Coordinated Vulnerability Disclosure*).
