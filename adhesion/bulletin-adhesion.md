@@ -46,11 +46,12 @@ Conformément aux Articles 5, 5 bis et 5 quater des Statuts :
   [ ] Candidature au statut de Membre titulaire (voix délibérative)
       *Pour les titulaires : je confirme être disposé(e) à faire vérifier mon identité civile et à utiliser une clé matérielle de sécurité.*
 
-- **Cotisation annuelle proposée** :
-  [ ] Tarif réduit sympathisant (étudiant, demandeur d'emploi) : 15 €
-  [ ] Tarif individuel standard sympathisant : 40 €
-  [ ] Cotisation membre titulaire : 80 €
-  [ ] Membre bienfaiteur : Montant libre (______ €)
+- **Cotisation annuelle statutaire** :
+  [ ] Tarif réduit sympathisant (étudiant, demandeur d'emploi) : 5 €
+  [ ] Tarif sympathisant standard : 15 €
+  [ ] Cotisation membre titulaire : 10 € (apport d'activité bénévole)
+  [ ] Membre bienfaiteur / Don d'intérêt général complémentaire : Montant libre (______ €)
+      *(Les dons ouvrent droit à réduction d'impôt : 66 % à l'IR).*
 
 - **Contributions envisagées pour l'association** (obligatoire pour le statut titulaire) :
   [ ] Développement logiciel libre (PKI, TSA, ACME, validateurs)
@@ -93,10 +94,9 @@ Signature :
   [ ] Membre sympathisant
   [ ] Candidature au collège des Membres titulaires
 
-- **Modalités de soutien** :
-  [ ] Cotisation annuelle personne morale standard (300 €)
-  [ ] Cotisation titulaire / Soutien institutionnel (à partir de 1 500 €)
-  [ ] Mécénat financier d'intérêt général (CGI art. 238 bis)
+- **Modalités de soutien financier** :
+  [ ] Cotisation annuelle personne morale standard (50 €)
+  [ ] Mécénat financier d'intérêt général (CGI art. 238 bis — déductible à 60 % de l'IS) : Montant libre (______ €)
   [ ] Mécénat de compétences ou mise à disposition d'infrastructures (serveurs, hébergement SecNumCloud, HSM)
 
 **Engagement de l'organisation** :

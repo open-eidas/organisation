@@ -109,16 +109,15 @@ Conformément à l'Article 8 bis des Statuts :
 
 ## Titre IV — Finances, Cotisations, Recouvrement et Plafonds de Dépenses
 
-### Article 9 — Barème des cotisations annuelles
-Les cotisations annuelles sont exigibles au 1er janvier de chaque année civile (ou à la date d'adhésion pour les nouveaux membres) :
-1. **Membres sympathisants** :
-   - Personne physique (tarif plein) : **40 €** ;
-   - Personne physique (tarif réduit solidaire : étudiants, demandeurs d'emploi) : **15 €** ;
-   - Personne morale sympathisante : **300 €**.
-2. **Membres titulaires** :
-   - Personne physique titulaire : **80 €** ;
-   - Personne morale titulaire / soutien institutionnel : **1 500 €** (montant minimal).
-3. **Membres bienfaiteurs et mécènes** : Tout versement supérieur au tarif standard est qualifié de don d'intérêt général ouvrant droit aux reçus fiscaux légaux.
+### Article 9 — Barème des cotisations annuelles et justification
+1. **Principe de couverture stricte de l'assurance** :  
+   Conformément au modèle d'intérêt général de l'association, les cotisations des membres n'ont pas vocation à financer l'infrastructure technique (qui relève des dons et du mécénat), mais à **couvrir strictement les coûts d'assurance (RC Pro et Protection Juridique)** et de gestion administrative individuelle.
+2. **Barème annuel** (exigible au 1er janvier ou à l'adhésion) :
+   - **Membres sympathisants (personnes physiques)** : **15 € / an** (tarif solidaire / réduit : **5 € / an** pour étudiants et demandeurs d'emploi) ;
+   - **Membres titulaires (personnes physiques)** : **10 € / an** (la contribution principale des membres titulaires étant constituée par leur apport substantiel en temps, compétences techniques, conformité ou rôles opérationnels d'Officiers d'Autorité) ;
+   - **Personnes morales (sympathisantes ou titulaires)** : **50 € / an** (cotisation statutaire couvrant la gestion administrative et assurantielle).
+3. **Mécénat et dons complémentaires** :  
+   Tout versement excédant ces montants statutaires constitue un don d'intérêt général ouvrant droit à la réduction d'impôt (articles 200 et 238 bis du CGI).
 
 ### Article 10 — Procédure de relance et échéancier de non-paiement (Article 6.2 des Statuts)
 1. **Calendrier de relance** :

@@ -104,11 +104,10 @@ Conformément à l'**Article 8 bis alinéa 5 des statuts**, le Conseil d'Adminis
 ---
 
 ### Sixième résolution — Barème des cotisations initiales
-Pour le premier exercice associatif, les cotisations sont arrêtées comme suit :
-- Membre sympathisant (personne physique) : 40 € / an (tarif réduit solidaire : 15 € / an) ;
-- Membre titulaire (personne physique) : 80 € / an ;
-- Personne morale sympathisante : 300 € / an ;
-- Personne morale titulaire / soutien : à partir de 1 500 € / an.  
+L'Assemblée fixe les montants annuels des cotisations pour le premier exercice, calculés pour couvrir strictement la quote-part d'assurance (RC Pro et Protection Juridique) et les frais administratifs, le reste des opérations étant financé par les dons et le mécénat :
+- **Membres sympathisants (personnes physiques)** : **15 € / an** (tarif réduit solidaire : **5 € / an**) ;
+- **Membres titulaires (personnes physiques)** : **10 € / an** (la contribution principale des titulaires résultant de leur investissement opérationnel et technique bénévole) ;
+- **Personnes morales (sympathisantes ou titulaires)** : **50 € / an** (tout versement supérieur constituant un don de mécénat au titre du CGI art. 238 bis).  
 *Cette résolution est adoptée à l'unanimité.*
 
 ---
