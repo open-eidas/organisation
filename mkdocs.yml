@@ -30,8 +30,9 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Passer au mode clair
+  logo: assets/icon.svg
+  favicon: assets/favicon.svg
   icon:
-    logo: material/shield-key-outline
     repo: fontawesome/brands/github
   font:
     text: Roboto
