@@ -1,44 +1,101 @@
 ---
-title: "Accueil — Portail Officiel OTSPI"
-description: "Portail de gouvernance, statuts, conformité et documentation de l'association Open Trusted Service Provider Initiative (OTSPI)."
+title: "OTSPI — Open Trusted Service Provider Initiative"
+description: "Portail officiel de gouvernance, statuts, conformité et documentation d'intérêt général pour la confiance numérique européenne."
+hide:
+  - navigation
+  - toc
 ---
 
-# Open Trusted Service Provider Initiative (OTSPI)
-## Portail Officiel de Gouvernance, Statuts et Conformité
+<div class="otspi-hero" markdown>
+
+<span class="otspi-badge">:material-shield-check: Association d'Intérêt Général — Loi 1901</span>
+
+# Open Trusted Service Provider Initiative
+
+<p class="subtitle">
+Construire, opérer et pérenniser des <strong>infrastructures de confiance numérique ouvertes, souveraines et universellement accessibles</strong>, conformes aux standards eIDAS 2.0, ETSI et WebTrust sous gouvernance strictement désintéressée.
+</p>
+
+<div class="otspi-hero-actions" markdown>
+[:material-book-open-page-variant: Consulter les Statuts](statuts/statuts-association.md){ .md-button .md-button--primary }
+[:material-account-plus: Rejoindre l'Initiative](adhesion/bulletin-adhesion.md){ .md-button }
+[:material-github: Dépôt GitHub](https://github.com/otspi/organisation){ .md-button target="_blank" }
+</div>
+
+</div>
+
+<div class="otspi-stats-grid" markdown>
+
+<div class="otspi-stat-card" markdown>
+<span class="otspi-stat-icon">🏛️</span>
+<div class="otspi-stat-title">100% Intérêt Général</div>
+<p class="otspi-stat-desc">Gestion désintéressée, bénévolat strict des dirigeants, inaliénabilité des logiciels libres et des marques.</p>
+</div>
+
+<div class="otspi-stat-card" markdown>
+<span class="otspi-stat-icon">🇪🇺</span>
+<div class="otspi-stat-title">eIDAS 2.0 & ETSI</div>
+<p class="otspi-stat-desc">Services de confiance qualifiés : horodatage, signature, scellement et archivage probatoire sous audit CAB.</p>
+</div>
+
+<div class="otspi-stat-card" markdown>
+<span class="otspi-stat-icon">⚖️</span>
+<div class="otspi-stat-title">Séparation des Devoirs</div>
+<p class="otspi-stat-desc">Indépendance absolue du Comité des Politiques de Confiance (CPC) vis-à-vis du Bureau exécutif.</p>
+</div>
+
+<div class="otspi-stat-card" markdown>
+<span class="otspi-stat-icon">🔍</span>
+<div class="otspi-stat-title">Redevabilité Intégrale</div>
+<p class="otspi-stat-desc">Transparence totale des PV, budgets prévisionnels, rapports d'audit et politiques de certification (CP/CPS).</p>
+</div>
+
+</div>
+
+---
+
+## 📚 Explorer la Documentation et les Textes Fondateurs
 
 <div class="grid cards" markdown>
 
--   :material-scale-balance:{ .lg .middle } **Statuts & Gouvernance**
+-   :material-scale-balance:{ .lg .middle } __Statuts & Gouvernance__
 
     ---
 
-    Découvrez les statuts constitutifs fondés sur l'intérêt général et la gestion désintéressée, ainsi que la stricte séparation des devoirs entre le Bureau exécutif et le Comité des Politiques de Confiance (CPC).
+    Les statuts constitutifs fondés sur l'intérêt général (CGI art. 200 & 238 bis), la gestion désintéressée et la séparation stricte des devoirs.
 
-    [:octicons-arrow-right-24: Consulter les Statuts](statuts/statuts-association.md) · [:octicons-arrow-right-24: Charte d'Éthique](gouvernance/charte-ethique.md)
+    [:octicons-arrow-right-24: Consulter les Statuts](statuts/statuts-association.md)  
+    [:octicons-arrow-right-24: Charte d'Éthique & Déontologie](gouvernance/charte-ethique.md)  
+    [:octicons-arrow-right-24: Organisation Technique & CPC](gouvernance/comite-technique.md)
 
--   :material-book-open-page-variant:{ .lg .middle } **Règlement & Adhésion**
-
-    ---
-
-    Règles pratiques de fonctionnement : cursus d'habilitation des Officiers d'Autorité, clés matérielles FIPS/ANSSI, barème des cotisations et formulaires d'adhésion.
-
-    [:octicons-arrow-right-24: Règlement Intérieur](reglement-interieur/reglement-interieur.md) · [:octicons-arrow-right-24: Adhérer à l'association](adhesion/bulletin-adhesion.md)
-
--   :material-certificate:{ .lg .middle } **Socle de Conformité (TSP / PKI)**
+-   :material-book-open-page-variant:{ .lg .middle } __Règlement & Adhésion__
 
     ---
 
-    Le référentiel d'audit initial conforme aux normes eIDAS, ETSI et WebTrust : Cadre CP/CPS (RFC 3647), Politique de Sécurité (PSSI ISO 27001) et Plan de fin d'activité (*Termination Plan*).
+    Fonctionnement opérationnel : cursus d'habilitation des Officiers d'Autorité, clés matérielles FIPS/ANSSI, barème des cotisations et adhésions.
 
-    [:octicons-arrow-right-24: Cadre CP/CPS](cadrage/cp-cps-cadre.md) · [:octicons-arrow-right-24: PSSI](cadrage/pssi.md) · [:octicons-arrow-right-24: Termination Plan](cadrage/termination-plan.md)
+    [:octicons-arrow-right-24: Règlement Intérieur](reglement-interieur/reglement-interieur.md)  
+    [:octicons-arrow-right-24: Bulletin d'Adhésion (Membres & Mécènes)](adhesion/bulletin-adhesion.md)
 
--   :material-file-document-outline:{ .lg .middle } **Démarches & Légalité**
+-   :material-certificate:{ .lg .middle } __Socle de Conformité (TSP / PKI)__
 
     ---
 
-    Documents légaux et administratifs : Procès-Verbal de l'Assemblée Générale Constitutive, dossier officiel de rescrit fiscal (mécénat DGFIP) et démarches d'immatriculation.
+    Le référentiel d'audit initial conforme aux normes eIDAS, ETSI et WebTrust : Cadre CP/CPS (RFC 3647), Politique de Sécurité (PSSI) et Fin d'Activité.
 
-    [:octicons-arrow-right-24: PV Constitutif](administratif/pv-ag-constitutive-modele.md) · [:octicons-arrow-right-24: Rescrit Fiscal DGFIP](administratif/rescrit-fiscal-mecenat.md)
+    [:octicons-arrow-right-24: Cadre Général CP/CPS](cadrage/cp-cps-cadre.md)  
+    [:octicons-arrow-right-24: Politique de Sécurité (PSSI ISO 27001)](cadrage/pssi.md)  
+    [:octicons-arrow-right-24: Plan de Fin d'Activité (Termination Plan)](cadrage/termination-plan.md)
+
+-   :material-file-document-outline:{ .lg .middle } __Démarches Légales & Fiscales__
+
+    ---
+
+    Dossier juridique complet : Procès-Verbal de l'AG Constitutive, demande formelle de rescrit fiscal mécénat DGFIP et guide d'immatriculation.
+
+    [:octicons-arrow-right-24: Procès-Verbal Constitutif (Modèle)](administratif/pv-ag-constitutive-modele.md)  
+    [:octicons-arrow-right-24: Dossier de Rescrit Fiscal DGFIP](administratif/rescrit-fiscal-mecenat.md)  
+    [:octicons-arrow-right-24: Guide Préfecture (RNA, SIRET)](administratif/declaration-prefecture.md)
 
 </div>
 

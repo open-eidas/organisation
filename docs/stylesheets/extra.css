@@ -1,0 +1,196 @@
+/* ==========================================================================
+   OTSPI Custom Styling — Modern, Trustworthy & Accessible
+   ========================================================================== */
+
+:root {
+  --otspi-primary: #1e40af;
+  --otspi-primary-light: #3b82f6;
+  --otspi-accent: #0ea5e9;
+  --otspi-success: #10b981;
+  --otspi-warning: #f59e0b;
+  --otspi-card-bg: #ffffff;
+  --otspi-card-border: rgba(226, 232, 240, 0.8);
+  --otspi-card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+  --otspi-card-hover-shadow: 0 12px 28px -4px rgba(30, 64, 175, 0.12);
+}
+
+[data-md-color-scheme="slate"] {
+  --otspi-card-bg: #1e293b;
+  --otspi-card-border: rgba(51, 65, 85, 0.7);
+  --otspi-card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.25);
+  --otspi-card-hover-shadow: 0 12px 28px -4px rgba(14, 165, 233, 0.15);
+}
+
+/* --------------------------------------------------------------------------
+   Hero Section
+   -------------------------------------------------------------------------- */
+.otspi-hero {
+  text-align: center;
+  padding: 3rem 1rem 2.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.otspi-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.9rem;
+  border-radius: 9999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  background-color: rgba(59, 130, 246, 0.1);
+  color: var(--otspi-primary-light);
+  border: 1px solid rgba(59, 130, 246, 0.25);
+  margin-bottom: 1.25rem;
+  text-transform: uppercase;
+}
+
+.otspi-hero h1 {
+  font-size: 2.5rem !important;
+  font-weight: 800 !important;
+  line-height: 1.2 !important;
+  margin-bottom: 1rem !important;
+  letter-spacing: -0.02em;
+}
+
+.otspi-hero .subtitle {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 48rem;
+  margin: 0 auto 1.75rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.otspi-hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+/* --------------------------------------------------------------------------
+   Key Stats / Value Pillars
+   -------------------------------------------------------------------------- */
+.otspi-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin: 2.5rem 0 3.5rem;
+}
+
+.otspi-stat-card {
+  background: var(--otspi-card-bg);
+  border: 1px solid var(--otspi-card-border);
+  border-radius: 12px;
+  padding: 1.5rem 1.25rem;
+  text-align: center;
+  box-shadow: var(--otspi-card-shadow);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.otspi-stat-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--otspi-primary-light);
+  box-shadow: var(--otspi-card-hover-shadow);
+}
+
+.otspi-stat-icon {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.otspi-stat-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+  color: var(--md-default-fg-color);
+}
+
+.otspi-stat-desc {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: var(--md-default-fg-color--light);
+  margin: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Material for MkDocs Cards Customization
+   -------------------------------------------------------------------------- */
+.md-typeset .grid.cards > ul > li {
+  background: var(--otspi-card-bg);
+  border: 1px solid var(--otspi-card-border);
+  border-radius: 14px;
+  padding: 1.75rem;
+  box-shadow: var(--otspi-card-shadow);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), 
+              box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), 
+              border-color 0.25s ease;
+  position: relative;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--otspi-card-hover-shadow);
+  border-color: var(--otspi-primary-light);
+}
+
+.md-typeset .grid.cards > ul > li > hr {
+  margin: 1rem 0;
+  opacity: 0.2;
+}
+
+/* --------------------------------------------------------------------------
+   Custom Buttons
+   -------------------------------------------------------------------------- */
+.md-button {
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.01em;
+  padding: 0.65em 1.5em !important;
+  transition: all 0.2s ease !important;
+}
+
+.md-button--primary {
+  background-color: var(--otspi-primary) !important;
+  border-color: var(--otspi-primary) !important;
+  box-shadow: 0 4px 14px rgba(30, 64, 175, 0.25) !important;
+}
+
+.md-button--primary:hover {
+  background-color: var(--otspi-primary-light) !important;
+  border-color: var(--otspi-primary-light) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(30, 64, 175, 0.35) !important;
+}
+
+/* --------------------------------------------------------------------------
+   Mermaid Diagrams & Admonitions
+   -------------------------------------------------------------------------- */
+.mermaid {
+  background: var(--otspi-card-bg);
+  border: 1px solid var(--otspi-card-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: var(--otspi-card-shadow);
+  margin: 1.5rem 0 !important;
+}
+
+.md-typeset .admonition {
+  border-radius: 10px;
+  box-shadow: var(--otspi-card-shadow);
+}
+
+/* --------------------------------------------------------------------------
+   Navigation & Header Refinements
+   -------------------------------------------------------------------------- */
+.md-header {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.md-tabs {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
