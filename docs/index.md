@@ -96,7 +96,7 @@ flowchart TD
 OTSPI applique un principe de **transparence radicale et d'auditabilité publique** :
 - Ordres du jour, débats et comptes-rendus publics des réunions (CA, Bureau, Assemblées Générales, comités techniques) ;
 - Budgets prévisionnels, comptes annuels certifiés, rapports moraux et rapports d'évaluation d'audit (ETSI / eIDAS / WebTrust) ;
-- Dépôt public de l'ensemble des sources et des documents de gouvernance sur [GitHub : `open-eidas/organisation`](https://github.com/open-eidas/organisation).
+- Dépôt public de l'ensemble des sources et des documents de gouvernance sur [GitHub : `otspi/organisation`](https://github.com/otspi/organisation).
 
 > [!NOTE]
 > **Réserves de protection légitimes :**  
@@ -108,5 +108,5 @@ OTSPI applique un principe de **transparence radicale et d'auditabilité publiqu
 
 - **Général & Adhésions** : `contact@otspi.org`
 - **Signalement de vulnérabilités (CVD)** : `security@otspi.org` *(avec mention `[Sécurité]` en objet)*
-- **Dépôt Git de gouvernance** : [github.com/open-eidas/organisation](https://github.com/open-eidas/organisation)
+- **Dépôt Git de gouvernance** : [github.com/otspi/organisation](https://github.com/otspi/organisation)
 - **Portail d'information** : [about.otspi.org](https://about.otspi.org)
