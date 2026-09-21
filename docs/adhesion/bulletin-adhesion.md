@@ -7,6 +7,8 @@
 
 L'association **OTSPI** accueille toute personne physique ou morale désireuse de soutenir ou de participer activement à la construction et à l'opération d'infrastructures de confiance numérique ouvertes, souveraines et d'intérêt général.
 
+Les demandes d'adhésion et dossiers complétés sont à transmettre à l'adresse unique : `contact@otspi.org`.
+
 ---
 
 ## 1. Collèges et Conditions d'Adhésion

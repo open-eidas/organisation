@@ -62,7 +62,7 @@ Le **TSC** rassemble les ingénieurs, mainteneurs de code et experts en système
 
 La sécurité de l'infrastructure de confiance est assurée sous la coordination directe du RSSI et du CPC :
 - **Signalement confidentiel** :  
-  📧 **security@otspi.org** (ou via GitHub Private Security Advisories) avec chiffrement PGP.
+  📧 **contact@otspi.org** (avec la mention `[Sécurité]` en objet ou via les GitHub Private Security Advisories) avec chiffrement PGP.
 - **Protocole CVD (Coordinated Vulnerability Disclosure)** :
   - Accusé de réception sous 48 heures ouvrées ;
   - Traitement sous embargo temporaire de confidentialité ;

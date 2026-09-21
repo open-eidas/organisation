@@ -152,7 +152,7 @@ En application de l'Article 2 des Statuts, l'ensemble des délibérations, budge
 Avant toute mise en ligne, les coordonnées privées (adresses postales personnelles, numéros de téléphone et e-mails privés) des membres et votants sont systématiquement expurgées. Seuls les dirigeants légaux mentionnés au registre préfectoral apparaissent avec leur identité civile officielle.
 
 ### Article 14 — Divulgation coordonnée de vulnérabilités (*Coordinated Vulnerability Disclosure — CVD*)
-1. Tout signalement de vulnérabilité technique reçu sur `security@otspi.org` est placé sous embargo temporaire de confidentialité.
+1. Tout signalement de vulnérabilité technique reçu sur `contact@otspi.org` (avec mention `[Sécurité]` en objet) ou via les outils de divulgation sécurisée de la plateforme de développement est placé sous embargo temporaire de confidentialité.
 2. La période d'embargo n'excède pas quatre-vingt-dix (90) jours, sauf accord mutuel motivé par la complexité de déploiement d'un correctif matériel ou cryptographique.
 3. À l'issue du déploiement en production, un avis de sécurité public (*Security Advisory*) avec CVE est publié en toute transparence.
 

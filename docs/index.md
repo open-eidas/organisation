@@ -104,9 +104,9 @@ OTSPI applique un principe de **transparence radicale et d'auditabilité publiqu
 
 ---
 
-## 📬 Contacts & Adresses Officielles
+## 📬 Contact & Adresses Officielles
 
-- **Général & Adhésions** : `contact@otspi.org`
-- **Signalement de vulnérabilités (CVD)** : `security@otspi.org` *(avec mention `[Sécurité]` en objet)*
+- **Contact unique (Adhésions, Informations, Sécurité)** : `contact@otspi.org`  
+  *(Pour le signalement de vulnérabilités / CVD : indiquer `[Sécurité]` en objet ou utiliser les [GitHub Private Security Advisories](https://github.com/otspi/organisation/security/advisories))*
 - **Dépôt Git de gouvernance** : [github.com/otspi/organisation](https://github.com/otspi/organisation)
 - **Portail d'information** : [about.otspi.org](https://about.otspi.org)

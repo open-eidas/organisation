@@ -74,8 +74,8 @@ La gouvernance d'OTSPI applique une séparation stricte des devoirs conformémen
 
 ---
 
-## 📬 Contacts
+## 📬 Contact
 
-- **Général & Adhésions** : `contact@otspi.org`
-- **Sécurité & Signalement de vulnérabilités (CVD)** : `security@otspi.org` *(avec mention `[Sécurité]` en objet)*
+- **Contact unique (Adhésions, Questions générales, Sécurité)** : `contact@otspi.org`  
+  *(Pour le signalement de vulnérabilités / CVD : mentionner `[Sécurité]` en objet ou utiliser les [GitHub Private Security Advisories](https://github.com/otspi/organisation/security/advisories))*
 - **Portail web** : [about.otspi.org](https://about.otspi.org)
