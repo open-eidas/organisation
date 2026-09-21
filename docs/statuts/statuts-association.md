@@ -68,7 +68,7 @@ Les fondateurs initiaux, signataires des statuts constitutifs, disposent de plei
 
 #### Article 5 ter — Perte de la qualité de membre titulaire et sauvegarde du quorum
 1. **Déchéance pour défaut d'assiduité :**  
-   Tout membre titulaire absent à deux (2) séances consécutives de l'Assemblée Générale Ordinaire sans avoir pris part aux votes (par voie électronique préalable ou synchrone) perd automatiquement la qualité de membre titulaire et bascule sans délai dans le collège des membres sympathisants.
+   Tout membre titulaire absent à trois (3) séances consécutives de l'Assemblée Générale Ordinaire sans avoir pris part aux votes (par voie électronique préalable ou synchrone) perd automatiquement la qualité de membre titulaire et bascule sans délai dans le collège des membres sympathisants.
 2. **Exceptions limitatives :**  
    Ne sont pas soumis à cette déchéance automatique :
    * Les membres en exercice du Conseil d'Administration et le ou la Président(e) ;
