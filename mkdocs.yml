@@ -30,7 +30,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Passer au mode clair
-  logo: assets/icon.svg
+  logo: assets/logo-header.svg
   favicon: assets/favicon.svg
   icon:
     repo: fontawesome/brands/github
