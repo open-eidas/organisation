@@ -215,7 +215,7 @@ Une autorité de certification TLS opérée par OTSPI se distinguerait sur quatr
 
 !!! warning "Contraintes assumées"
     - **Hiérarchie dédiée** : le programme racine de Chrome n'accepte que des hiérarchies consacrées exclusivement à l'authentification de serveurs TLS, avec émission et renouvellement automatisés pour chaque politique de certification[^chrome]. L'autorité TLS d'OTSPI reposera donc sur une **racine WebTrust séparée**, distincte de la racine qualifiée (cf. § 4.1).
-    - **Délai d'inclusion** : l'inscription d'une nouvelle racine dans les magasins de confiance des navigateurs et systèmes d'exploitation prend plusieurs années, puis nécessite le temps de diffusion des mises à jour. La signature croisée de l'AC émettrice TLS par une autorité WebTrust déjà reconnue assure la reconnaissance par les navigateurs dès la mise en service, sans attendre l'inclusion de la racine d'OTSPI.
+    - **Décisions de tiers** : l'inscription d'une nouvelle racine dans les magasins de confiance des navigateurs et systèmes d'exploitation prend plusieurs années, puis nécessite le temps de diffusion des mises à jour. L'inclusion relève de la seule décision des programmes racines. Une signature croisée par une autorité WebTrust déjà reconnue, qui suppose un accord avec cette autorité, permettrait une reconnaissance par les navigateurs dès la mise en service.
     - **Séquencement** : ce volet est postérieur à la qualification du service d'horodatage (cf. § 6.1, phase 4). Il ne mobilisera pas de ressources au détriment du service pilote.
 
 ### 2.5. Périmètre statutaire et séquencement
@@ -229,7 +229,7 @@ L'objet d'OTSPI est défini par l'article 2 de ses [statuts](../statuts/statuts-
 | | Cachet et signature électroniques qualifiés, y compris signature à distance | Moyen terme |
 | | Archivage électronique qualifié, préservation et validation de preuves (signatures, cachets, horodatages) | Moyen terme |
 | | Gestion des identités : attestations électroniques d'attributs, briques d'intégration à l'EUDI Wallet et aux portefeuilles d'entreprise, vérification d'identité | Moyen terme |
-| **2. Qualifications et certifications** | Qualification eIDAS (ANSSI), audits WebTrust, inscription dans les programmes racines des navigateurs | Continu |
+| **2. Qualifications et certifications** | Demandes de qualification eIDAS auprès de l'organe de contrôle, audits WebTrust, demandes d'inclusion dans les programmes racines des navigateurs | Continu |
 | **3. Technologies ouvertes** | Publication sous EUPL 1.2 de l'intégralité de la pile : serveurs, bibliothèques clientes, outils de vérification, journaux de transparence, spécifications | Continu |
 | **4. Recherche, formation, standardisation** | Formation des Officiers d'Autorité et des intégrateurs, contribution aux travaux ETSI, IETF et CA/Browser Forum, cryptographie post-quantique | Continu |
 | **5. Résilience numérique** | Interopérabilité, réversibilité, lutte contre l'enfermement propriétaire, continuité garantie par le plan de fin d'activité | Continu |
@@ -363,8 +363,8 @@ flowchart TD
 | Chemin de certification | Rôle |
 |---|---|
 | Racine TLS OTSPI (WebTrust) | Ancre de confiance cible, soumise à l'inclusion dans les programmes racines |
-| Autorité WebTrust reconnue | Reconnaissance immédiate par les navigateurs pendant la période d'inclusion de la racine OTSPI |
-| Hiérarchie qualifiée OTSPI | Statut qualifié QWAC, vérifiable par la liste de confiance nationale et la LOTL |
+| Autorité WebTrust reconnue | Reconnaissance par les navigateurs pendant l'instruction de la demande d'inclusion de la racine OTSPI, sous réserve d'un accord avec cette autorité |
+| Hiérarchie qualifiée OTSPI | Statut qualifié QWAC, une fois accordé par l'organe de contrôle, vérifiable par la liste de confiance nationale et la LOTL |
 
 La signature croisée ne porte que sur le certificat de l'AC émettrice : les certificats de sites sont émis une seule fois et se valident selon le chemin que chaque logiciel reconnaît.
 
@@ -517,12 +517,15 @@ Les principaux postes de dépenses récurrentes sont identifiés et feront l'obj
 
 ### 6.1. Phasage
 
-**Phase 1 — Consultation institutionnelle et consolidation de la gouvernance**
+!!! note "Portée du phasage"
+    Le phasage ci-dessous décrit les démarches qu'OTSPI entend engager. Il ne préjuge ni de la participation des institutions citées, ni de leurs avis, ni des décisions qui relèvent de leur seule compétence : octroi du statut qualifié, inscription sur les listes de confiance, inclusion dans les programmes racines des navigateurs. Aucun calendrier n'est fixé tant que ces avis n'ont pas été recueillis.
 
-- Consultation de l'**ANSSI**, en sa qualité d'organe de contrôle national, sur le périmètre et la trajectoire de qualification ;
-- consultation de la **DINUM** et de la **DGE** sur l'articulation avec les politiques publiques du numérique et le déploiement de l'EUDI Wallet ;
-- échanges avec le **Campus Cyber** et les laboratoires de recherche en cryptographie, en métrologie temporelle et en sécurité des systèmes ;
+**Phase 1 — Présentation du projet et consolidation de la gouvernance**
+
+- présentation du livre blanc aux autorités et institutions compétentes, auxquelles OTSPI souhaite soumettre son projet pour avis, notamment l'**ANSSI**, en sa qualité d'organe de contrôle national, ainsi que les services de l'État en charge du numérique et de la politique industrielle ;
+- sollicitation de l'écosystème de la cybersécurité et des laboratoires de recherche en cryptographie, en métrologie temporelle et en sécurité des systèmes ;
 - constitution du **Comité consultatif (*Advisory Board*)**, composé de personnalités indépendantes issues de l'administration, de la recherche, de l'audit et de l'écosystème open source ;
+- révision du livre blanc et de la feuille de route à la lumière des avis recueillis ;
 - publication du budget pluriannuel et du plan de financement.
 
 **Phase 2 — Banc d'essai technique et documentation pilote**
@@ -534,17 +537,17 @@ Les principaux postes de dépenses récurrentes sont identifiés et feront l'obj
 - répétitions des cérémonies de clés, puis cérémonie de génération de l'AC Racine de production ;
 - **lancement anticipé des travaux d'identité**, qui ne nécessitent pas de qualification : bibliothèques open source de vérification des attestations issues de l'EUDI Wallet, participation aux travaux de standardisation et aux pilotes européens, spécification des futurs services d'attestation.
 
-**Phase 3 — Évaluation de la conformité et qualification**
+**Phase 3 — Évaluation de la conformité et demande de qualification**
 
 - audit initial par un **organisme d'évaluation de la conformité (CAB) accrédité** selon l'ETSI EN 319 403-1 ;
-- transmission du rapport d'évaluation à l'organe de contrôle et demande d'octroi du statut qualifié ;
-- inscription sur la **liste de confiance nationale (TSL)**, agrégée dans la liste des listes de confiance européenne (LOTL) ;
-- ouverture du service qualifié en production.
+- transmission du rapport d'évaluation à l'organe de contrôle, à l'appui d'une demande de statut qualifié ;
+- en cas de décision favorable de l'organe de contrôle : inscription sur la **liste de confiance nationale (TSL)**, agrégée dans la liste des listes de confiance européenne (LOTL), puis ouverture du service qualifié en production.
 
 **Phase 4 — Autorité de certification TLS européenne**
 
 - cérémonie de génération d'une racine WebTrust séparée, dédiée à l'authentification de serveurs TLS, et de l'AC émettrice TLS ;
-- signatures croisées de l'AC émettrice par une autorité WebTrust déjà reconnue et par la hiérarchie qualifiée d'OTSPI ; qualification du service QWAC (ETSI EN 319 411-2) et inscription sur la liste de confiance ;
+- recherche d'un accord de signature croisée avec une autorité WebTrust déjà reconnue ; signature croisée par la hiérarchie qualifiée d'OTSPI ;
+- demande de qualification du service QWAC (ETSI EN 319 411-2), soumise à la décision de l'organe de contrôle ;
 - mise en service d'un point d'accès ACME (RFC 8555) pour les certificats DV, puis OV ;
 - audits **WebTrust for CAs** et **WebTrust — SSL Baseline with Network Security** ; publication dans la base CCADB ;
 - demandes d'inclusion de la racine TLS OTSPI auprès des programmes racines (Mozilla, Chrome, Apple, Microsoft).
