@@ -1,0 +1,208 @@
+/* ==========================================================================
+   OTSPI — Mise en page d'impression et export PDF
+   Utilisée par scripts/export_pdf.py (impression Chrome headless) et par
+   l'impression navigateur de toute page du portail.
+   ========================================================================== */
+
+/* Éléments réservés à l'impression : masqués à l'écran */
+.wp-cover,
+.wp-toc {
+  display: none;
+}
+
+.wp-download {
+  margin: 0.5rem 0 1.5rem;
+}
+
+/* --------------------------------------------------------------------------
+   Pages physiques
+   -------------------------------------------------------------------------- */
+@page {
+  size: A4;
+  margin: 20mm 18mm 20mm 18mm;
+
+  @bottom-right {
+    content: counter(page) " / " counter(pages);
+    font: 8pt Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #64748b;
+  }
+}
+
+/* Gabarit nommé du livre blanc : pied de page identifiant le document */
+@page whitepaper {
+  @bottom-left {
+    content: "OTSPI — Livre blanc · document de consultation v0.9 · CC-BY-4.0";
+    font: 8pt Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #64748b;
+  }
+}
+
+@page whitepaper:first {
+  @bottom-left { content: none; }
+  @bottom-right { content: none; }
+}
+
+@media print {
+  html {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Chrome du portail */
+  .md-header,
+  .md-tabs,
+  .md-sidebar,
+  .md-footer,
+  .md-top,
+  .md-dialog,
+  .md-content__button,
+  .md-source-file,
+  .corner-ribbon-wrapper,
+  .headerlink,
+  .wp-download {
+    display: none !important;
+  }
+
+  .md-main__inner,
+  .md-content__inner {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .md-grid {
+    max-width: none !important;
+  }
+
+  .md-content {
+    max-width: none !important;
+  }
+
+  .md-typeset {
+    font-size: 10pt;
+    line-height: 1.55;
+  }
+
+  .md-typeset a {
+    color: var(--md-typeset-a-color);
+  }
+
+  /* Tableaux : pas de défilement horizontal sur papier */
+  .md-typeset__scrollwrap,
+  .md-typeset__table {
+    overflow: visible !important;
+    display: block;
+  }
+
+  .md-typeset table:not([class]) {
+    display: table;
+    width: 100%;
+    font-size: 8.5pt;
+  }
+
+  /* Coupures de page */
+  .md-typeset h2,
+  .md-typeset h3,
+  .md-typeset h4 {
+    break-after: avoid;
+  }
+
+  .md-typeset .admonition,
+  .md-typeset details,
+  .md-typeset pre,
+  .md-typeset .mermaid,
+  .md-typeset tr,
+  .md-typeset img {
+    break-inside: avoid;
+  }
+
+  .md-typeset p,
+  .md-typeset li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* ------------------------------------------------------------------------
+     Livre blanc
+     ------------------------------------------------------------------------ */
+  body:has(.wp-cover) {
+    page: whitepaper;
+  }
+
+  .wp-cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 245mm;
+    text-align: center;
+    break-after: page;
+  }
+
+  .md-typeset .wp-cover p {
+    margin: 0;
+  }
+
+  .md-typeset .wp-cover .wp-cover-logo {
+    width: 55mm;
+    margin-bottom: 18mm;
+  }
+
+  .md-typeset .wp-cover .wp-cover-kicker {
+    font-size: 11pt;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--otspi-primary);
+    margin-bottom: 6mm;
+  }
+
+  .md-typeset .wp-cover .wp-cover-title {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #0f172a;
+    max-width: 150mm;
+    margin-bottom: 14mm;
+  }
+
+  .md-typeset .wp-cover .wp-cover-meta {
+    font-size: 10.5pt;
+    color: #334155;
+    line-height: 1.7;
+  }
+
+  .md-typeset .wp-cover .wp-cover-license {
+    margin-top: 24mm;
+    font-size: 8.5pt;
+    color: #64748b;
+  }
+
+  /* Le titre et le sous-titre écran sont remplacés par la page de garde */
+  .wp-cover ~ h1,
+  .wp-cover ~ h1 + h2 {
+    display: none;
+  }
+
+  .wp-toc {
+    display: block;
+    break-after: page;
+  }
+
+  .md-typeset .wp-toc ul {
+    list-style: none;
+    margin-left: 0;
+  }
+
+  .md-typeset .wp-toc li {
+    margin: 0.35em 0;
+  }
+
+  /* Chaque section principale et chaque annexe commence sur une nouvelle page */
+  .wp-cover ~ h2 {
+    break-before: page;
+  }
+
+  .wp-cover ~ hr {
+    display: none;
+  }
+}
