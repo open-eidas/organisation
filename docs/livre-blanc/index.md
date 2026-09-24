@@ -53,6 +53,46 @@ description: "Livre blanc de l'Open Trusted Service Provider Initiative : défai
 
 ## 1. Résumé exécutif
 
+<div class="grid cards wp-figures" markdown>
+
+-   :material-card-account-details-outline: **Identité numérique**
+
+    **J-91**{ .wp-value }
+
+    à la date de publication : au 24 décembre 2026, chacun des 27 États membres doit fournir un portefeuille européen d'identité numérique[^eudi].
+
+-   :material-file-document-outline: **Facture électronique**
+
+    **10 millions**{ .wp-value }
+
+    d'acteurs économiques concernés par la facturation électronique obligatoire en France[^eco].
+
+-   :material-currency-eur: **Coût de la preuve**
+
+    **10 000 € HT / an**{ .wp-value }
+
+    pour horodater 15 000 documents par mois auprès d'un prestataire qualifié, au tarif public (cf. § 2.1).
+
+-   :material-lock-open-variant-outline: **Engagement OTSPI**
+
+    **0 €**{ .wp-value }
+
+    pour le service de base, identique pour tous et sans contrat préalable ; seuls les engagements renforcés donnent lieu à contribution (cf. § 5.4).
+
+-   :material-autorenew: **Certificats Web**
+
+    **47 jours**{ .wp-value }
+
+    de validité maximale en 2029, contre 398 jours en 2025 : près de huit renouvellements par an et par site[^sc081].
+
+-   :material-alert-outline: **Dépendance**
+
+    **64 %**{ .wp-value }
+
+    des sites Web reposent sur une seule autorité de certification, établie hors de l'Union[^w3techs].
+
+</div>
+
 ### 1.1. Le constat
 
 Le Règlement (UE) 2024/1183, dit **eIDAS 2.0**, modifiant le Règlement (UE) n° 910/2014, fait entrer les services de confiance dans l'usage courant. Le calendrier est désormais fixé par les actes d'exécution adoptés en novembre 2024[^eudi] :
@@ -670,3 +710,4 @@ Les données chiffrées du présent document ont été relevées le 24 septembre
 [^wallet]: Règlement (UE) 910/2014 modifié, article 5 bis. Voir [texte consolidé des articles 5 bis à 5 septies](https://www.european-digital-identity-regulation.com/Article_5a_(Regulation_EU_2024_1183).html).
 [^ebw]: Parlement européen, [*Legislative Train Schedule — European business wallets*](https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-european-business-wallet).
 [^qwac]: ETSI, [*TS 119 411-5 V2.1.1 (2025-02)*](https://www.etsi.org/deliver/etsi_ts/119400_119499/11941105/02.01.01_60/ts_11941105v020101p.pdf).
+[^eco]: Ministère de l'Économie, [*Tout savoir sur la facturation électronique pour les entreprises*](https://www.economie.gouv.fr/tout-savoir-sur-la-facturation-electronique-pour-les-entreprises), consulté le 24 septembre 2026.

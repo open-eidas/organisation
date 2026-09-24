@@ -206,3 +206,17 @@
     display: none;
   }
 }
+
+/* Grille des chiffres clés du livre blanc */
+@media print {
+  .md-typeset .grid.cards.wp-figures {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem;
+  }
+
+  .md-typeset .grid.cards.wp-figures > ul > li,
+  .md-typeset .grid.cards.wp-figures li {
+    break-inside: avoid;
+  }
+}

@@ -285,3 +285,32 @@
     padding-left: 3.25rem !important;
   }
 }
+
+/* --------------------------------------------------------------------------
+   Livre blanc — chiffres clés
+   -------------------------------------------------------------------------- */
+.md-typeset .grid.cards.wp-figures > ul > li {
+  border-top: 3px solid var(--md-primary-fg-color);
+}
+
+.md-typeset .grid.cards.wp-figures .twemoji {
+  color: var(--md-primary-fg-color);
+}
+
+.md-typeset .grid.cards.wp-figures p {
+  margin: 0.3em 0;
+}
+
+.md-typeset .wp-value {
+  display: block;
+  margin: 0.2em 0 0.1em;
+  color: var(--md-primary-fg-color);
+  font-size: 2em;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .wp-value {
+  color: var(--md-typeset-color);
+}
