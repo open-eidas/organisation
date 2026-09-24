@@ -577,7 +577,10 @@ OTSPI sollicite dès à présent la contribution de :
 - **éditeurs de logiciels de gestion et plateformes agréées de facturation électronique**, pour l'intégration du scellement et de l'horodatage qualifiés dans les chaînes de facturation et d'archivage ;
 - **collectivités, établissements d'enseignement et parties utilisatrices de l'EUDI Wallet**, pour la définition des services d'attestation et des briques d'intégration.
 
+Au-delà de ces contributions, toute personne ou organisation qui partage les principes défendus dans le présent document peut signer le [**Manifeste pour une identité numérique libre et ouverte**](https://www.otspi.org/manifeste.html). Ses dix principes — maîtrise par la personne, caractère volontaire du recours au numérique, standards et code ouverts, briques de confiance accessibles sans droit d'entrée, gouvernance protégée de toute capture — ne sont pas propres à OTSPI : ils ont vocation à être partagés par l'ensemble des acteurs attachés à une identité numérique européenne conçue comme un bien commun.
+
 !!! abstract "Contribuer"
+    - Soutien public : [signer le Manifeste pour une identité numérique libre et ouverte](https://www.otspi.org/manifeste.html)
     - Adhésion : [Bulletin et procédure d'adhésion](../adhesion/bulletin-adhesion.md)
     - Revue documentaire et technique : [dépôt public GitHub](https://github.com/otspi/organisation)
     - Échanges institutionnels : [contact@otspi.org](mailto:contact@otspi.org)

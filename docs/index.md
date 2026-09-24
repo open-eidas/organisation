@@ -19,6 +19,7 @@ Construire, opérer et pérenniser des <strong>infrastructures de confiance num�
 <div class="otspi-hero-actions" markdown>
 [:material-book-open-page-variant: Consulter les Statuts](statuts/statuts-association.md){ .md-button .md-button--primary }
 [:material-account-plus: Rejoindre l'Initiative](adhesion/bulletin-adhesion.md){ .md-button }
+[:material-draw-pen: Signer le Manifeste](https://www.otspi.org/manifeste.html){ .md-button }
 [:material-github: Dépôt GitHub](https://github.com/otspi/organisation){ .md-button target="_blank" }
 </div>
 

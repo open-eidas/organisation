@@ -26,7 +26,8 @@ Ce dossier rassemble l'ensemble des documents de cadrage stratégique, réglemen
 
 ## 🧭 Documents Complémentaires de Cadrage
 
-- **Vision et Manifeste d'Infrastructure Ouverte** : Modèle d'intérêt général à but non lucratif inspiré de l'ISRG / Let's Encrypt appliqué aux services qualifiés eIDAS.
+- **[Livre blanc](../livre-blanc/index.md)** : vision et modèle d'intérêt général à but non lucratif inspiré de l'ISRG / Let's Encrypt appliqué aux services qualifiés eIDAS.
+- **[Manifeste pour une identité numérique libre et ouverte](https://www.otspi.org/manifeste.html)** : dix principes ouverts à la signature des personnes et des organisations.
 - **Politique d'Horodatage (*Time-Stamping Policy - TSP*)** : Profils d'horodatage qualifié conformes à l'ETSI EN 319 421 / 422 et RFC 3161.
 - **Feuille de Route Institutionnelle et Technique (*Roadmap*)** : Calendrier d'évaluation de la conformité (CAB), intégration EUDI Wallet (eIDAS 2.0) et préparation aux algorithmes post-quantiques.
 
