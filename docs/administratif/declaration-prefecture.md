@@ -12,7 +12,7 @@ Ce document récapitule la procédure légale et administrative pour enregistrer
 ## Étape 1 : Rédaction et Signature des Documents Constitutifs
 
 Avant de procéder à la déclaration, réunir les documents suivants paraphés et signés :
-1. **Les Statuts** : [statuts-association.md](../statuts/statuts-association.md) complétés avec l'adresse du siège social dans la Métropole de Lyon, datés du 20 septembre 2026 et signés par les dirigeants fondateurs (Président(e) et Trésorier(e)).
+1. **Les Statuts** : [statuts-association.md](../statuts/statuts-association.md) complétés avec l'adresse du siège social dans la Métropole de Lyon, datés du jour de l'assemblée générale constitutive et signés par les dirigeants fondateurs (Président(e) et Trésorier(e)).
 2. **Le Procès-Verbal de l'AG Constitutive** : [pv-ag-constitutive-modele.md](pv-ag-constitutive-modele.md) complété avec les résolutions votées, l'élection des dirigeants et la fixation du siège, signé par le/la Président(e) et le/la Secrétaire de séance.
 3. **La Liste des Dirigeants** : Indiquant pour chaque administrateur/dirigeant : Nom, prénom, date et lieu de naissance, nationalité, profession, adresse du domicile personnel et fonction au sein de l'association.
 

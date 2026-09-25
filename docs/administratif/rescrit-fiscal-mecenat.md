@@ -8,7 +8,7 @@ Direction Départementale des Finances Publiques du Rhône (DDFiP 69)
 Pôle Gestion Fiscale — Division des Affaires Juridiques et du Contentieux  
 3 rue de la Charité — 69268 Lyon Cedex 02  
 
-**Date :** 20 septembre 2026  
+**Date :** [date de l'assemblée générale constitutive] *(à compléter : la demande ne peut être déposée qu'après la constitution)*  
 **Objet :** Demande formelle de rescrit fiscal au titre de l'article L. 80 C du Livre des procédures fiscales (LPF) — Éligibilité au régime des dons et du mécénat d'intérêt général (articles 200 et 238 bis du CGI).  
 **Demandeur :** Association « Open Trusted Service Provider Initiative » (OTSPI).  
 
@@ -18,12 +18,12 @@ Pôle Gestion Fiscale — Division des Affaires Juridiques et du Contentieux
 
 - **Dénomination exacte** : Open Trusted Service Provider Initiative (OTSPI)
 - **Forme juridique** : Association régie par la loi du 1er juillet 1901 et le décret du 16 août 1901
-- **Date de constitution** : 20 septembre 2026
+- **Date de constitution** : [date de l'assemblée générale constitutive]
 - **Siège social** : Métropole de Lyon (France)
-- **Représentant légal** : Le/la Président(e), dûment mandaté(e) par l'Assemblée Générale Constitutive du 20 septembre 2026 (Huitième résolution).
+- **Représentant légal** : Le/la Président(e), dûment mandaté(e) par l'Assemblée Générale Constitutive du [date] (Huitième résolution).
 - **Pièces jointes au dossier** :
-  - Statuts constitutifs de l'association OTSPI adoptés le 20 septembre 2026 ;
-  - Procès-Verbal de l'Assemblée Générale Constitutive du 20 septembre 2026 ;
+  - Statuts constitutifs de l'association OTSPI adoptés le [date] ;
+  - Procès-Verbal de l'Assemblée Générale Constitutive du [date] ;
   - Règlement Intérieur adopté en application de l'Article 14 des Statuts ;
   - Charte d'éthique et de transparence publique.
 
@@ -106,7 +106,7 @@ Au vu des éléments de droit et de fait exposés ci-dessus et des pièces joint
 
 ---
 
-Fait à **Lyon**, le **20 septembre 2026**
+Fait à **Lyon**, le **[date de l'assemblée générale constitutive]**
 
 Pour l'Association OTSPI,  
 Le/la Président(e) dûment habilité(e),

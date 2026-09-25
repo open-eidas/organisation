@@ -1,11 +1,14 @@
 ---
 title: "STATUTS DE L'ASSOCIATION OTSPI"
 author: "Membres Fondateurs"
-date: "20 septembre 2026"
+date: "Projet — non encore adopté"
 ---
 
 # STATUTS DE L'ASSOCIATION
 ## « Open Trusted Service Provider Initiative » (OTSPI)
+
+!!! warning "Projet de statuts"
+    Ce texte est un **projet**. Il n'a pas encore été adopté : l'assemblée générale constitutive n'a pas eu lieu et l'association n'est pas encore déclarée. Les mentions de date et de signature en fin de document sont des emplacements à compléter le jour de l'assemblée.
 
 ---
 
@@ -260,7 +263,7 @@ Par dérogation aux règles ordinaires de liquidation, l’Assemblée Générale
 
 ---
 
-Fait à **Lyon**, le **20 septembre 2026**  
+Fait à **Lyon**, le **[date de l'assemblée générale constitutive]**  
 En deux (2) exemplaires originaux.
 
 *(Signatures précédées de la mention manuscrite « Lu et approuvé »)*

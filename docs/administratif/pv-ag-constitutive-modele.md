@@ -5,7 +5,7 @@
 
 ---
 
-Le **20 septembre 2026**, à ________ heures, les fondateurs de l'association **« Open Trusted Service Provider Initiative » (OTSPI)** se sont réunis en Assemblée Générale Constitutive à Lyon (et par moyen de télécommunication interactive sécurisé).
+Le **[date de l'assemblée générale constitutive]**, à ________ heures, les fondateurs de l'association **« Open Trusted Service Provider Initiative » (OTSPI)** se sont réunis en Assemblée Générale Constitutive à Lyon (et par moyen de télécommunication interactive sécurisé).
 
 ### Sont présents en qualité de membres fondateurs :
 1. **M. / Mme __________________________________**, demeurant à ________________________________________ ;
@@ -141,7 +141,7 @@ L'ordre du jour étant épuisé et personne ne demandant plus la parole, la séa
 
 De tout ce qui précède, il a été dressé le présent procès-verbal, signé par le/la Président(e) de séance et le/la Secrétaire de séance.
 
-Fait à **Lyon**, le **20 septembre 2026**  
+Fait à **Lyon**, le **[date de l'assemblée générale constitutive]**  
 En ________ originaux.
 
 | Le/la Président(e) de séance | Le/la Secrétaire de séance |
