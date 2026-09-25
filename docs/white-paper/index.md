@@ -529,13 +529,17 @@ The guiding principle is as follows: **the baseline service remains free and ide
 
 ### 5.5. Cost structure and guarantees
 
-The main recurring expense items have been identified and will be set out in a multi-year budget published at the end of Phase 1:
+The main expense items are listed below. **No amount is put forward at this stage**: audit firms and HSM manufacturers do not publish their prices and work on quotation. Amounts will be established from comparative quotes, then published with the multi-year budget at the end of Phase 1.
 
-- conformity assessment by an accredited body (initial audit, then assessment at least every twenty-four months) and, for the TLS authority, annual WebTrust audits;
-- hosting and connectivity on two sites;
-- operational and security maintenance of the HSMs and the time chain;
-- professional liability insurance and funding of the reserve fund;
-- human resources for operations, security and internal audit.
+| Item | Phases | Cost driver | Planned basis for estimation |
+|---|---|---|---|
+| eIDAS conformity assessment (accredited body, ETSI EN 319 403-1) | 3, then every 24 months | Scope of services, number of sites, documentation maturity | Comparative quotes from several bodies |
+| WebTrust audits (TLS authority) | 4, then yearly | Number of authorities and branches, key ceremonies | Quotes from qualified audit firms |
+| Certified HSMs (CC EAL4+, EN 419 221-5) | 2 and 3 | Number of sites, redundancy, licences | Manufacturer or reseller quotes |
+| Hosting and connectivity, two European sites | 2 to 3 | Racks, physical security, ISO/IEC 27001 certification | In-kind sponsorship or quotes |
+| Time source and time chain | 2 | GNSS and OSNMA receivers, oscillators, redundancy | Equipment vendor quotes |
+| Professional liability insurance, reserve fund | 3 | Volume and cover provided | Insurer quotes |
+| Operations, security and internal audit skills | 1 to 3 | Volunteer share, skills sponsorship, salaried posts | Funding plan |
 
 !!! abstract "Summary"
     - Public-interest association under the French law of 1901, currently being formed, non-profit management, ring-fenced reserve fund.

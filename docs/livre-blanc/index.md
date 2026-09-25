@@ -528,13 +528,17 @@ Le principe directeur est le suivant : **le service de base reste gratuit et ide
 
 ### 5.5. Structure de coûts et garanties
 
-Les principaux postes de dépenses récurrentes sont identifiés et feront l'objet d'un budget pluriannuel publié à l'issue de la Phase 1 :
+Les principaux postes de dépenses sont identifiés ci-dessous. **Aucun montant n'est avancé à ce stade** : les prestataires d'audit et les fabricants de HSM ne publient pas leurs tarifs et travaillent sur devis. Les montants seront établis à partir de devis comparés, puis publiés avec le budget pluriannuel à l'issue de la Phase 1.
 
-- évaluation de la conformité par un organisme accrédité (audit initial, puis évaluation au moins tous les vingt-quatre mois) et, pour l'autorité TLS, audits WebTrust annuels ;
-- hébergement et connectivité sur deux sites ;
-- maintien en condition opérationnelle et de sécurité des HSM et de la chaîne temporelle ;
-- assurance responsabilité civile professionnelle et dotation du fonds de réserve ;
-- ressources humaines d'exploitation, de sécurité et d'audit interne.
+| Poste | Phases | Ce qui détermine le coût | Base d'estimation prévue |
+|---|---|---|---|
+| Évaluation de la conformité eIDAS (organisme accrédité, ETSI EN 319 403-1) | 3, puis tous les 24 mois | Périmètre des services, nombre de sites, maturité documentaire | Devis comparés auprès de plusieurs organismes |
+| Audits WebTrust (autorité TLS) | 4, puis annuel | Nombre d'autorités et de branches, cérémonies de clés | Devis auprès de cabinets habilités |
+| HSM certifiés (CC EAL4+, EN 419 221-5) | 2 et 3 | Nombre de sites, redondance, licences | Devis fabricants ou revendeurs |
+| Hébergement et connectivité, deux sites européens | 2 à 3 | Baies, sécurité physique, certification ISO/IEC 27001 | Mécénat technologique ou devis |
+| Source de temps et chaîne temporelle | 2 | Récepteurs GNSS et OSNMA, oscillateurs, redondance | Devis équipementiers |
+| Assurance responsabilité civile professionnelle, fonds de réserve | 3 | Volume et garanties couvertes | Devis assureurs |
+| Compétences d'exploitation, de sécurité et d'audit interne | 1 à 3 | Part bénévole, mécénat de compétences, postes salariés | Plan de financement |
 
 !!! abstract "Synthèse"
     - Association loi 1901 d'intérêt général en cours de constitution, gestion désintéressée, fonds de réserve sanctuarisé.
