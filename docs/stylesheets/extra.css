@@ -226,63 +226,39 @@
 }
 
 /* --------------------------------------------------------------------------
-   Corner Ribbon ("En cours de création")
+   Bandeau d'annonce (statut du projet)
    -------------------------------------------------------------------------- */
-.corner-ribbon-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 130px;
-  height: 130px;
-  overflow: hidden;
-  z-index: 10000;
-  pointer-events: none;
+.md-banner {
+  background: #0f2042;
+  color: #e6ebf5;
 }
 
-.corner-ribbon {
-  position: absolute;
-  top: 26px;
-  left: -38px;
-  width: 165px;
-  background: linear-gradient(135deg, #f59e0b, #d97706);
-  color: #ffffff;
+.md-banner__inner {
+  margin: 0.4rem auto;
+  padding: 0 0.8rem;
+  font-size: 0.68rem;
+  line-height: 1.5;
   text-align: center;
-  font-family: var(--md-text-font, sans-serif);
-  font-size: 0.62rem;
-  font-weight: 800;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  line-height: 24px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-  transform: rotate(-45deg);
-  border-top: 1px solid rgba(255, 255, 255, 0.45);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
-  pointer-events: none;
-  user-select: none;
 }
 
-/* Header spacing to clear the corner ribbon across all viewports */
-.md-header__inner {
-  padding-left: 3.5rem !important;
+.md-banner strong {
+  color: #ffcc00;
 }
 
-/* Mobile viewports: compact corner ribbon & clear hamburger menu offset */
-@media screen and (max-width: 768px) {
-  .corner-ribbon-wrapper {
-    width: 90px;
-    height: 90px;
-  }
-  .corner-ribbon {
-    top: 16px;
-    left: -32px;
-    width: 125px;
-    font-size: 0.50rem;
-    line-height: 20px;
-    letter-spacing: 0.04em;
-  }
-  .md-header__inner {
-    padding-left: 3.25rem !important;
+.md-banner a {
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.md-banner a:hover {
+  color: #ffcc00;
+}
+
+@media screen and (min-width: 60em) {
+  .md-banner__inner {
+    font-size: 0.72rem;
   }
 }
 

@@ -22,9 +22,12 @@
   {% endif %}
 {% endblock %}
 
-{% block header %}
-  <div class="corner-ribbon-wrapper" aria-hidden="true">
-    <div class="corner-ribbon">En cours de création</div>
-  </div>
-  {{ super() }}
+{% block announce %}
+  {% if page and page.meta and page.meta.lang == 'en' %}
+    OTSPI is being formed as an association: its statutes are still a <strong>draft</strong>. White paper open for public consultation —
+    <a href="https://github.com/otspi/organisation/discussions/new?category=ideas">comment</a>
+  {% else %}
+    OTSPI est <strong>en cours de constitution</strong> : ses statuts sont à l'état de projet. Livre blanc en consultation publique —
+    <a href="https://github.com/otspi/organisation/discussions/new?category=ideas">donnez votre avis</a>
+  {% endif %}
 {% endblock %}
