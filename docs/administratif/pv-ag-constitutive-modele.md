@@ -96,9 +96,13 @@ Les personnes élues acceptent expressément leurs fonctions et confirment exerc
 ---
 
 ### Cinquième résolution — Amorçage technique, Officiers d'Autorité et CPC
-En application de l'**Article 5 bis alinéa 4 des statuts**, l'Assemblée constate que pour assurer l'amorçage technique initial, les membres fondateurs signataires assument transitoirement les prérogatives opérationnelles d'**Officier d'Autorité** (*rôle de confiance*). Cette habilitation prendra fin de plein droit dès la proclamation des résultats de la première session d'examen d'Officier d'Autorité et préalablement à toute mise en validation ou audit d'accréditation auprès d'un organisme certificateur.
+L'Assemblée constate qu'aucun service de confiance qualifié n'est, à ce jour, exploité par l'association et que seul un environnement d'essai public, sans valeur juridique, est en fonctionnement.
 
-Conformément à l'**Article 8 bis alinéa 5 des statuts**, le Conseil d'Administration est mandaté pour organiser la constitution initiale du **Comité des Politiques de Confiance (CPC)**, en veillant au strict respect de la séparation des fonctions avec les membres du Bureau.  
+En application de l'**Article 5 bis alinéa 4 des statuts**, les membres fondateurs signataires assument transitoirement les prérogatives opérationnelles d'**Officier d'Autorité** (*rôle de confiance*), **dans la limite de l'environnement d'essai**. Cette habilitation prend fin de plein droit dès la proclamation des résultats de la première session d'examen d'Officier d'Autorité et préalablement à toute mise en validation ou audit d'accréditation auprès d'un organisme certificateur.
+
+Le **Comité des Politiques de Confiance (CPC)** n'étant pas constitué, l'Assemblée constate que les membres du Bureau ne peuvent exercer ses fonctions (Article 8 bis alinéa 2) et que, conformément à l'**Article 8 bis alinéa 5 bis**, ses compétences exclusives ne peuvent être exercées par aucun autre organe. Les projets de documents élaborés durant cette période portent la mention « projet — non approuvé par le CPC ».
+
+Conformément à l'**Article 8 bis alinéas 5 et 6**, le Conseil d'Administration est mandaté pour rechercher des personnes indépendantes du Bureau et proposer à l'Assemblée les premiers membres du CPC, **au plus tard [délai] mois après la déclaration** et, en tout état de cause, avant toute cérémonie de clés de production. Tout membre du Bureau proposé au CPC démissionne préalablement de son mandat au Bureau.  
 *Cette résolution est adoptée à l'unanimité.*
 
 ---

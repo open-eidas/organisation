@@ -3,7 +3,7 @@
 **Projet de cinquième résolution et de clause statutaire pour résoudre la tension du régime transitoire**
 
 !!! note "Statut du document"
-    Projet de travail, à soumettre aux fondateurs avant l'assemblée générale constitutive. Les statuts n'étant pas votés, les clauses proposées peuvent encore y être intégrées. Ce document n'est pas un avis juridique : il est à faire relire par un conseil avant adoption.
+    La clause de l'article 8 bis, alinéa 5 bis, et la cinquième résolution ci-dessous ont été reportées dans le [projet de statuts](../statuts/statuts-association.md) et dans le [modèle de procès-verbal](pv-ag-constitutive-modele.md). Projet de travail, à soumettre aux fondateurs avant l'assemblée générale constitutive. Les statuts n'étant pas votés, les clauses proposées peuvent encore y être intégrées. Ce document n'est pas un avis juridique : il est à faire relire par un conseil avant adoption.
 
 ---
 

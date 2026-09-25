@@ -138,6 +138,8 @@ La qualité de membre de l'association se perd par :
    Afin de préserver la continuité de la traçabilité et l'intégrité des dossiers d'évaluation face aux auditeurs et autorités de contrôle, **la prise de fonction effective d'un membre nouvellement nommé ou renouvelé est alignée sur la clôture formelle de la période d'audit de conformité ou de surveillance la plus proche**. Jusqu'à cette date d'effet, le membre sortant demeure en fonction pour assurer l'achèvement de la période d'audit en cours et la transmission ordonnée des dossiers.
 5. **Constitution initiale du CPC :**  
    Lors de la phase de lancement, les premiers membres du CPC sont choisis parmi les premiers Officiers d'Autorité qualifiés, jusqu'à atteindre l'effectif cible requis pour son fonctionnement collégial.
+5 bis. **Vacance initiale du CPC :**  
+   Tant que le CPC n'a pas été constitué, les compétences exclusives énumérées à l'alinéa 3 ne peuvent être exercées par aucun autre organe de l'association. Aucun service de confiance qualifié ne peut être mis en production, aucune cérémonie de clés de production ne peut avoir lieu et aucune demande de qualification ne peut être déposée avant la confirmation des premiers membres du CPC par l'Assemblée Générale.
 6. **Procédure de nomination (Confirmation par les pairs) :**  
    Les membres du CPC sont nommés sur **proposition motivée du Conseil d'Administration**, sous réserve de leur **confirmation formelle par un vote de l'Assemblée Générale** réunissant le collège des membres titulaires. Ils sont choisis pour leur intégrité et leur expertise en cryptographie, en sécurité des systèmes d'information ou en conformité réglementaire.
 7. **Protection du mandat et procédure de destitution solennelle :**  
