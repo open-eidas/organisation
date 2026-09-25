@@ -23,6 +23,7 @@ description: "White paper of the Open Trusted Service Provider Initiative: marke
 <div class="wp-download">
 <a class="md-button md-button--primary" href="otspi-white-paper.pdf" download>Download the reference PDF</a>
 <a class="md-button" href="https://github.com/otspi/organisation/discussions/new?category=ideas">Comment on the white paper</a>
+<p class="wp-download-note">The PDF is not fully compliant with the PDF/UA accessibility standard. This page (HTML) is the accessible reference version.</p>
 </div>
 
 | | |

@@ -405,3 +405,11 @@
 .md-copyright a {
   color: var(--md-footer-fg-color--light);
 }
+
+/* Mention d'accessibilité sous les boutons de téléchargement du livre blanc */
+.wp-download-note {
+  flex-basis: 100%;
+  margin: 0.5rem 0 0;
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
+}

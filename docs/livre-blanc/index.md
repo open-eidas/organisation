@@ -22,6 +22,7 @@ description: "Livre blanc de l'Open Trusted Service Provider Initiative : défai
 <div class="wp-download">
 <a class="md-button md-button--primary" href="otspi-livre-blanc.pdf" download>Télécharger la version PDF de référence</a>
 <a class="md-button" href="https://github.com/otspi/organisation/discussions/new?category=ideas">Commenter le livre blanc</a>
+<p class="wp-download-note">La version PDF n'est pas entièrement conforme à la norme d'accessibilité PDF/UA. La présente page (HTML) est la version accessible de référence.</p>
 </div>
 
 | | |
