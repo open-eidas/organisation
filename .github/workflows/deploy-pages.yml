@@ -41,6 +41,15 @@ jobs:
       - name: Export whitepaper PDF
         run: python scripts/export_pdf.py
 
+      - name: Cache veraPDF
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/verapdf
+          key: verapdf-1.30.2
+
+      - name: Validate PDF/UA-1
+        run: bash scripts/check_pdf_ua.sh
+
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
