@@ -29,7 +29,7 @@ La déclaration se réalise de manière dématérialisée sur le portail officie
 - **Sigle / Titre court** : `OTSPI`
 - **Objet de l'association** : Reprendre fidèlement le résumé de l'Article 2 des statuts :  
   *« Promouvoir, concevoir, opérer et pérenniser des infrastructures critiques de confiance numérique ouvertes, souveraines, transparentes et universellement accessibles ; fournir des services de confiance numérique (horodatage qualifié, scellement, signature, archivage probatoire, gestion des identités) ; maintenir des accréditations et certifications réglementaires ; développer et diffuser des technologies ouvertes concourant à la sécurité numérique collective selon une gestion désintéressée. »*
-- **Adresse du siège social** : Adresse dans la Métropole de Lyon.
+- **Adresse du siège social** : 254 rue Vendôme, 69003 Lyon (adresse de domiciliation ; le contrat doit être au nom de l'association ou de l'association en formation).
 - **Pièces jointes obligatoires** : Fichiers PDF des statuts signés et du PV d'AG constitutive signé.
 
 ---

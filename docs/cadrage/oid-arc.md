@@ -39,7 +39,7 @@ Le formulaire IANA comporte une section *Assignee* et une section *Contact*. Les
 | Champ | Valeur prévue |
 |---|---|
 | Organisation | Open Trusted Service Provider Initiative (OTSPI) |
-| Adresse et pays | Adresse postale du siège (Métropole de Lyon, France), à saisir au moment de la demande |
+| Adresse et pays | 254 rue Vendôme, 69003 Lyon, France (adresse de domiciliation du siège) |
 | Contact (nom) | Un intitulé de rôle plutôt qu'un nom de personne, tel que « OTSPI — Trust Policy Committee » |
 | Contact (e-mail) | `contact@otspi.org` (adresse de rôle, non nominative) |
 | Téléphone, fax | Non renseignés (facultatifs) |

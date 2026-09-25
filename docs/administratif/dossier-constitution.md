@@ -35,6 +35,8 @@ La déclaration est publiée au **Journal officiel des associations (JOAFE)**, q
 
 **Règle retenue : l'adresse du siège est distincte du domicile de tout dirigeant.** Elle est fixée par la troisième résolution du procès-verbal.
 
+**Adresse retenue : 254 rue Vendôme, 69003 Lyon**, par un contrat de domiciliation. Points à vérifier avant l'assemblée : le contrat est conclu au nom de l'association ou de l'association en formation (et non à titre personnel), le prestataire est immatriculé comme domiciliataire en préfecture, et il remet l'attestation de domiciliation demandée pour la déclaration.
+
 | Option | Coût indicatif | Remarque |
 |---|---|---|
 | Lieu associatif ou mairie (Maison des associations, MJC) | Gratuit ou adhésion symbolique | Conditions variables ; à demander |
@@ -51,7 +53,7 @@ Le siège peut être transféré ensuite par simple décision du Président (art
 
 - [ ] Réunir au moins deux fondateurs, idéalement trois
 - [ ] Trancher le régime transitoire décrit au § 1.2
-- [ ] Obtenir une adresse de siège distincte d'un domicile (§ 1.3)
+- [x] Obtenir une adresse de siège distincte d'un domicile (§ 1.3) : domiciliation au 254 rue Vendôme, 69003 Lyon, contrat à vérifier
 - [ ] Relire les statuts une dernière fois et retirer toute mention « projet »
 - [ ] Choisir la date et le mode de tenue de l'assemblée (présentiel ou visioconférence, prévue par le modèle)
 - [ ] Envoyer la convocation (§ 3.1)

@@ -19,7 +19,7 @@ Pôle Gestion Fiscale — Division des Affaires Juridiques et du Contentieux
 - **Dénomination exacte** : Open Trusted Service Provider Initiative (OTSPI)
 - **Forme juridique** : Association régie par la loi du 1er juillet 1901 et le décret du 16 août 1901
 - **Date de constitution** : [date de l'assemblée générale constitutive]
-- **Siège social** : Métropole de Lyon (France)
+- **Siège social** : 254 rue Vendôme, 69003 Lyon
 - **Représentant légal** : Le/la Président(e), dûment mandaté(e) par l'Assemblée Générale Constitutive du [date] (Huitième résolution).
 - **Pièces jointes au dossier** :
   - Statuts constitutifs de l'association OTSPI adoptés le [date] ;

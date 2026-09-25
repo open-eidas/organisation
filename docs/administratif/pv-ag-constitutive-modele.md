@@ -60,8 +60,7 @@ Deux originaux paraphés et signés sont annexés au présent procès-verbal.
 
 ### Troisième résolution — Fixation du siège social initial
 Conformément à l'Article 3 des statuts, le siège social initial de l'association est fixé à :  
-**Métropole de Lyon (France)**, à l'adresse suivante :  
-__________________________________________________________________________________  
+**Métropole de Lyon (France)**, à l'adresse suivante : **254 rue Vendôme, 69003 Lyon**, adresse d'une société de domiciliation (contrat de domiciliation conclu au nom de l'association).  
 *Cette résolution est adoptée à l'unanimité.*
 
 ---
