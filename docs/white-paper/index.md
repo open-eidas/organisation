@@ -1,5 +1,8 @@
 ---
 title: "OTSPI White Paper — A public-interest qualified infrastructure for eIDAS 2.0"
+image: "https://www.otspi.org/assets/og/og-en.png"
+image_alt: "OTSPI white paper: eIDAS trust services as a European digital commons"
+lang: en
 description: "White paper of the Open Trusted Service Provider Initiative: market failure, citizen independence and freedom to do business, qualified time-stamping, a European TLS certificate authority, digital identity, security architecture, statutes, business model and roadmap."
 ---
 
@@ -19,6 +22,7 @@ description: "White paper of the Open Trusted Service Provider Initiative: marke
 
 <div class="wp-download">
 <a class="md-button md-button--primary" href="otspi-white-paper.pdf" download>Download the reference PDF</a>
+<a class="md-button" href="https://github.com/otspi/organisation/discussions/new?category=ideas">Comment on the white paper</a>
 </div>
 
 | | |
@@ -623,7 +627,8 @@ OTSPI is now seeking contributions from:
 Beyond these contributions, any person or organisation that shares the principles set out in this document can sign the [**Manifesto for a free and open digital identity**](https://www.otspi.org/en/manifesto.html). Its ten principles — control by the individual, voluntary use of digital tools, open standards and code, trust building blocks available with no entry fee, governance protected from capture — are not specific to OTSPI: they are meant to be shared by all those committed to a European digital identity designed as a common good.
 
 !!! abstract "Get involved"
-    - Public support: [sign the Manifesto for a free and open digital identity](https://www.otspi.org/en/manifesto.html)
+    - Feedback on this white paper: [open a public discussion](https://github.com/otspi/organisation/discussions/new?category=ideas) (guided form, English welcome)
+    - Public support: [sign the Manifesto for a free and open digital identity](https://www.otspi.org/en/manifesto)
     - Documentation and technical review: [public GitHub repository](https://github.com/otspi/organisation)
     - Institutional contacts: [contact@otspi.org](mailto:contact@otspi.org)
 

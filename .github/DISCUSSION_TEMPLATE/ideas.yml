@@ -1,0 +1,51 @@
+title: "[Livre blanc] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de contribuer à la consultation publique du livre blanc OTSPI (version 0.9).
+        Thank you for contributing to the public consultation on the OTSPI white paper (version 0.9) — you may write in English.
+
+        - Livre blanc : https://about.otspi.org/livre-blanc/
+        - White paper: https://about.otspi.org/white-paper/
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section concernée / Section
+      options:
+        - "1. Résumé exécutif / Executive summary"
+        - "2. Défaillance de marché / Market failure"
+        - "3. Horodatage qualifié / Qualified time-stamping"
+        - "4. Architecture de sécurité / Security architecture"
+        - "5. Modèle économique et statuts / Business model and statutes"
+        - "6. Feuille de route / Roadmap"
+        - "Annexes / Appendices"
+        - "Ensemble du document / Whole document"
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type de retour / Type of feedback
+      options:
+        - "Erreur factuelle ou juridique / Factual or legal error"
+        - "Point technique / Technical point"
+        - "Proposition d'amélioration / Suggested improvement"
+        - "Question"
+        - "Proposition de partenariat / Partnership proposal"
+    validations:
+      required: true
+  - type: textarea
+    id: remarque
+    attributes:
+      label: Remarque / Comment
+      description: Citez si possible le passage concerné. / Quote the relevant passage if possible.
+    validations:
+      required: true
+  - type: textarea
+    id: proposition
+    attributes:
+      label: Proposition de rédaction ou sources / Suggested wording or sources
+    validations:
+      required: false

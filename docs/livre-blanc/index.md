@@ -1,5 +1,7 @@
 ---
 title: "Livre Blanc OTSPI — Une infrastructure qualifiée d'utilité publique pour eIDAS 2.0"
+image: "https://www.otspi.org/assets/og/og-fr.png"
+image_alt: "Livre blanc OTSPI : les services de confiance eIDAS comme commun numérique européen"
 description: "Livre blanc de l'Open Trusted Service Provider Initiative : défaillance de marché, indépendance citoyenne et liberté d'entreprendre, horodatage qualifié, autorité TLS européenne, identité numérique, architecture de sécurité, statuts, modèle économique et feuille de route."
 ---
 
@@ -19,6 +21,7 @@ description: "Livre blanc de l'Open Trusted Service Provider Initiative : défai
 
 <div class="wp-download">
 <a class="md-button md-button--primary" href="otspi-livre-blanc.pdf" download>Télécharger la version PDF de référence</a>
+<a class="md-button" href="https://github.com/otspi/organisation/discussions/new?category=ideas">Commenter le livre blanc</a>
 </div>
 
 | | |
@@ -623,7 +626,8 @@ OTSPI sollicite dès à présent la contribution de :
 Au-delà de ces contributions, toute personne ou organisation qui partage les principes défendus dans le présent document peut signer le [**Manifeste pour une identité numérique libre et ouverte**](https://www.otspi.org/manifeste.html). Ses dix principes — maîtrise par la personne, caractère volontaire du recours au numérique, standards et code ouverts, briques de confiance accessibles sans droit d'entrée, gouvernance protégée de toute capture — ne sont pas propres à OTSPI : ils ont vocation à être partagés par l'ensemble des acteurs attachés à une identité numérique européenne conçue comme un bien commun.
 
 !!! abstract "Contribuer"
-    - Soutien public : [signer le Manifeste pour une identité numérique libre et ouverte](https://www.otspi.org/manifeste.html)
+    - Retours sur ce livre blanc : [ouvrir une discussion publique](https://github.com/otspi/organisation/discussions/new?category=ideas) (formulaire guidé)
+    - Soutien public : [signer le Manifeste pour une identité numérique libre et ouverte](https://www.otspi.org/manifeste)
     - Revue documentaire et technique : [dépôt public GitHub](https://github.com/otspi/organisation)
     - Échanges institutionnels : [contact@otspi.org](mailto:contact@otspi.org)
 
