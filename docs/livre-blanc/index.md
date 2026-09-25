@@ -23,7 +23,7 @@ description: "Livre blanc de l'Open Trusted Service Provider Initiative : défai
 
 | | |
 |---|---|
-| **Émetteur** | Association « Open Trusted Service Provider Initiative » (OTSPI), loi du 1er juillet 1901 |
+| **Émetteur** | Initiative « Open Trusted Service Provider Initiative » (OTSPI), association loi 1901 en cours de constitution |
 | **Statut du document** | Document de consultation publique — version 0.9 |
 | **Date** | Septembre 2026 |
 | **Destinataires** | Administrations, décideurs publics, organes de contrôle, organismes d'évaluation de la conformité (CAB), hébergeurs, laboratoires de recherche, écosystème open source |
@@ -32,6 +32,8 @@ description: "Livre blanc de l'Open Trusted Service Provider Initiative : défai
 
 !!! note "Nature du document"
     Le présent livre blanc expose une intention et une architecture cible. Il ne constitue ni une Politique d'Horodatage, ni une Déclaration des Pratiques de Certification (DPC), ni un engagement contractuel de service. Les références à des produits ou fournisseurs sont données à titre indicatif ; leur sélection définitive relèvera de procédures de mise en concurrence et de l'approbation du Comité des Politiques de Confiance (CPC).
+
+    OTSPI est en cours de constitution : ses statuts sont à l'état de **projet**, soumis au vote de l'assemblée générale constitutive. Les garanties statutaires décrites dans ce document (objet intangible, inaliénabilité, fonds de réserve, gouvernance) s'appliqueront à compter de leur adoption.
 
 <div class="wp-toc" markdown>
 
@@ -119,17 +121,17 @@ La valeur probante conférée par le règlement — présomption d'exactitude de
 
 ### 1.3. La réponse
 
-OTSPI propose de constituer un **QTSP d'utilité publique**, porté par une association d'intérêt général à gestion désintéressée, dont :
+OTSPI propose de constituer un **QTSP d'utilité publique**, porté par une association d'intérêt général à gestion désintéressée, en cours de constitution, dont :
 
 - l'intégralité de la pile logicielle est publiée sous **licence publique de l'Union européenne (EUPL 1.2)**, licence libre à réciprocité, et reste auditable par tous ;
 - la gouvernance applique une ségrégation stricte des fonctions conforme à l'ETSI EN 319 401 ;
 - les services sont exposés par des API normalisées (RFC 3161, ETSI EN 319 422, ACME), sans tarification à l'unité pour les usages d'intérêt général ;
 - le périmètre couvre, conformément à l'objet statutaire, l'ensemble de la chaîne de confiance : gestion des identités, infrastructures à clés publiques, horodatage, scellement, signature, archivage probatoire et validation de preuves ;
-- les **statuts** rendent l'objet d'intérêt général, la gestion désintéressée et l'inaliénabilité des actifs **intangibles**, et interdisent à perpétuité toute transformation en entité lucrative : l'infrastructure est conçue comme un **commun numérique et de l'identité**, protégé contre toute capture (cf. § 5.2).
+- le **projet de statuts** rend l'objet d'intérêt général, la gestion désintéressée et l'inaliénabilité des actifs **intangibles**, et interdisent à perpétuité toute transformation en entité lucrative : l'infrastructure est conçue comme un **commun numérique et de l'identité**, protégé contre toute capture (cf. § 5.2).
 
 Le premier service visé est l'**horodatage électronique qualifié** (QTSA), conforme aux normes ETSI EN 319 421 et ETSI EN 319 422.
 
-Le second axe est une **autorité de certification TLS européenne**, auditée selon les référentiels WebTrust, délivrant des certificats à validation de domaine (DV) et d'organisation (OV) de manière entièrement automatisée. La réduction programmée de la durée de validité des certificats TLS à 47 jours d'ici 2029 fait de l'automatisation une obligation de fait pour tous les sites Web européens (cf. § 2.4).
+Le second axe est une **autorité de certification TLS européenne** à deux branches : une branche **DV**, auditée WebTrust, entièrement automatisée par ACME et sans compte préalable ; une branche **OV / QWAC**, dont les certificats sont reconnus à la fois par les navigateurs et comme certificats qualifiés eIDAS. La réduction programmée de la durée de validité des certificats TLS à 47 jours d'ici 2029 fait de l'automatisation une obligation de fait pour tous les sites Web européens (cf. § 2.4).
 
 Suivront, en volets menés en parallèle, le cachet et la signature électroniques qualifiés et les services d'identité adossés à l'EUDI Wallet et aux portefeuilles d'entreprise (cf. § 2.5 et § 6.1).
 
@@ -142,7 +144,7 @@ OTSPI transpose cette approche aux services qualifiés eIDAS, en assumant les di
 !!! abstract "Synthèse"
     - **Problème** : eIDAS 2.0 généralise le besoin de services qualifiés (échéances : décembre 2026 et décembre 2027), dans un marché dont les 280 opérateurs partagent un même modèle fermé, contractualisé et tarifé à l'unité.
     - **Conséquence** : exclusion de fait des PME, collectivités, universités et projets open source.
-    - **Proposition** : un QTSP associatif, à code ouvert et gouvernance publique, couvrant toute la chaîne de confiance, protégé par des statuts intangibles qui en font un commun numérique inaliénable.
+    - **Proposition** : un QTSP associatif, à code ouvert et gouvernance publique, couvrant toute la chaîne de confiance, protégé par un projet de statuts intangibles qui en fera un commun numérique inaliénable.
     - **Premier service** : horodatage électronique qualifié (ETSI EN 319 421 / 422, RFC 3161).
     - **Axes suivants** : autorité de certification TLS européenne auditée WebTrust (DV / OV) ; cachet, signature et identité en parallèle.
     - **Enjeu de société** : indépendance des citoyens et liberté d'entreprendre face à la généralisation de la facturation électronique et de l'identité numérique.
@@ -248,20 +250,20 @@ Let's Encrypt, opéré par une organisation établie aux États-Unis, est aujour
 
 Une autorité de certification TLS opérée par OTSPI se distinguerait sur quatre points :
 
-1. **Pérennité non marchande** : la continuité du service ne dépend pas d'un arbitrage de rentabilité, et le plan de fin d'activité est financé par un fonds sanctuarisé (article 12 bis des statuts).
+1. **Pérennité non marchande** : la continuité du service ne dépend pas d'un arbitrage de rentabilité, et le plan de fin d'activité est financé par un fonds sanctuarisé (article 12 bis du projet de statuts).
 2. **Gouvernance et hébergement européens** : opération par une association de droit français, infrastructure hébergée exclusivement dans l'Union, code source intégralement ouvert.
-3. **Double reconnaissance WebTrust et QWAC** : l'AC émettrice TLS est certifiée par la racine TLS WebTrust d'OTSPI et signée de façon croisée par la hiérarchie qualifiée d'OTSPI. Un même certificat de site peut ainsi être reconnu à la fois par les navigateurs et comme **certificat qualifié d'authentification de site Internet (QWAC)** au sens de l'article 45 du règlement eIDAS : c'est le modèle dit « 1-QWAC » décrit par la spécification ETSI TS 119 411-5[^qwac]. Les audits **WebTrust for CAs** et **WebTrust — SSL Baseline with Network Security** sont articulés avec l'évaluation ETSI EN 319 411-2 du service qualifié, afin de mutualiser les contrôles.
-4. **Automatisation de la validation d'organisation (OV)** : la vérification de l'identité d'une organisation reste aujourd'hui largement manuelle. Les attestations d'identification des personnes morales délivrées par les portefeuilles européens pour les entreprises et les registres officiels interconnectés offrent une perspective d'automatisation de l'OV, sous réserve de leur admissibilité comme sources d'information fiables au sens des *Baseline Requirements* du CA/Browser Forum. Cette piste sera instruite avec le CPC et les programmes racines.
+3. **Deux branches d'émission, deux niveaux d'exigence** : une branche **DV**, relevant du seul référentiel WebTrust et hors du champ eIDAS, émet de manière instantanée et entièrement automatisée ; une branche **OV / QWAC** hybride, soumise au double audit WebTrust et ETSI EN 319 411-2, émet des certificats reconnus à la fois par les navigateurs et comme **certificats qualifiés d'authentification de site Internet (QWAC)** au sens de l'article 45 du règlement eIDAS, selon le modèle dit « 1-QWAC » de la spécification ETSI TS 119 411-5[^qwac]. Cette séparation protège le service qualifié : un incident sur la branche DV reste sans effet sur la conformité eIDAS.
+4. **Validation d'organisation automatisée après un enrôlement unique** : l'émission OV / QWAC passe par ACME avec liaison de compte externe (*External Account Binding*, RFC 8555). L'organisation est vérifiée une seule fois lors d'un enrôlement préalable (identité de la personne morale et mandat de son représentant), en s'appuyant à terme sur les attestations délivrées par les portefeuilles européens pour les entreprises et sur les registres officiels, sous réserve de leur admissibilité au sens des *Baseline Requirements* du CA/Browser Forum. Les renouvellements sont ensuite entièrement automatisés.
 
 !!! warning "Contraintes assumées"
-    - **Hiérarchie dédiée** : le programme racine de Chrome n'accepte que des hiérarchies consacrées exclusivement à l'authentification de serveurs TLS, avec émission et renouvellement automatisés pour chaque politique de certification[^chrome]. L'autorité TLS d'OTSPI reposera donc sur une **racine WebTrust séparée**, distincte de la racine qualifiée (cf. § 4.1).
+    - **Hiérarchie dédiée** : le programme racine de Chrome n'accepte que des hiérarchies consacrées exclusivement à l'authentification de serveurs TLS, avec émission et renouvellement automatisés pour chaque politique de certification[^chrome]. L'autorité TLS d'OTSPI reposera donc sur une **racine WebTrust séparée**, distincte des racines qualifiées (cf. § 4.1).
     - **Décisions de tiers** : l'inscription d'une nouvelle racine dans les magasins de confiance des navigateurs et systèmes d'exploitation prend plusieurs années, puis nécessite le temps de diffusion des mises à jour. L'inclusion relève de la seule décision des programmes racines.
     - **Pas de raccourci par signature croisée** : une signature croisée par une autorité déjà reconnue ne constitue pas une voie d'entrée praticable. Chrome interdit à ses membres d'émettre un certificat croisé au profit d'un opérateur absent de son magasin sans son approbation expresse, et Mozilla soumet une telle opération à son propre processus d'examen, l'autorité signataire restant entièrement responsable des certificats émis[^xsign]. Tant que la racine d'OTSPI n'est pas incluse, le service TLS reste donc limité à un environnement d'essai.
     - **Séquencement** : ce volet est postérieur à la qualification du service d'horodatage (cf. § 6.1, phase 4). Il ne mobilisera pas de ressources au détriment du service pilote.
 
 ### 2.5. Périmètre statutaire et séquencement
 
-L'objet d'OTSPI est défini par l'article 2 de ses [statuts](../statuts/statuts-association.md), déclaré intangible. Il ne se limite pas à une couche technique : il couvre l'ensemble de la chaîne de confiance numérique, ainsi que les activités de diffusion, de recherche et de formation qui en conditionnent l'appropriation.
+L'objet d'OTSPI est défini par l'article 2 de son [projet de statuts](../statuts/statuts-association.md), déclaré intangible. Il ne se limite pas à une couche technique : il couvre l'ensemble de la chaîne de confiance numérique, ainsi que les activités de diffusion, de recherche et de formation qui en conditionnent l'appropriation.
 
 | Mission statutaire (article 2) | Déclinaison opérationnelle | Horizon |
 |---|---|---|
@@ -279,7 +281,7 @@ Trois principes encadrent le déploiement de ce périmètre :
 
 - **Séquencement par la maîtrise** : chaque nouveau service n'est ouvert qu'après que le précédent a atteint son niveau de qualification cible et démontré sa stabilité opérationnelle. L'horodatage qualifié ouvre la voie parce qu'il concentre l'exigence sur l'exactitude temporelle et la protection des clés (cf. § 3.1).
 - **Identité en parallèle** : compte tenu des échéances de l'EUDI Wallet (décembre 2026 et décembre 2027) et du projet de portefeuilles pour les entreprises, les travaux sur la gestion des identités sont conduits en même temps que ceux sur le cachet et la signature qualifiés, et non après. Ces services partagent en effet les mêmes fondations : infrastructure à clés publiques, modules HSM, gouvernance des clés et vérification des personnes.
-- **Neutralité et accès universel** : conformément à l'article 12 quater des statuts, les services et briques logicielles d'OTSPI sont accessibles de manière universelle, neutre et non discriminatoire. Administrations, citoyens, associations, projets libres et éditeurs commerciaux y accèdent dans les mêmes conditions. OTSPI ne cherche pas à évincer les acteurs existants : il établit un **socle commun de référence**, ouvert et réutilisable, sur lequel chacun, y compris les éditeurs de solutions commerciales, peut construire ses propres services.
+- **Neutralité et accès universel** : conformément à l'article 12 quater du projet de statuts, les services et briques logicielles d'OTSPI sont accessibles de manière universelle, neutre et non discriminatoire. Administrations, citoyens, associations, projets libres et éditeurs commerciaux y accèdent dans les mêmes conditions. OTSPI ne cherche pas à évincer les acteurs existants : il établit un **socle commun de référence**, ouvert et réutilisable, sur lequel chacun, y compris les éditeurs de solutions commerciales, peut construire ses propres services.
 
 ### 2.6. Portée et limites du parallèle avec Let's Encrypt
 
@@ -297,7 +299,7 @@ Ces différences justifient un démarrage par un service unique, à faible frict
     - eIDAS 2.0 étend la demande sans faire évoluer le modèle d'accès : risque de rente, de dépendance et d'inégalité devant la preuve.
     - La facturation électronique obligatoire et l'EUDI Wallet rendent possible une automatisation de bout en bout, à condition que les briques de preuve soient accessibles sans droit d'entrée.
     - La réduction des certificats TLS à 47 jours d'ici 2029 impose l'automatisation ; l'offre européenne existe mais reste étroite et fragile (retrait de Buypass en 2025).
-    - Une autorité TLS européenne non marchande, sur racine WebTrust séparée, dont l'AC émettrice est signée de façon croisée par la hiérarchie qualifiée QWAC, est un second axe à moyen terme ; sa reconnaissance par les navigateurs dépend de l'inclusion de sa racine, sans raccourci possible.
+    - Une autorité TLS européenne non marchande à deux branches — DV automatisée sous racine WebTrust, OV / QWAC hybride reconnue par les navigateurs et comme certificat qualifié — est un second axe à moyen terme ; sa reconnaissance par les navigateurs dépend de l'inclusion de sa racine, sans raccourci possible.
     - Le périmètre statutaire couvre toute la chaîne de confiance (identités, PKI, horodatage, cachet, signature, archivage, validation), déployée par étapes à partir de l'horodatage qualifié. La gestion des identités est menée en parallèle du cachet et de la signature, au rythme des échéances de l'EUDI Wallet.
     - Accès universel et non discriminatoire : OTSPI fournit un socle commun sur lequel tous les acteurs, y compris commerciaux, peuvent construire.
 
@@ -384,27 +386,29 @@ flowchart TD
 - Chaque **unité d'horodatage (TSU)** dispose d'une clé propre, exclusivement réservée à la signature de jetons d'horodatage, générée et conservée dans un module cryptographique certifié.
 - La période d'utilisation des clés TSU est inférieure à la durée de validité de leur certificat, conformément à l'ETSI EN 319 421, afin de garantir la vérifiabilité des jetons émis en fin de période.
 - Les futures **AC qualifiées** de cachet, de signature et d'attestations (cf. § 6.1, phase 5) seront rattachées à cette même racine qualifiée, chacune sous une AC intermédiaire dédiée à un seul usage.
-- Le futur service de certificats TLS (cf. § 2.4) reposera sur une **racine WebTrust séparée**, dédiée exclusivement à l'authentification de serveurs, conformément aux exigences des programmes racines des navigateurs. Elle applique les mêmes principes de gouvernance (air-gap, quorum, cérémonies), mais ne partage aucune clé avec les AC d'horodatage, de cachet ou de signature.
-
-L'**AC émettrice TLS** dispose d'une clé unique, certifiée par deux certificats d'AC distincts :
+- Le futur service de certificats TLS (cf. § 2.4) repose sur **deux racines distinctes** de la racine qualifiée d'horodatage : une **racine WebTrust**, destinée aux magasins de confiance des systèmes d'exploitation et des navigateurs, et une **racine QWAC**, inscrite sur la liste de confiance européenne. Elles appliquent les mêmes principes de gouvernance (air-gap, quorum, cérémonies) et ne partagent aucune clé avec les AC d'horodatage, de cachet ou de signature.
 
 ```mermaid
 flowchart TD
-    RW["Racine TLS OTSPI<br/>WebTrust — séparée, hors ligne"]
-    RQ["Hiérarchie qualifiée OTSPI<br/>service QWAC — liste de confiance"]
-    CA["AC émettrice TLS OTSPI<br/>une clé, deux certificats d'AC"]
-    EE["Certificats de sites<br/>DV / OV / QWAC"]
-    RW --> CA
-    RQ -. signature croisée .-> CA
-    CA --> EE
+    RW["Racine WebTrust<br/>magasins OS et navigateurs"]
+    RQ["Racine QWAC<br/>liste de confiance européenne"]
+    DV["Sous-AC DV<br/>WebTrust uniquement · HSM standard"]
+    HY["Sous-AC hybride OV / QWAC<br/>une clé · deux certificats d'AC<br/>HSM CC EAL4+ (EN 419 221-5)"]
+    CDV["Certificats serveur DV<br/>usage Web généraliste<br/>ACME instantané"]
+    COV["Certificats serveur OV / QWAC<br/>usages régulés (DSP2, eIDAS)<br/>ACME avec liaison de compte"]
+    RW --> DV
+    RW --> HY
+    RQ -. signature croisée .-> HY
+    DV --> CDV
+    HY --> COV
 ```
 
-| Chemin de certification | Rôle |
-|---|---|
-| Racine TLS OTSPI (WebTrust) | Reconnaissance par les navigateurs, après décision d'inclusion des programmes racines |
-| Hiérarchie qualifiée OTSPI | Statut qualifié QWAC, une fois accordé par l'organe de contrôle, vérifiable par la liste de confiance nationale et la LOTL |
+| Branche | Périmètre et audits | Profil | Parcours d'émission |
+|---|---|---|---|
+| **DV** | WebTrust uniquement, hors champ eIDAS | DV pur (RFC 5280, *Baseline Requirements* du CA/Browser Forum) | 100 % automatisé par ACME (défis `http-01` / `dns-01`), sans compte préalable ni vérification juridique |
+| **OV / QWAC** | Double audit WebTrust for CAs / BR et ETSI EN 319 411-2 ; inscription sur la liste de confiance européenne | OV avec déclarations `qcStatements` eIDAS ; profil ETSI TS 119 495 pour les usages DSP2 | ACME avec liaison de compte externe (EAB) après enrôlement de l'organisation (identité et mandat légal) ; renouvellements automatisés |
 
-La signature croisée ne porte que sur le certificat de l'AC émettrice : les certificats de sites sont émis une seule fois et se valident selon le chemin que chaque logiciel reconnaît.
+La **sous-AC hybride OV / QWAC** dispose d'une clé privée unique, conservée dans un HSM certifié CC EAL4+ selon l'EN 419 221-5, associée à deux certificats d'autorité intermédiaire : l'un signé par la racine WebTrust, l'autre par la racine QWAC. Chaque certificat serveur est émis une seule fois et se valide selon le chemin que chaque logiciel reconnaît : chemin WebTrust pour les navigateurs grand public, chemin QWAC pour les applications réglementées qui s'appuient sur la liste de confiance européenne. La sous-AC DV, à l'inverse, ne relève que de la racine WebTrust, ce qui la tient entièrement hors du périmètre qualifié.
 
 Les algorithmes et tailles de clés suivent l'ETSI TS 119 312 et les recommandations de l'ANSSI, tels que définis dans le [Cadre CP/CPS](../cadrage/cp-cps-cadre.md) ; une trajectoire de migration vers des schémas hybrides post-quantiques est suivie par le CPC.
 
@@ -446,7 +450,7 @@ L'activation de la clé racine requiert la présentation simultanée de **M cart
 - qu'aucune coalition de moins de M officiers ne peut activer la clé ;
 - que l'indisponibilité simultanée de N − M officiers (soit 2 dans la configuration de référence) ne compromet pas la continuité.
 
-Aucun officier ne peut détenir plus d'une carte. Les porteurs sont habilités sous la supervision du CPC (article 8 bis des statuts). Il est proposé de rendre cette fonction incompatible avec un mandat au Bureau, par cohérence avec l'incompatibilité statutaire entre le Bureau et le CPC.
+Aucun officier ne peut détenir plus d'une carte. Les porteurs sont habilités sous la supervision du CPC (article 8 bis du projet de statuts). Il est proposé de rendre cette fonction incompatible avec un mandat au Bureau, par cohérence avec l'incompatibilité statutaire entre le Bureau et le CPC.
 
 **c) Cérémonies de clés.**
 Chaque cérémonie suit un script préalablement approuvé par le CPC, se déroule en présence d'un témoin indépendant, fait l'objet d'un enregistrement vidéo intégral et d'un procès-verbal signé par l'ensemble des participants, publié à l'exclusion de tout élément secret.
@@ -487,15 +491,15 @@ Les attestations d'évaluation de la conformité, les synthèses des audits inte
 
 ### 5.1. Statut juridique
 
-OTSPI est une **association régie par la loi du 1er juillet 1901**, à but non lucratif et à gestion désintéressée, dont l'objet répond aux critères de l'intérêt général au sens des articles 200 et 238 bis du Code général des impôts (sous réserve de la confirmation par voie de rescrit fiscal).
+OTSPI est en cours de constitution sous la forme d'une **association régie par la loi du 1er juillet 1901**, à but non lucratif et à gestion désintéressée. Son projet de statuts sera soumis au vote de l'assemblée générale constitutive, avant la déclaration de l'association en préfecture. L'association aura un objet répondant aux critères de l'intérêt général au sens des articles 200 et 238 bis du Code général des impôts (sous réserve de la confirmation par voie de rescrit fiscal).
 
-Conformément à l'article 24, paragraphe 2, du règlement eIDAS, les [statuts](../statuts/statuts-association.md) instituent un **Fonds de réserve et de garantie opérationnelle** sanctuarisé (article 12 bis), insaisissable par les créanciers d'exploitation, affecté à la couverture de la responsabilité et au financement intégral du plan de fin d'activité.
+Conformément à l'article 24, paragraphe 2, du règlement eIDAS, le [projet de statuts](../statuts/statuts-association.md) institue un **Fonds de réserve et de garantie opérationnelle** sanctuarisé (article 12 bis), insaisissable par les créanciers d'exploitation, affecté à la couverture de la responsabilité et au financement intégral du plan de fin d'activité.
 
 ### 5.2. Des statuts conçus pour un commun numérique et de l'identité
 
 Une infrastructure de confiance n'a de valeur que si ses utilisateurs peuvent compter sur sa pérennité **et** sur la stabilité de sa finalité. L'histoire du numérique compte de nombreux projets ouverts ou gratuits qui ont été rachetés, transformés en offres commerciales ou abandonnés, laissant leurs utilisateurs sans solution. Pour un service qui porte des preuves à valeur juridique sur des décennies, et à terme des éléments d'identité, ce risque est inacceptable.
 
-Les statuts d'OTSPI ont donc été rédigés avec un **degré de rigidité délibérément élevé**, afin qu'aucune majorité de circonstance, aucun financeur et aucun acquéreur ne puisse détourner l'association de son objet :
+Le projet de statuts d'OTSPI a donc été rédigé avec un **degré de rigidité délibérément élevé**, afin qu'aucune majorité de circonstance, aucun financeur et aucun acquéreur ne puisse détourner l'association de son objet :
 
 | Garantie | Mécanisme statutaire |
 |---|---|
@@ -510,7 +514,7 @@ Les statuts d'OTSPI ont donc été rédigés avec un **degré de rigidité déli
 | **Continuité garantie** | Priorité absolue au plan de fin d'activité en cas de dissolution, puis dévolution perpétuelle à un organisme d'intérêt général analogue (article 13) ; toute association successeur doit reprendre textuellement les mêmes clauses de protection (article 13 bis). |
 | **Contre-pouvoir des membres** | Cinq membres suffisent à obliger la convocation d'une Assemblée Générale sur toute modification du Règlement Intérieur (article 14). |
 
-Ces clauses constituent l'équivalent institutionnel des contrôles cryptographiques décrits au § 4 : de même qu'aucun officier ne peut seul activer la clé racine, **aucun acteur ne peut seul s'approprier l'infrastructure ou en modifier la finalité**. En cas de reconnaissance d'utilité publique, la tutelle du Conseil d'État se substituerait à ces mécanismes comme garant de l'inaliénabilité des missions (article 11 ter).
+Ces clauses constituent l'équivalent institutionnel des contrôles cryptographiques décrits au § 4 : de même qu'aucun officier ne peut seul activer la clé racine, **aucun acteur ne peut seul s'approprier l'infrastructure ou en modifier la finalité**. En cas de reconnaissance d'utilité publique, la tutelle du Conseil d'État se substituerait à ces mécanismes comme garant de l'inaliénabilité des missions (article 11 ter). Ces garanties prendront effet à l'adoption des statuts par l'assemblée générale constitutive.
 
 ### 5.3. Financement de l'amorçage
 
@@ -544,8 +548,8 @@ Les principaux postes de dépenses récurrentes sont identifiés et feront l'obj
 - ressources humaines d'exploitation, de sécurité et d'audit interne.
 
 !!! abstract "Synthèse"
-    - Association loi 1901 d'intérêt général, gestion désintéressée, fonds de réserve sanctuarisé.
-    - Statuts délibérément rigides : objet intangible, transformation lucrative interdite à perpétuité, actifs et clés inappropriables, révision à l'unanimité ou sur seule injonction réglementaire. L'infrastructure est un commun numérique et de l'identité protégé contre toute capture.
+    - Association loi 1901 d'intérêt général en cours de constitution, gestion désintéressée, fonds de réserve sanctuarisé.
+    - Projet de statuts délibérément rigides, soumis au vote de l'assemblée constitutive : objet intangible, transformation lucrative interdite à perpétuité, actifs et clés inappropriables, révision à l'unanimité ou sur seule injonction réglementaire. L'infrastructure est un commun numérique et de l'identité protégé contre toute capture.
     - Amorçage : subventions pour communs numériques et mécénat technologique.
     - Pérennité : adhésions, fondations, conventions de service pour les usages intensifs ; service de base gratuit et identique pour tous.
 
@@ -583,10 +587,9 @@ Les principaux postes de dépenses récurrentes sont identifiés et feront l'obj
 
 **Phase 4 — Autorité de certification TLS européenne**
 
-- cérémonie de génération d'une racine WebTrust séparée, dédiée à l'authentification de serveurs TLS, et de l'AC émettrice TLS ;
-- signature croisée de l'AC émettrice par la hiérarchie qualifiée d'OTSPI ;
-- demande de qualification du service QWAC (ETSI EN 319 411-2), soumise à la décision de l'organe de contrôle ;
-- mise en service d'un point d'accès ACME (RFC 8555) en environnement d'essai, puis en production pour les certificats DV et OV une fois la racine incluse ;
+- cérémonies de génération de la racine WebTrust, de la racine QWAC, de la sous-AC DV et de la sous-AC hybride OV / QWAC (deux certificats d'AC pour une même clé) ;
+- demande de qualification du service QWAC (ETSI EN 319 411-2), soumise à la décision de l'organe de contrôle, et inscription de la racine QWAC sur la liste de confiance en cas de décision favorable ;
+- mise en service des points d'accès ACME (RFC 8555) en environnement d'essai : émission DV sans compte, émission OV / QWAC avec liaison de compte externe après enrôlement ; passage en production une fois la racine WebTrust incluse ;
 - audits **WebTrust for CAs** et **WebTrust — SSL Baseline with Network Security** ; publication dans la base CCADB ;
 - demandes d'inclusion de la racine TLS OTSPI auprès des programmes racines (Mozilla, Chrome, Apple, Microsoft).
 
@@ -636,6 +639,7 @@ Au-delà de ces contributions, toute personne ou organisation qui partage les pr
 | **DPC / CPS** | Déclaration des Pratiques de Certification (*Certification Practice Statement*) |
 | **DV / OV** | Certificats TLS à validation de domaine (*Domain Validated*) ou d'organisation (*Organization Validated*) |
 | **EAA / QEAA** | Attestation électronique d'attributs (*Electronic Attestation of Attributes*), qualifiée ou non |
+| **EAB** | *External Account Binding* (RFC 8555) — liaison d'un compte ACME à un compte préalablement vérifié auprès de l'autorité de certification |
 | **EUDI Wallet** | Portefeuille européen d'identité numérique institué par eIDAS 2.0 |
 | **GNSS** | *Global Navigation Satellite System* |
 | **HSM** | *Hardware Security Module* — module matériel de sécurité |
@@ -672,6 +676,7 @@ Au-delà de ces contributions, toute personne ou organisation qui partage les pr
 - ISO/IEC 27001:2022 — Systèmes de management de la sécurité de l'information
 - EN 50600 — Installations et infrastructures des centres de données
 - ETSI TS 119 411-5 — *Policy and security requirements for TSP issuing certificates — Part 5: Recommendations for the recognition of QWACs by web browsers*
+- ETSI TS 119 495 — *Certificate profiles and TSP policy requirements for Open Banking* (DSP2)
 - ETSI TS 119 431-1 / 431-2 — *Policy and security requirements for TSP components operating a remote QSCD / SCDev*
 - Licence publique de l'Union européenne (EUPL) v1.2 — décision d'exécution (UE) 2017/863 de la Commission
 - IETF RFC 3161 / RFC 5816 — *Time-Stamp Protocol (TSP)*

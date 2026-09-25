@@ -104,12 +104,11 @@ nav:
   - Accueil: index.md
   - Livre Blanc: livre-blanc/index.md
   - Statuts & Gouvernance:
-      - Statuts de l'Association: statuts/statuts-association.md
+      - Projet de statuts: statuts/statuts-association.md
       - Charte d'Éthique: gouvernance/charte-ethique.md
       - Organisation Technique & CPC: gouvernance/comite-technique.md
-  - Règlement & Adhésion:
+  - Règlement Intérieur:
       - Règlement Intérieur: reglement-interieur/reglement-interieur.md
-      - Bulletin & Procédure d'Adhésion: adhesion/bulletin-adhesion.md
   - Démarches Administratives:
       - Procès-Verbal Constitutif (Modèle): administratif/pv-ag-constitutive-modele.md
       - Demande de Rescrit Fiscal DGFIP: administratif/rescrit-fiscal-mecenat.md

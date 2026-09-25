@@ -8,7 +8,7 @@ hide:
 
 <div class="otspi-hero" markdown>
 
-<span class="otspi-badge">:material-shield-check: Association d'Intérêt Général — Loi 1901</span>
+<span class="otspi-badge">:material-shield-check: Association d'intérêt général (loi 1901) en cours de constitution</span>
 
 # Open Trusted Service Provider Initiative
 
@@ -17,7 +17,7 @@ Construire, opérer et pérenniser des <strong>infrastructures de confiance num�
 </p>
 
 <div class="otspi-hero-actions" markdown>
-[:material-book-open-page-variant: Consulter les Statuts](statuts/statuts-association.md){ .md-button .md-button--primary }
+[:material-book-open-page-variant: Consulter le projet de statuts](statuts/statuts-association.md){ .md-button .md-button--primary }
 [:material-draw-pen: Signer le Manifeste](https://www.otspi.org/manifeste.html){ .md-button }
 [:material-github: Dépôt GitHub](https://github.com/otspi/organisation){ .md-button target="_blank" }
 </div>
@@ -62,9 +62,9 @@ Construire, opérer et pérenniser des <strong>infrastructures de confiance num�
 
     ---
 
-    Les statuts constitutifs fondés sur l'intérêt général (CGI art. 200 & 238 bis), la gestion désintéressée et la séparation stricte des devoirs.
+    Le projet de statuts constitutifs, soumis au vote de l'assemblée générale constitutive, fondé sur l'intérêt général (CGI art. 200 & 238 bis), la gestion désintéressée et la séparation stricte des devoirs.
 
-    [:octicons-arrow-right-24: Consulter les Statuts](statuts/statuts-association.md)  
+    [:octicons-arrow-right-24: Consulter le projet de statuts](statuts/statuts-association.md)  
     [:octicons-arrow-right-24: Charte d'Éthique & Déontologie](gouvernance/charte-ethique.md)  
     [:octicons-arrow-right-24: Organisation Technique & CPC](gouvernance/comite-technique.md)
 
@@ -102,7 +102,7 @@ Construire, opérer et pérenniser des <strong>infrastructures de confiance num�
 
 ## 🏛️ La Confiance Numérique comme Bien Commun
 
-L'association **« Open Trusted Service Provider Initiative » (OTSPI)** a pour but d'intérêt général de lever les barrières économiques, techniques, administratives et éducatives à la sécurité, à la confidentialité et à la confiance numérique dans les communications électroniques mondiales.
+L'association **« Open Trusted Service Provider Initiative » (OTSPI)**, en cours de constitution, a pour but d'intérêt général de lever les barrières économiques, techniques, administratives et éducatives à la sécurité, à la confidentialité et à la confiance numérique dans les communications électroniques mondiales.
 
 À l'instar du modèle d'infrastructure d'intérêt général développé par l'**ISRG (*Let's Encrypt*)** pour le chiffrement du Web :
 
@@ -156,7 +156,7 @@ OTSPI applique un principe de **transparence radicale et d'auditabilité publiqu
 
 > [!NOTE]
 > **Réserves de protection légitimes :**  
-> Conformément à nos statuts, les seules exceptions à la publication intégrale concernent la **protection des données personnelles (RGPD)** de nos membres et votants (données nominatives caviardées), les **secrets cryptographiques matériels** (clés protégées sous HSM) et l'**embargo temporaire de sécurité** lors du traitement coordonné de vulnérabilités critiques (*Coordinated Vulnerability Disclosure — CVD*).
+> Conformément à notre projet de statuts, les seules exceptions à la publication intégrale concernent la **protection des données personnelles (RGPD)** de nos membres et votants (données nominatives caviardées), les **secrets cryptographiques matériels** (clés protégées sous HSM) et l'**embargo temporaire de sécurité** lors du traitement coordonné de vulnérabilités critiques (*Coordinated Vulnerability Disclosure — CVD*).
 
 ---
 
