@@ -413,3 +413,26 @@
   font-size: 0.8rem;
   color: var(--md-default-fg-color--light);
 }
+
+/* Thème sombre : contrastes relevés en dessous de 4,5:1 */
+[data-md-color-scheme="slate"] .md-typeset .md-button:not(.md-button--primary) {
+  color: #a9bcff;
+  border-color: #a9bcff;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .footnote-ref,
+[data-md-color-scheme="slate"] .md-typeset a code {
+  color: #8fb4ff;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-typeset-a-color: #8fb4ff;
+}
+
+[data-md-color-scheme="slate"] .otspi-badge {
+  color: #9cc0ff;
+}
+
+[data-md-color-scheme="slate"] .md-typeset a:not(.md-button):not(.headerlink):not(.md-annotation__index) {
+  color: #8fb4ff;
+}
