@@ -27,7 +27,7 @@ Les fondateurs doivent **accepter les statuts, signer et assumer un mandat bén�
 - L'article 8 bis (alinéa 2) rend l'appartenance au Bureau **incompatible** avec les fonctions de membre du Comité des Politiques de Confiance (CPC).
 - L'alinéa 5 du même article prévoit que les premiers membres du CPC sont choisis parmi les premiers Officiers d'Autorité.
 
-Avec deux ou trois fondateurs tous membres du Bureau, le CPC ne peut pas être constitué sans enfreindre l'incompatibilité. **Il faut décider avant l'assemblée** comment cette période transitoire est traitée : constitution du CPC en dehors du Bureau dès que possible, recrutement de personnes indépendantes, ou précision du régime transitoire dans les statuts.
+Avec deux ou trois fondateurs tous membres du Bureau, le CPC ne peut pas être constitué sans enfreindre l'incompatibilité. **Il faut décider avant l'assemblée** comment cette période transitoire est traitée : constitution du CPC en dehors du Bureau dès que possible, recrutement de personnes indépendantes, ou précision du régime transitoire dans les statuts. Un [projet de résolution et de clause statutaire](resolution-transitoire.md) est proposé.
 
 ### 1.3. Le siège ne doit pas être le domicile d'un dirigeant
 
