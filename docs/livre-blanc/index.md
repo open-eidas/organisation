@@ -35,6 +35,8 @@ description: "Livre blanc de l'Open Trusted Service Provider Initiative : défai
 
     OTSPI est en cours de constitution : ses statuts sont à l'état de **projet**, soumis au vote de l'assemblée générale constitutive. Les garanties statutaires décrites dans ce document (objet intangible, inaliénabilité, fonds de réserve, gouvernance) s'appliqueront à compter de leur adoption.
 
+    Une [traduction anglaise](../white-paper/index.md) de ce livre blanc est disponible ; la présente version française fait foi.
+
 <div class="wp-toc" markdown>
 
 ### Sommaire
@@ -127,7 +129,7 @@ OTSPI propose de constituer un **QTSP d'utilité publique**, porté par une asso
 - la gouvernance applique une ségrégation stricte des fonctions conforme à l'ETSI EN 319 401 ;
 - les services sont exposés par des API normalisées (RFC 3161, ETSI EN 319 422, ACME), sans tarification à l'unité pour les usages d'intérêt général ;
 - le périmètre couvre, conformément à l'objet statutaire, l'ensemble de la chaîne de confiance : gestion des identités, infrastructures à clés publiques, horodatage, scellement, signature, archivage probatoire et validation de preuves ;
-- le **projet de statuts** rend l'objet d'intérêt général, la gestion désintéressée et l'inaliénabilité des actifs **intangibles**, et interdisent à perpétuité toute transformation en entité lucrative : l'infrastructure est conçue comme un **commun numérique et de l'identité**, protégé contre toute capture (cf. § 5.2).
+- le **projet de statuts** rend l'objet d'intérêt général, la gestion désintéressée et l'inaliénabilité des actifs **intangibles**, et interdit à perpétuité toute transformation en entité lucrative : l'infrastructure est conçue comme un **commun numérique et de l'identité**, protégé contre toute capture (cf. § 5.2).
 
 Le premier service visé est l'**horodatage électronique qualifié** (QTSA), conforme aux normes ETSI EN 319 421 et ETSI EN 319 422.
 

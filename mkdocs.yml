@@ -102,7 +102,9 @@ extra:
 
 nav:
   - Accueil: index.md
-  - Livre Blanc: livre-blanc/index.md
+  - Livre Blanc:
+      - Livre blanc (FR): livre-blanc/index.md
+      - White Paper (EN): white-paper/index.md
   - Statuts & Gouvernance:
       - Projet de statuts: statuts/statuts-association.md
       - Charte d'Éthique: gouvernance/charte-ethique.md

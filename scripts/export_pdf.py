@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Génère le PDF de référence du livre blanc à partir du site MkDocs construit.
+"""Génère les PDF de référence du livre blanc (français et anglais) à partir du site MkDocs construit.
 
 Le site est servi localement puis imprimé par Chrome (ou Chromium) en mode
 headless ; la mise en page est portée par docs/stylesheets/print.css.
@@ -23,8 +23,11 @@ import threading
 from pathlib import Path
 
 CHROME_CANDIDATES = ("google-chrome", "google-chrome-stable", "chromium", "chromium-browser")
-PAGE_PATH = "livre-blanc/"
-PDF_NAME = "otspi-livre-blanc.pdf"
+# Pages exportées : répertoire de la page dans le site construit → nom du PDF
+DOCUMENTS = {
+    "livre-blanc/": "otspi-livre-blanc.pdf",
+    "white-paper/": "otspi-white-paper.pdf",
+}
 
 
 class QuietHandler(http.server.SimpleHTTPRequestHandler):
@@ -49,53 +52,52 @@ def serve(directory):
     return httpd
 
 
+def print_pdf(url, output):
+    """Imprime une page en PDF avec Chrome headless ; renvoie le résultat du processus."""
+    with tempfile.TemporaryDirectory() as profile:
+        cmd = [
+            find_chrome(),
+            "--headless=new",
+            "--disable-gpu",
+            "--no-first-run",
+            "--no-default-browser-check",
+            f"--user-data-dir={profile}",
+            "--no-pdf-header-footer",
+            # Laisse le temps au rendu des diagrammes Mermaid
+            "--virtual-time-budget=20000",
+            "--run-all-compositor-stages-before-draw",
+            f"--print-to-pdf={output}",
+            url,
+        ]
+        if os.environ.get("CI"):
+            cmd.insert(1, "--no-sandbox")
+        return subprocess.run(cmd, capture_output=True, text=True, timeout=180)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--site", default="site", type=Path, help="répertoire du site construit")
-    parser.add_argument("--output", type=Path, help=f"chemin du PDF (défaut : <site>/{PAGE_PATH}{PDF_NAME})")
     parser.add_argument("--build", action="store_true", help="exécuter mkdocs build --strict au préalable")
     args = parser.parse_args()
 
     site = args.site.resolve()
-    output = (args.output or site / PAGE_PATH / PDF_NAME).resolve()
-
     if args.build:
         subprocess.run(["mkdocs", "build", "--strict", "--site-dir", str(site)], check=True)
-    if not (site / PAGE_PATH / "index.html").is_file():
-        sys.exit(f"Page introuvable : {site / PAGE_PATH / 'index.html'} (lancer avec --build)")
-
-    output.parent.mkdir(parents=True, exist_ok=True)
-    output.unlink(missing_ok=True)
 
     httpd = serve(site)
-    url = f"http://127.0.0.1:{httpd.server_address[1]}/{PAGE_PATH}"
     try:
-        with tempfile.TemporaryDirectory() as profile:
-            cmd = [
-                find_chrome(),
-                "--headless=new",
-                "--disable-gpu",
-                "--no-first-run",
-                "--no-default-browser-check",
-                f"--user-data-dir={profile}",
-                "--no-pdf-header-footer",
-                # Laisse le temps au rendu des diagrammes Mermaid
-                "--virtual-time-budget=20000",
-                "--run-all-compositor-stages-before-draw",
-                f"--print-to-pdf={output}",
-                url,
-            ]
-            if os.environ.get("CI"):
-                cmd.insert(1, "--no-sandbox")
-            result = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
+        for page_path, pdf_name in DOCUMENTS.items():
+            if not (site / page_path / "index.html").is_file():
+                sys.exit(f"Page introuvable : {site / page_path / 'index.html'} (lancer avec --build)")
+            output = site / page_path / pdf_name
+            output.unlink(missing_ok=True)
+            result = print_pdf(f"http://127.0.0.1:{httpd.server_address[1]}/{page_path}", output)
+            if result.returncode != 0 or not output.is_file() or output.stat().st_size == 0:
+                sys.stderr.write(result.stderr)
+                sys.exit(f"Échec de la génération du PDF : {pdf_name}")
+            print(f"PDF généré : {output} ({output.stat().st_size // 1024} Kio)")
     finally:
         httpd.shutdown()
-
-    if result.returncode != 0 or not output.is_file() or output.stat().st_size == 0:
-        sys.stderr.write(result.stderr)
-        sys.exit("Échec de la génération du PDF.")
-
-    print(f"PDF généré : {output} ({output.stat().st_size // 1024} Kio)")
 
 
 if __name__ == "__main__":

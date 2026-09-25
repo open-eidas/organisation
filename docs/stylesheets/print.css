@@ -42,6 +42,20 @@
   @bottom-right { content: none; }
 }
 
+/* Gabarit anglais du livre blanc */
+@page whitepaper-en {
+  @bottom-left {
+    content: "OTSPI — White paper · public consultation v0.9 · CC-BY-4.0";
+    font: 8pt Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #64748b;
+  }
+}
+
+@page whitepaper-en:first {
+  @bottom-left { content: none; }
+  @bottom-right { content: none; }
+}
+
 @media print {
   html {
     -webkit-print-color-adjust: exact;
@@ -57,6 +71,7 @@
   .md-dialog,
   .md-content__button,
   .md-source-file,
+  .md-path,
   .corner-ribbon-wrapper,
   .headerlink,
   .wp-download {
@@ -126,6 +141,10 @@
      ------------------------------------------------------------------------ */
   body:has(.wp-cover) {
     page: whitepaper;
+  }
+
+  body:has(.wp-cover.wp-en) {
+    page: whitepaper-en;
   }
 
   .wp-cover {
