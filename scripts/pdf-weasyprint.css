@@ -122,3 +122,8 @@ body {
   content: counter(fn) ". ";
   font-weight: 700;
 }
+
+/* Le numéro et le texte d'une note restent sur la même ligne. */
+.footnote li > p:first-child {
+  display: inline !important;
+}
