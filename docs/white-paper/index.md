@@ -612,7 +612,7 @@ OTSPI is now seeking contributions from:
 - **business software vendors and approved e-invoicing platforms**, to integrate qualified sealing and time-stamping into invoicing and archiving pipelines;
 - **local authorities, educational institutions and EUDI Wallet relying parties**, to define attestation services and integration building blocks.
 
-Beyond these contributions, any person or organisation that shares the principles set out in this document can sign the [**Manifesto for a free and open digital identity**](https://www.otspi.org/en/manifesto.html). Its ten principles — control by the individual, voluntary use of digital tools, open standards and code, trust building blocks available with no entry fee, governance protected from capture — are not specific to OTSPI: they are meant to be shared by all those committed to a European digital identity designed as a common good.
+Beyond these contributions, any person or organisation that shares the principles set out in this document can sign the [**Manifesto for a free and open digital identity**](https://www.otspi.org/en/manifesto.html). Its ten principles — control by the individual, voluntary use of digital tools, open standards and code, trust building blocks available with no entry fee, governance protected from capture — are not specific to OTSPI: they are meant to be shared by all those committed to a European digital identity designed as a digital commons.
 
 !!! abstract "Get involved"
     - Feedback on this white paper: [open a public discussion](https://github.com/otspi/organisation/discussions/new?category=ideas) (guided form, English welcome)
