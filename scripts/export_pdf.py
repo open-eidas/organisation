@@ -63,6 +63,7 @@ def print_pdf(url, output):
             "--no-default-browser-check",
             f"--user-data-dir={profile}",
             "--no-pdf-header-footer",
+            "--generate-pdf-document-outline",
             # Laisse le temps au rendu des diagrammes Mermaid
             "--virtual-time-budget=20000",
             "--run-all-compositor-stages-before-draw",

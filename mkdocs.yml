@@ -9,6 +9,9 @@ edit_uri: edit/main/docs/
 
 copyright: Copyright &copy; 2026 OTSPI — Contenu sous licence Creative Commons Attribution 4.0 International (CC-BY-4.0).
 
+hooks:
+  - hooks/page_lang.py
+
 theme:
   name: material
   custom_dir: overrides
