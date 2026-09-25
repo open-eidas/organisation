@@ -22,6 +22,10 @@ Ce dossier rassemble l'ensemble des documents de cadrage stratégique, réglemen
    - Fixe le protocole d'archivage probatoire des journaux d'audit sur 10 à 30 ans auprès d'un tiers séquestre qualifié ;
    - Met en œuvre le **fonds de réserve opérationnelle sanctuarisé** (Article 12 bis des Statuts).
 
+4. **[Arc d'identifiants d'objet (OID) et numéro d'entreprise IANA](oid-arc.md)** :
+   - Plan d'obtention d'un numéro d'entreprise auprès de l'IANA, au nom de l'association ;
+   - Allocation de l'arc, séparation du test et de la production, et plan de remplacement de l'OID de test dans le moteur.
+
 ---
 
 ## 🧭 Documents Complémentaires de Cadrage
