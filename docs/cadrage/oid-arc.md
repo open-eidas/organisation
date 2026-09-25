@@ -3,7 +3,7 @@
 ## Plan d'obtention d'un numéro d'entreprise IANA et d'allocation de l'arc
 
 !!! note "Statut du document"
-    Document de cadrage, version 0.1, en cours d'examen par le Comité des Politiques de Confiance (CPC). Il décrit une démarche à engager ; la demande auprès de l'IANA n'a pas encore été déposée.
+    Document de cadrage, version 0.1, en cours d'examen par le Comité des Politiques de Confiance (CPC). La demande auprès de l'IANA a été déposée le 25 septembre 2026 au nom de l'initiative (demande n° PHTU-RTZ-60K) ; elle attend la confirmation par courriel de l'adresse de contact. Le numéro n'est pas encore attribué.
 
 ---
 
@@ -38,9 +38,9 @@ Le formulaire IANA comporte une section *Assignee* et une section *Contact*. Les
 
 | Champ | Valeur prévue |
 |---|---|
-| Organisation | Open Trusted Service Provider Initiative (OTSPI) |
+| Organisation | Open Trusted Service Provider Initiative (saisi sans le sigle) |
 | Adresse et pays | 254 rue Vendôme, 69003 Lyon, France (adresse de domiciliation du siège) |
-| Contact (nom) | Un intitulé de rôle plutôt qu'un nom de personne, tel que « OTSPI — Trust Policy Committee » |
+| Contact (nom) | Un intitulé de rôle plutôt qu'un nom de personne : « OTSPI Registry Contact » |
 | Contact (e-mail) | `contact@otspi.org` (adresse de rôle, non nominative) |
 | Téléphone, fax | Non renseignés (facultatifs) |
 
@@ -91,7 +91,8 @@ Les jetons déjà émis par le staging sous l'ancien OID n'ont aucune valeur jur
 ## 6. Prochaines étapes
 
 - [ ] Décision du CPC sur le titulaire de l'attribution (association ou initiative)
-- [ ] Dépôt de la demande auprès de l'IANA
+- [x] Dépôt de la demande auprès de l'IANA (25 septembre 2026, à confirmer par courriel sous trente jours)
+- [ ] Mise à jour du titulaire au nom de l'association après sa déclaration
 - [ ] Publication du registre d'OID
 - [ ] Remplacement de l'OID de test dans le moteur et le staging
 - [ ] Garde-fou de mise en production
