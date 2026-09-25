@@ -1,0 +1,3 @@
+# Export PDF du livre blanc (scripts/export_pdf.py). WeasyPrint requiert Pango
+# (paquet système libpango-1.0-0 sous Debian et Ubuntu).
+weasyprint>=70,<71
