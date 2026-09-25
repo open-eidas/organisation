@@ -1,0 +1,71 @@
+name: Déploiement du portail sur Infomaniak (FTP)
+
+# Préparé pour la sortie de GitHub Pages ; à activer une fois le site about.otspi.org créé chez
+# Infomaniak et les secrets ABOUT_FTP_* renseignés (voir deploy/infomaniak/README.md).
+# Le déclenchement automatique à chaque push est volontairement désactivé : il sera ajouté au
+# moment de la bascule du DNS.
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: "deploy-infomaniak"
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt -r requirements-pdf.txt
+          sudo apt-get update
+          sudo apt-get install -y libpango-1.0-0 libpangoft2-1.0-0 lftp
+
+      - name: Build documentation
+        run: mkdocs build --strict
+
+      - name: Export whitepaper PDF
+        run: python scripts/export_pdf.py
+
+      - name: Cache veraPDF
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/verapdf
+          key: verapdf-1.30.2
+
+      - name: Validate PDF/UA-1
+        run: bash scripts/check_pdf_ua.sh
+
+      - name: Add Apache configuration
+        run: cp deploy/infomaniak/htaccess site/.htaccess
+
+      # L'hébergement n'expose que le FTP sans TLS : le compte utilisé doit être cantonné
+      # au seul répertoire du site about.otspi.org.
+      - name: Déploiement FTP
+        env:
+          FTP_HOST: ${{ secrets.ABOUT_FTP_HOST }}
+          FTP_USERNAME: ${{ secrets.ABOUT_FTP_USERNAME }}
+          LFTP_PASSWORD: ${{ secrets.ABOUT_FTP_PASSWORD }}
+          FTP_SERVER_DIR: ${{ vars.ABOUT_FTP_SERVER_DIR || './' }}
+        run: |
+          lftp -u "$FTP_USERNAME" --env-password "ftp://$FTP_HOST" -e "
+            set ftp:ssl-allow no;
+            set ftp:passive-mode yes;
+            set net:max-retries 2;
+            mirror --reverse --delete --verbose --no-perms ./site/ '$FTP_SERVER_DIR';
+            bye"
