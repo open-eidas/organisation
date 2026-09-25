@@ -375,18 +375,11 @@ Any vendor of a signing solution, commercial or free, can rely on the service to
 
 ### 4.1. Certification hierarchy
 
-```mermaid
-flowchart TD
-    R["OTSPI root CA<br/>offline — air-gapped<br/>dedicated HSM, M-of-N quorum"]
-    I["Time-stamping intermediate CA<br/>offline or restricted online"]
-    Q["Future qualified CAs<br/>seal, signature, attestations"]
-    T1["Time-stamping unit TSU-1<br/>online HSM — site A"]
-    T2["Time-stamping unit TSU-2<br/>online HSM — site B"]
-    R --> I
-    R -.-> Q
-    I --> T1
-    I --> T2
-```
+<!-- diagram:hierarchy:start -->
+<figure class="wp-diagram" markdown="0">
+<svg class="wp-svg" viewBox="0 0 760 350" role="img" aria-labelledby="en-h-t en-h-d" xmlns="http://www.w3.org/2000/svg"><title id="en-h-t">OTSPI qualified certification hierarchy</title><desc id="en-h-d">The offline OTSPI root CA, under a quorum, certifies the time-stamping intermediate CA, which certifies time-stamping units TSU-1 (site A) and TSU-2 (site B). It will also certify future qualified CAs for seals, signatures and attestations.</desc><defs><marker id="arr-en-h" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="dg-arrow" d="M0 0 L10 5 L0 10 z"/></marker><marker id="arc-en-h" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="dg-arrow-cross" d="M0 0 L10 5 L0 10 z"/></marker></defs><path class="dg-edge" d="M380 74 C380 104 190 100 190 128" marker-end="url(#arr-en-h)"/><path class="dg-edge dg-dash" d="M380 74 C380 104 570 100 570 128" marker-end="url(#arr-en-h)"/><path class="dg-edge" d="M190 198 C190 228 100 224 100 256" marker-end="url(#arr-en-h)"/><path class="dg-edge" d="M190 198 C190 228 290 224 290 256" marker-end="url(#arr-en-h)"/><rect class="dg-root" x="230" y="10" width="300" height="64" rx="8"/><text class="dg-t" x="380.0" y="37" text-anchor="middle">OTSPI root CA</text><text class="dg-s" x="380.0" y="58" text-anchor="middle">offline · air-gapped · M-of-N quorum</text><rect class="dg-box" x="60" y="130" width="260" height="68" rx="8"/><text class="dg-t" x="190.0" y="157" text-anchor="middle">Time-stamping intermediate CA</text><text class="dg-s" x="190.0" y="178" text-anchor="middle">offline or restricted online</text><rect class="dg-future" x="440" y="130" width="260" height="68" rx="8"/><text class="dg-t" x="570.0" y="157" text-anchor="middle">Future qualified CAs</text><text class="dg-s" x="570.0" y="178" text-anchor="middle">seal · signature · attestations</text><rect class="dg-box" x="10" y="258" width="180" height="68" rx="8"/><text class="dg-t" x="100.0" y="285" text-anchor="middle">Time-stamping unit TSU-1</text><text class="dg-s" x="100.0" y="306" text-anchor="middle">online HSM — site A</text><rect class="dg-box" x="200" y="258" width="180" height="68" rx="8"/><text class="dg-t" x="290.0" y="285" text-anchor="middle">Time-stamping unit TSU-2</text><text class="dg-s" x="290.0" y="306" text-anchor="middle">online HSM — site B</text></svg>
+</figure>
+<!-- diagram:hierarchy:end -->
 
 - The **root CA key** is only used during scheduled ceremonies: issuing or renewing intermediate CAs, issuing the root CA's CRLs.
 - Each **time-stamping unit (TSU)** has its own key, reserved exclusively for signing time-stamp tokens, generated and stored in a certified cryptographic module.
@@ -394,20 +387,11 @@ flowchart TD
 - The future **qualified CAs** for seals, signatures and attestations (see § 6.1, phase 5) will be attached to this same qualified root, each under an intermediate CA dedicated to a single use.
 - The future TLS certificate service (see § 2.4) relies on **two roots distinct** from the qualified time-stamping root: a **WebTrust root**, intended for the trust stores of operating systems and browsers, and a **QWAC root**, listed on the European trusted list. They apply the same governance principles (air gap, quorum, ceremonies) and share no key with the time-stamping, seal or signature CAs.
 
-```mermaid
-flowchart TD
-    RW["WebTrust root<br/>OS and browser stores"]
-    RQ["QWAC root<br/>European trusted list"]
-    DV["DV sub-CA<br/>WebTrust only · standard HSM"]
-    HY["Hybrid OV / QWAC sub-CA<br/>one key · two CA certificates<br/>CC EAL4+ HSM (EN 419 221-5)"]
-    CDV["DV server certificates<br/>general Web use<br/>instant ACME"]
-    COV["OV / QWAC server certificates<br/>regulated uses (PSD2, eIDAS)<br/>ACME with account binding"]
-    RW --> DV
-    RW --> HY
-    RQ -. cross-signing .-> HY
-    DV --> CDV
-    HY --> COV
-```
+<!-- diagram:tls:start -->
+<figure class="wp-diagram" markdown="0">
+<svg class="wp-svg" viewBox="0 0 760 390" role="img" aria-labelledby="en-t-t en-t-d" xmlns="http://www.w3.org/2000/svg"><title id="en-t-t">OTSPI TLS certification hierarchies</title><desc id="en-t-d">Two separate roots: a WebTrust root for browser stores, and a QWAC root listed on the European trusted list. The WebTrust root certifies a DV sub-CA, which issues DV server certificates through instant ACME. A hybrid OV / QWAC sub-CA, holding a single key, is certified by the WebTrust root and, through cross-signing, by the QWAC root; it issues OV / QWAC certificates.</desc><defs><marker id="arr-en-t" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="dg-arrow" d="M0 0 L10 5 L0 10 z"/></marker><marker id="arc-en-t" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="dg-arrow-cross" d="M0 0 L10 5 L0 10 z"/></marker></defs><path class="dg-edge" d="M200 74 L200 140" marker-end="url(#arr-en-t)"/><path class="dg-edge" d="M300 74 C300 108 500 104 500 138" marker-end="url(#arr-en-t)"/><path class="dg-cross" d="M600 74 L600 138" marker-end="url(#arc-en-t)"/><text class="dg-label" x="610" y="112">cross-signing</text><path class="dg-edge" d="M200 212 L200 288" marker-end="url(#arr-en-t)"/><path class="dg-edge" d="M560 212 L560 288" marker-end="url(#arr-en-t)"/><rect class="dg-root" x="60" y="10" width="280" height="64" rx="8"/><text class="dg-t" x="200.0" y="37" text-anchor="middle">WebTrust root</text><text class="dg-s" x="200.0" y="58" text-anchor="middle">OS and browser stores</text><rect class="dg-root" x="420" y="10" width="280" height="64" rx="8"/><text class="dg-t" x="560.0" y="37" text-anchor="middle">QWAC root</text><text class="dg-s" x="560.0" y="58" text-anchor="middle">European trusted list</text><rect class="dg-box" x="60" y="142" width="280" height="70" rx="8"/><text class="dg-t" x="200.0" y="169" text-anchor="middle">DV sub-CA</text><text class="dg-s" x="200.0" y="190" text-anchor="middle">WebTrust only · standard HSM</text><rect class="dg-box" x="420" y="142" width="280" height="70" rx="8"/><text class="dg-t" x="560.0" y="169" text-anchor="middle">Hybrid OV / QWAC sub-CA</text><text class="dg-s" x="560.0" y="190" text-anchor="middle">one key · two CA certificates</text><rect class="dg-box" x="60" y="290" width="280" height="70" rx="8"/><text class="dg-t" x="200.0" y="317" text-anchor="middle">DV server certificates</text><text class="dg-s" x="200.0" y="338" text-anchor="middle">general Web use · instant ACME</text><rect class="dg-box" x="420" y="290" width="280" height="70" rx="8"/><text class="dg-t" x="560.0" y="317" text-anchor="middle">OV / QWAC server certificates</text><text class="dg-s" x="560.0" y="338" text-anchor="middle">PSD2, eIDAS · ACME with account binding</text></svg>
+</figure>
+<!-- diagram:tls:end -->
 
 | Branch | Scope and audits | Profile | Issuance flow |
 |---|---|---|---|

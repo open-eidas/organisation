@@ -239,3 +239,15 @@
     break-inside: avoid;
   }
 }
+
+/* Schémas SVG du livre blanc : ne pas les couper d'une page à l'autre */
+@media print {
+  .md-typeset .wp-diagram {
+    break-inside: avoid;
+    overflow: visible;
+  }
+
+  .md-typeset .wp-svg {
+    min-width: 0;
+  }
+}

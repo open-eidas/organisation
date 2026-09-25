@@ -290,3 +290,118 @@
 [data-md-color-scheme="slate"] .md-typeset .wp-value {
   color: var(--md-typeset-color);
 }
+
+/* --------------------------------------------------------------------------
+   Schémas du livre blanc (SVG intégrés, couleurs du thème clair et sombre)
+   -------------------------------------------------------------------------- */
+.md-typeset .wp-diagram {
+  display: block;
+  width: 100%;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+
+.md-typeset .wp-svg {
+  display: block;
+  width: 100%;
+  min-width: 560px;
+  max-width: 820px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.wp-svg .dg-box {
+  fill: var(--md-default-bg-color);
+  stroke: var(--md-default-fg-color--lighter);
+  stroke-width: 1.5;
+}
+
+.wp-svg .dg-root {
+  fill: var(--md-accent-fg-color--transparent);
+  stroke: var(--md-primary-fg-color);
+  stroke-width: 2;
+}
+
+.wp-svg .dg-future {
+  fill: none;
+  stroke: var(--md-default-fg-color--light);
+  stroke-width: 1.5;
+  stroke-dasharray: 6 5;
+}
+
+.wp-svg .dg-t {
+  fill: var(--md-default-fg-color);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.wp-svg .dg-s {
+  fill: var(--md-default-fg-color--light);
+  font-size: 12px;
+}
+
+.wp-svg .dg-edge,
+.wp-svg .dg-cross {
+  fill: none;
+  stroke-width: 1.8;
+}
+
+.wp-svg .dg-edge {
+  stroke: var(--md-default-fg-color--light);
+}
+
+.wp-svg .dg-dash {
+  stroke-dasharray: 5 5;
+}
+
+.wp-svg .dg-cross {
+  stroke: var(--md-primary-fg-color);
+  stroke-dasharray: 7 5;
+}
+
+.wp-svg .dg-arrow {
+  fill: var(--md-default-fg-color--light);
+}
+
+.wp-svg .dg-arrow-cross {
+  fill: var(--md-primary-fg-color);
+}
+
+.wp-svg .dg-label {
+  fill: var(--md-primary-fg-color);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+[data-md-color-scheme="slate"] .wp-svg .dg-label {
+  fill: var(--md-accent-fg-color);
+}
+
+[data-md-color-scheme="slate"] .wp-svg .dg-cross {
+  stroke: var(--md-accent-fg-color);
+}
+
+[data-md-color-scheme="slate"] .wp-svg .dg-arrow-cross {
+  fill: var(--md-accent-fg-color);
+}
+
+/* --------------------------------------------------------------------------
+   Accessibilité
+   -------------------------------------------------------------------------- */
+/* Les liens ne doivent pas se distinguer par la seule couleur */
+.md-typeset a:not(.md-button):not(.headerlink):not(.md-annotation__index) {
+  text-decoration: underline;
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.18em;
+}
+
+.md-typeset .grid.cards a,
+.md-typeset .md-nav a {
+  text-decoration: none;
+}
+
+/* Contraste du pied de page */
+.md-copyright,
+.md-copyright a {
+  color: var(--md-footer-fg-color--light);
+}
