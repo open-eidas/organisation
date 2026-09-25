@@ -18,7 +18,6 @@ Construire, opérer et pérenniser des <strong>infrastructures de confiance num�
 
 <div class="otspi-hero-actions" markdown>
 [:material-book-open-page-variant: Consulter les Statuts](statuts/statuts-association.md){ .md-button .md-button--primary }
-[:material-account-plus: Rejoindre l'Initiative](adhesion/bulletin-adhesion.md){ .md-button }
 [:material-draw-pen: Signer le Manifeste](https://www.otspi.org/manifeste.html){ .md-button }
 [:material-github: Dépôt GitHub](https://github.com/otspi/organisation){ .md-button target="_blank" }
 </div>
@@ -69,14 +68,13 @@ Construire, opérer et pérenniser des <strong>infrastructures de confiance num�
     [:octicons-arrow-right-24: Charte d'Éthique & Déontologie](gouvernance/charte-ethique.md)  
     [:octicons-arrow-right-24: Organisation Technique & CPC](gouvernance/comite-technique.md)
 
--   :material-book-open-page-variant:{ .lg .middle } __Règlement & Adhésion__
+-   :material-book-open-page-variant:{ .lg .middle } __Règlement Intérieur__
 
     ---
 
-    Fonctionnement opérationnel : cursus d'habilitation des Officiers d'Autorité, clés matérielles FIPS/ANSSI, barème des cotisations et adhésions.
+    Fonctionnement opérationnel : cursus d'habilitation des Officiers d'Autorité, clés matérielles FIPS/ANSSI et règles de fonctionnement de l'association.
 
-    [:octicons-arrow-right-24: Règlement Intérieur](reglement-interieur/reglement-interieur.md)  
-    [:octicons-arrow-right-24: Bulletin d'Adhésion (Membres & Mécènes)](adhesion/bulletin-adhesion.md)
+    [:octicons-arrow-right-24: Règlement Intérieur](reglement-interieur/reglement-interieur.md)
 
 -   :material-certificate:{ .lg .middle } __Socle de Conformité (TSP / PKI)__
 
@@ -164,7 +162,7 @@ OTSPI applique un principe de **transparence radicale et d'auditabilité publiqu
 
 ## 📬 Contact & Adresses Officielles
 
-- **Contact unique (Adhésions, Informations, Sécurité)** : `contact@otspi.org`  
+- **Contact unique (Informations, Partenariats, Sécurité)** : `contact@otspi.org`  
   *(Pour le signalement de vulnérabilités / CVD : indiquer `[Sécurité]` en objet ou utiliser les [GitHub Private Security Advisories](https://github.com/otspi/organisation/security/advisories))*
 - **Dépôt Git de gouvernance** : [github.com/otspi/organisation](https://github.com/otspi/organisation)
 - **Portail d'information** : [about.otspi.org](https://about.otspi.org)

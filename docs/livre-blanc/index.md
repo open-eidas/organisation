@@ -250,12 +250,13 @@ Une autorité de certification TLS opérée par OTSPI se distinguerait sur quatr
 
 1. **Pérennité non marchande** : la continuité du service ne dépend pas d'un arbitrage de rentabilité, et le plan de fin d'activité est financé par un fonds sanctuarisé (article 12 bis des statuts).
 2. **Gouvernance et hébergement européens** : opération par une association de droit français, infrastructure hébergée exclusivement dans l'Union, code source intégralement ouvert.
-3. **Double reconnaissance WebTrust et QWAC** : l'AC émettrice TLS est signée de façon croisée par une autorité WebTrust et par la hiérarchie qualifiée d'OTSPI. Un même certificat de site peut ainsi être reconnu à la fois par les navigateurs et comme **certificat qualifié d'authentification de site Internet (QWAC)** au sens de l'article 45 du règlement eIDAS : c'est le modèle dit « 1-QWAC » décrit par la spécification ETSI TS 119 411-5[^qwac]. Les audits **WebTrust for CAs** et **WebTrust — SSL Baseline with Network Security** sont articulés avec l'évaluation ETSI EN 319 411-2 du service qualifié, afin de mutualiser les contrôles.
+3. **Double reconnaissance WebTrust et QWAC** : l'AC émettrice TLS est certifiée par la racine TLS WebTrust d'OTSPI et signée de façon croisée par la hiérarchie qualifiée d'OTSPI. Un même certificat de site peut ainsi être reconnu à la fois par les navigateurs et comme **certificat qualifié d'authentification de site Internet (QWAC)** au sens de l'article 45 du règlement eIDAS : c'est le modèle dit « 1-QWAC » décrit par la spécification ETSI TS 119 411-5[^qwac]. Les audits **WebTrust for CAs** et **WebTrust — SSL Baseline with Network Security** sont articulés avec l'évaluation ETSI EN 319 411-2 du service qualifié, afin de mutualiser les contrôles.
 4. **Automatisation de la validation d'organisation (OV)** : la vérification de l'identité d'une organisation reste aujourd'hui largement manuelle. Les attestations d'identification des personnes morales délivrées par les portefeuilles européens pour les entreprises et les registres officiels interconnectés offrent une perspective d'automatisation de l'OV, sous réserve de leur admissibilité comme sources d'information fiables au sens des *Baseline Requirements* du CA/Browser Forum. Cette piste sera instruite avec le CPC et les programmes racines.
 
 !!! warning "Contraintes assumées"
     - **Hiérarchie dédiée** : le programme racine de Chrome n'accepte que des hiérarchies consacrées exclusivement à l'authentification de serveurs TLS, avec émission et renouvellement automatisés pour chaque politique de certification[^chrome]. L'autorité TLS d'OTSPI reposera donc sur une **racine WebTrust séparée**, distincte de la racine qualifiée (cf. § 4.1).
-    - **Décisions de tiers** : l'inscription d'une nouvelle racine dans les magasins de confiance des navigateurs et systèmes d'exploitation prend plusieurs années, puis nécessite le temps de diffusion des mises à jour. L'inclusion relève de la seule décision des programmes racines. Une signature croisée par une autorité WebTrust déjà reconnue, qui suppose un accord avec cette autorité, permettrait une reconnaissance par les navigateurs dès la mise en service.
+    - **Décisions de tiers** : l'inscription d'une nouvelle racine dans les magasins de confiance des navigateurs et systèmes d'exploitation prend plusieurs années, puis nécessite le temps de diffusion des mises à jour. L'inclusion relève de la seule décision des programmes racines.
+    - **Pas de raccourci par signature croisée** : une signature croisée par une autorité déjà reconnue ne constitue pas une voie d'entrée praticable. Chrome interdit à ses membres d'émettre un certificat croisé au profit d'un opérateur absent de son magasin sans son approbation expresse, et Mozilla soumet une telle opération à son propre processus d'examen, l'autorité signataire restant entièrement responsable des certificats émis[^xsign]. Tant que la racine d'OTSPI n'est pas incluse, le service TLS reste donc limité à un environnement d'essai.
     - **Séquencement** : ce volet est postérieur à la qualification du service d'horodatage (cf. § 6.1, phase 4). Il ne mobilisera pas de ressources au détriment du service pilote.
 
 ### 2.5. Périmètre statutaire et séquencement
@@ -296,7 +297,7 @@ Ces différences justifient un démarrage par un service unique, à faible frict
     - eIDAS 2.0 étend la demande sans faire évoluer le modèle d'accès : risque de rente, de dépendance et d'inégalité devant la preuve.
     - La facturation électronique obligatoire et l'EUDI Wallet rendent possible une automatisation de bout en bout, à condition que les briques de preuve soient accessibles sans droit d'entrée.
     - La réduction des certificats TLS à 47 jours d'ici 2029 impose l'automatisation ; l'offre européenne existe mais reste étroite et fragile (retrait de Buypass en 2025).
-    - Une autorité TLS européenne non marchande, sur racine WebTrust séparée, dont l'AC émettrice est signée de façon croisée par une autorité WebTrust et par la hiérarchie qualifiée QWAC, est un second axe à moyen terme.
+    - Une autorité TLS européenne non marchande, sur racine WebTrust séparée, dont l'AC émettrice est signée de façon croisée par la hiérarchie qualifiée QWAC, est un second axe à moyen terme ; sa reconnaissance par les navigateurs dépend de l'inclusion de sa racine, sans raccourci possible.
     - Le périmètre statutaire couvre toute la chaîne de confiance (identités, PKI, horodatage, cachet, signature, archivage, validation), déployée par étapes à partir de l'horodatage qualifié. La gestion des identités est menée en parallèle du cachet et de la signature, au rythme des échéances de l'EUDI Wallet.
     - Accès universel et non discriminatoire : OTSPI fournit un socle commun sur lequel tous les acteurs, y compris commerciaux, peuvent construire.
 
@@ -385,25 +386,22 @@ flowchart TD
 - Les futures **AC qualifiées** de cachet, de signature et d'attestations (cf. § 6.1, phase 5) seront rattachées à cette même racine qualifiée, chacune sous une AC intermédiaire dédiée à un seul usage.
 - Le futur service de certificats TLS (cf. § 2.4) reposera sur une **racine WebTrust séparée**, dédiée exclusivement à l'authentification de serveurs, conformément aux exigences des programmes racines des navigateurs. Elle applique les mêmes principes de gouvernance (air-gap, quorum, cérémonies), mais ne partage aucune clé avec les AC d'horodatage, de cachet ou de signature.
 
-L'**AC émettrice TLS** dispose d'une clé unique, certifiée par trois certificats d'AC distincts :
+L'**AC émettrice TLS** dispose d'une clé unique, certifiée par deux certificats d'AC distincts :
 
 ```mermaid
 flowchart TD
     RW["Racine TLS OTSPI<br/>WebTrust — séparée, hors ligne"]
-    XW["Autorité WebTrust reconnue<br/>par les navigateurs"]
     RQ["Hiérarchie qualifiée OTSPI<br/>service QWAC — liste de confiance"]
-    CA["AC émettrice TLS OTSPI<br/>une clé, trois certificats d'AC"]
+    CA["AC émettrice TLS OTSPI<br/>une clé, deux certificats d'AC"]
     EE["Certificats de sites<br/>DV / OV / QWAC"]
     RW --> CA
-    XW -. signature croisée .-> CA
     RQ -. signature croisée .-> CA
     CA --> EE
 ```
 
 | Chemin de certification | Rôle |
 |---|---|
-| Racine TLS OTSPI (WebTrust) | Ancre de confiance cible, soumise à l'inclusion dans les programmes racines |
-| Autorité WebTrust reconnue | Reconnaissance par les navigateurs pendant l'instruction de la demande d'inclusion de la racine OTSPI, sous réserve d'un accord avec cette autorité |
+| Racine TLS OTSPI (WebTrust) | Reconnaissance par les navigateurs, après décision d'inclusion des programmes racines |
 | Hiérarchie qualifiée OTSPI | Statut qualifié QWAC, une fois accordé par l'organe de contrôle, vérifiable par la liste de confiance nationale et la LOTL |
 
 La signature croisée ne porte que sur le certificat de l'AC émettrice : les certificats de sites sont émis une seule fois et se valident selon le chemin que chaque logiciel reconnaît.
@@ -586,9 +584,9 @@ Les principaux postes de dépenses récurrentes sont identifiés et feront l'obj
 **Phase 4 — Autorité de certification TLS européenne**
 
 - cérémonie de génération d'une racine WebTrust séparée, dédiée à l'authentification de serveurs TLS, et de l'AC émettrice TLS ;
-- recherche d'un accord de signature croisée avec une autorité WebTrust déjà reconnue ; signature croisée par la hiérarchie qualifiée d'OTSPI ;
+- signature croisée de l'AC émettrice par la hiérarchie qualifiée d'OTSPI ;
 - demande de qualification du service QWAC (ETSI EN 319 411-2), soumise à la décision de l'organe de contrôle ;
-- mise en service d'un point d'accès ACME (RFC 8555) pour les certificats DV, puis OV ;
+- mise en service d'un point d'accès ACME (RFC 8555) en environnement d'essai, puis en production pour les certificats DV et OV une fois la racine incluse ;
 - audits **WebTrust for CAs** et **WebTrust — SSL Baseline with Network Security** ; publication dans la base CCADB ;
 - demandes d'inclusion de la racine TLS OTSPI auprès des programmes racines (Mozilla, Chrome, Apple, Microsoft).
 
@@ -621,7 +619,6 @@ Au-delà de ces contributions, toute personne ou organisation qui partage les pr
 
 !!! abstract "Contribuer"
     - Soutien public : [signer le Manifeste pour une identité numérique libre et ouverte](https://www.otspi.org/manifeste.html)
-    - Adhésion : [Bulletin et procédure d'adhésion](../adhesion/bulletin-adhesion.md)
     - Revue documentaire et technique : [dépôt public GitHub](https://github.com/otspi/organisation)
     - Échanges institutionnels : [contact@otspi.org](mailto:contact@otspi.org)
 
@@ -711,3 +708,4 @@ Les données chiffrées du présent document ont été relevées le 24 septembre
 [^ebw]: Parlement européen, [*Legislative Train Schedule — European business wallets*](https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-european-business-wallet).
 [^qwac]: ETSI, [*TS 119 411-5 V2.1.1 (2025-02)*](https://www.etsi.org/deliver/etsi_ts/119400_119499/11941105/02.01.01_60/ts_11941105v020101p.pdf).
 [^eco]: Ministère de l'Économie, [*Tout savoir sur la facturation électronique pour les entreprises*](https://www.economie.gouv.fr/tout-savoir-sur-la-facturation-electronique-pour-les-entreprises), consulté le 24 septembre 2026.
+[^xsign]: Google, [*Chrome Root Program Policy*, version 1.8](https://googlechrome.github.io/chromerootprogram/crp/policy/), § 1.6.1 ; Mozilla, [*Root Store Policy*, version 3.1](https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/), § 8.4.
