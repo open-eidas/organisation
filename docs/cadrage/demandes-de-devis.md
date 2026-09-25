@@ -96,7 +96,20 @@
 | Assurance responsabilité civile professionnelle | Courtiers et assureurs spécialisés | Garanties exigées par le régime eIDAS |
 | Cabinets WebTrust | Cabinets habilités à réaliser les audits WebTrust | Phase 4, après la qualification de l'horodatage |
 
-## 7. Grille de comparaison
+## 7. Destinataires possibles
+
+!!! warning "Liste indicative, sans recommandation"
+    Ces noms proviennent de sources publiques consultées en septembre 2026. Ils ne constituent ni une sélection ni une recommandation, et **chaque accréditation ou certification doit être vérifiée à la source avant l'envoi** (catalogue des organismes de l'ANSSI, liste des organismes accrédités du Cofrac, certificats Common Criteria publiés). D'autres acteurs, en particulier hors de France, sont à ajouter pour atteindre trois devis par poste.
+
+| Poste | Acteurs cités dans les sources publiques | Source à consulter |
+|---|---|---|
+| Audit eIDAS (organismes d'évaluation de la conformité) | LSTI (accréditation Cofrac n° 5-0546), Certi-Trust, Bureau Veritas, Apave Certification | [Référentiels et organismes, ANSSI](https://cyber.gouv.fr/reglementation/reglementation-identite-confiance-numerique/securite-echanges-voie-electronique/reglement-eidas/referentiels-dexigences/) ; [LSTI](https://www.lsti-certification.fr/fr/eidas/) ; [Certi-Trust](https://www.certi-trust.com/evaluations-en-cybersecurite/certification-de-services-de-confiance-numerique-reglement-eidas/) |
+| HSM certifiés EN 419 221-5 | Utimaco, Entrust (nShield), Thales (Luna), Securosys | [Utimaco](https://utimaco.com/news/press-releases/utimaco-hsm-first-be-common-criteria-eal4-certified-according-eidas-protection) ; [Entrust](https://www.entrust.com/legal-compliance/hsm-solutions/certifications/common-criteria) ; [Thales](https://cpl.thalesgroup.com/blog/encryption/luna-hsm-7-certified-for-eidas-protection) ; [Securosys](https://docs.securosys.com/cloudhsm/Overview/compliance/) |
+| Colocation en France (ISO/IEC 27001 à confirmer site par site) | Digital Realty, Equinix, DATA4, Telehouse, Celeste, OVHcloud, Scaleway | [Equinix Paris](https://www.equinix.com/data-centers/europe-colocation/france-colocation/paris-data-centers) ; [DATA4](https://www.data4group.com/en/data-center-in-paris-france/) ; [Celeste](https://www.celeste.fr/solutions-cloud-et-hebergement/colocation-datacenter/) ; [OVHcloud](https://www.ovhcloud.com/en/datacenter/europe/france/) |
+
+Les HSM sont vendus le plus souvent par des revendeurs agréés : demander la liste des revendeurs français au fabricant. Pour l'hébergement, préférer deux opérateurs ou deux régions distincts, et écarter d'emblée tout site dont la qualification de sécurité n'est pas documentée.
+
+## 8. Grille de comparaison
 
 À remplir au fur et à mesure, puis à reporter (montants et dates) dans le budget pluriannuel.
 
@@ -112,7 +125,7 @@
 | Hébergement |  |  |  |  |  |
 | Hébergement |  |  |  |  |  |
 
-## 8. Suites
+## 9. Suites
 
 - [ ] Choisir au moins trois destinataires par poste
 - [ ] Envoyer les demandes depuis `contact@otspi.org`
