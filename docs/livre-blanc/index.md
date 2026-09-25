@@ -22,7 +22,7 @@ description: "Livre blanc de l'Open Trusted Service Provider Initiative : défai
 <div class="wp-download">
 <a class="md-button md-button--primary" href="otspi-livre-blanc.pdf" download>Télécharger la version PDF de référence</a>
 <a class="md-button" href="https://github.com/otspi/organisation/discussions/new?category=ideas">Commenter le livre blanc</a>
-<p class="wp-download-note">La version PDF est balisée, mais n'est pas entièrement conforme à la norme d'accessibilité PDF/UA (certains liens externes ne sont pas balisés). La présente page (HTML) est la version accessible de référence.</p>
+<p class="wp-download-note">La version PDF est balisée et validée au format PDF/UA-1 par l'outil de contrôle veraPDF ; cette validation automatique ne remplace pas un test avec un lecteur d'écran. La présente page (HTML) reste la version accessible de référence.</p>
 </div>
 
 | | |
@@ -708,4 +708,4 @@ Les données chiffrées du présent document ont été relevées le 24 septembre
 [^ebw]: Parlement européen, [*Legislative Train Schedule — European business wallets*](https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-european-business-wallet).
 [^qwac]: ETSI, [*TS 119 411-5 V2.1.1 (2025-02)*](https://www.etsi.org/deliver/etsi_ts/119400_119499/11941105/02.01.01_60/ts_11941105v020101p.pdf).
 [^eco]: Ministère de l'Économie, [*Tout savoir sur la facturation électronique pour les entreprises*](https://www.economie.gouv.fr/tout-savoir-sur-la-facturation-electronique-pour-les-entreprises), consulté le 24 septembre 2026. Ce chiffre correspond au périmètre le plus large retenu par le ministère (l'ensemble des acteurs économiques) ; selon le périmètre, d'autres estimations sont plus basses, de l'ordre de 4 millions d'entreprises assujetties à la TVA.
-[^xsign]: Google, [*Chrome Root Program Policy*, version 1.8](https://googlechrome.github.io/chromerootprogram/crp/policy/), § 1.6.1 ; Mozilla, [*Root Store Policy*, version 3.1](https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/), § 8.4.
+[^xsign]: Google, [*Chrome Root Program Policy, version 1.8*](https://googlechrome.github.io/chromerootprogram/crp/policy/), § 1.6.1 ; Mozilla, [*Root Store Policy, version 3.1*](https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/), § 8.4.

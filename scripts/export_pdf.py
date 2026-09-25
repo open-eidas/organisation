@@ -115,6 +115,20 @@ def svg_to_img(html):
     return re.sub(r'<svg class="wp-svg".*?</svg>', convert, html, flags=re.S)
 
 
+def hoist_link_wrappers(html):
+    """Place la mise en forme (em, strong, code) autour du lien plutôt qu'à l'intérieur.
+
+    WeasyPrint ne balise pas comme lien un `<a>` dont tout le contenu est enveloppé dans un élément de
+    mise en forme : PDF/UA-1 le refuse (règle 7.18.5). Le rendu visuel reste le même.
+    """
+    return re.sub(
+        r"<a\b([^>]*)>\s*<(em|strong|code)\b([^>]*)>(.*?)</\2>\s*</a>",
+        lambda m: f"<{m.group(2)}{m.group(3)}><a{m.group(1)}>{m.group(4)}</a></{m.group(2)}>",
+        html,
+        flags=re.S,
+    )
+
+
 def print_weasyprint(url, output):
     """Imprime une page en PDF/UA-1 avec WeasyPrint ; renvoie None en cas de succès, sinon un message."""
     try:
@@ -124,7 +138,7 @@ def print_weasyprint(url, output):
     override = weasyprint.CSS(filename=str(Path(__file__).resolve().parent / "pdf-weasyprint.css"))
     try:
         with urllib.request.urlopen(url) as response:
-            html = svg_to_img(response.read().decode("utf-8"))
+            html = hoist_link_wrappers(svg_to_img(response.read().decode("utf-8")))
         weasyprint.HTML(string=html, base_url=url).write_pdf(str(output), stylesheets=[override], pdf_variant="pdf/ua-1", pdf_identifier=True)
     except Exception as error:  # noqa: BLE001 - toute erreur de rendu doit faire échouer l'export
         return str(error)

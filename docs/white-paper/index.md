@@ -23,7 +23,7 @@ description: "White paper of the Open Trusted Service Provider Initiative: marke
 <div class="wp-download">
 <a class="md-button md-button--primary" href="otspi-white-paper.pdf" download>Download the reference PDF</a>
 <a class="md-button" href="https://github.com/otspi/organisation/discussions/new?category=ideas">Comment on the white paper</a>
-<p class="wp-download-note">The PDF is tagged but not fully compliant with the PDF/UA accessibility standard (some external links are not tagged). This page (HTML) is the accessible reference version.</p>
+<p class="wp-download-note">The PDF is tagged and validated as PDF/UA-1 by the veraPDF checker; this automated validation does not replace testing with a screen reader. This page (HTML) remains the accessible reference version.</p>
 </div>
 
 | | |
@@ -710,4 +710,4 @@ The figures in this document were collected on 24 September 2026. References are
 [^ebw]: European Parliament, [*Legislative Train Schedule — European business wallets*](https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-european-business-wallet).
 [^qwac]: ETSI, [*TS 119 411-5 V2.1.1 (2025-02)*](https://www.etsi.org/deliver/etsi_ts/119400_119499/11941105/02.01.01_60/ts_11941105v020101p.pdf).
 [^eco]: French Ministry of the Economy, [*Tout savoir sur la facturation électronique pour les entreprises*](https://www.economie.gouv.fr/tout-savoir-sur-la-facturation-electronique-pour-les-entreprises) (in French), accessed 24 September 2026. This figure reflects the broadest scope used by the Ministry (all economic actors); depending on scope, other estimates are lower, in the order of 4 million VAT-registered businesses.
-[^xsign]: Google, [*Chrome Root Program Policy*, version 1.8](https://googlechrome.github.io/chromerootprogram/crp/policy/), § 1.6.1; Mozilla, [*Root Store Policy*, version 3.1](https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/), § 8.4.
+[^xsign]: Google, [*Chrome Root Program Policy, version 1.8*](https://googlechrome.github.io/chromerootprogram/crp/policy/), § 1.6.1; Mozilla, [*Root Store Policy, version 3.1*](https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/), § 8.4.
