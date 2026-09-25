@@ -1,0 +1,65 @@
+name: Vérification mensuelle des chiffres eIDAS
+
+on:
+  schedule:
+    - cron: "17 6 3 * *"   # le 3 de chaque mois, 06 h 17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  qtsp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Décompte des prestataires qualifiés
+        id: count
+        run: |
+          set +e
+          python3 scripts/count_qtsp.py --output /tmp/qtsp-new.json --compare data/qtsp-count.json 2> /tmp/qtsp.log
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+          cat /tmp/qtsp.log
+
+      - name: Ouvrir un ticket si les chiffres ont changé
+        if: steps.count.outputs.code == '10'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          month=$(date +%Y-%m)
+          title="Chiffres eIDAS à rafraîchir ($month)"
+          if gh issue list --state open --search "\"$title\" in:title" --json number --jq '.[0].number' | grep -q .; then
+            echo "Un ticket est déjà ouvert pour ce mois."
+            exit 0
+          fi
+          {
+            echo "Le décompte mensuel des prestataires de services de confiance qualifiés a changé."
+            echo
+            echo '```'
+            cat /tmp/qtsp.log
+            echo '```'
+            echo
+            echo "**À faire**"
+            echo "- [ ] Remplacer le nouveau décompte dans \`data/qtsp-count.json\` (résultat en pièce jointe de l'exécution du workflow, ou \`python3 scripts/count_qtsp.py --output data/qtsp-count.json\`)"
+            echo "- [ ] Mettre à jour les chiffres cités dans \`docs/livre-blanc/index.md\` et \`docs/white-paper/index.md\` (résumé, § 1.1, § 2.2, synthèse) ainsi que la date de relevé (annexe C)"
+            echo "- [ ] Mettre à jour la vitrine (otspi/vitrine, section « Le constat »)"
+          } > /tmp/body.md
+          gh issue create --title "$title" --body-file /tmp/body.md
+
+      - name: Signaler un relevé incomplet
+        if: steps.count.outputs.code == '2'
+        run: |
+          echo "::warning::Relevé incomplet : une ou plusieurs listes nationales n'ont pas pu être lues. Voir le journal."
+
+      - name: Conserver le résultat
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: qtsp-count
+          path: /tmp/qtsp-new.json
+          if-no-files-found: ignore

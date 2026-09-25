@@ -1,0 +1,134 @@
+{
+  "date": "2026-09-25",
+  "source": "https://ec.europa.eu/tools/lotl/eu-lotl.xml",
+  "listes": 31,
+  "qtsp": 280,
+  "qtsp_horodatage": 158,
+  "par_pays": {
+    "AT": {
+      "qtsp": 5,
+      "qtsp_qtst": 3
+    },
+    "BE": {
+      "qtsp": 13,
+      "qtsp_qtst": 3
+    },
+    "BG": {
+      "qtsp": 5,
+      "qtsp_qtst": 5
+    },
+    "CY": {
+      "qtsp": 1,
+      "qtsp_qtst": 0
+    },
+    "CZ": {
+      "qtsp": 10,
+      "qtsp_qtst": 6
+    },
+    "DE": {
+      "qtsp": 14,
+      "qtsp_qtst": 8
+    },
+    "DK": {
+      "qtsp": 3,
+      "qtsp_qtst": 3
+    },
+    "EE": {
+      "qtsp": 2,
+      "qtsp_qtst": 1
+    },
+    "EL": {
+      "qtsp": 4,
+      "qtsp_qtst": 4
+    },
+    "ES": {
+      "qtsp": 57,
+      "qtsp_qtst": 38
+    },
+    "FI": {
+      "qtsp": 1,
+      "qtsp_qtst": 0
+    },
+    "FR": {
+      "qtsp": 33,
+      "qtsp_qtst": 15
+    },
+    "HR": {
+      "qtsp": 4,
+      "qtsp_qtst": 3
+    },
+    "HU": {
+      "qtsp": 6,
+      "qtsp_qtst": 4
+    },
+    "IE": {
+      "qtsp": 3,
+      "qtsp_qtst": 3
+    },
+    "IS": {
+      "qtsp": 2,
+      "qtsp_qtst": 1
+    },
+    "IT": {
+      "qtsp": 39,
+      "qtsp_qtst": 17
+    },
+    "LI": {
+      "qtsp": 0,
+      "qtsp_qtst": 0
+    },
+    "LT": {
+      "qtsp": 8,
+      "qtsp_qtst": 3
+    },
+    "LU": {
+      "qtsp": 3,
+      "qtsp_qtst": 3
+    },
+    "LV": {
+      "qtsp": 1,
+      "qtsp_qtst": 1
+    },
+    "MT": {
+      "qtsp": 1,
+      "qtsp_qtst": 0
+    },
+    "NL": {
+      "qtsp": 9,
+      "qtsp_qtst": 1
+    },
+    "NO": {
+      "qtsp": 11,
+      "qtsp_qtst": 2
+    },
+    "PL": {
+      "qtsp": 9,
+      "qtsp_qtst": 5
+    },
+    "PT": {
+      "qtsp": 6,
+      "qtsp_qtst": 6
+    },
+    "RO": {
+      "qtsp": 9,
+      "qtsp_qtst": 9
+    },
+    "SE": {
+      "qtsp": 4,
+      "qtsp_qtst": 2
+    },
+    "SI": {
+      "qtsp": 8,
+      "qtsp_qtst": 4
+    },
+    "SK": {
+      "qtsp": 9,
+      "qtsp_qtst": 8
+    },
+    "UK": {
+      "qtsp": 0,
+      "qtsp_qtst": 0
+    }
+  },
+  "erreurs": {}
+}
