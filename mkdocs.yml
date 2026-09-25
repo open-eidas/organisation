@@ -131,4 +131,5 @@ nav:
       - Arc d'OID et numéro IANA: cadrage/oid-arc.md
       - Demandes de devis (audit, HSM, hébergement): cadrage/demandes-de-devis.md
   - Transparence:
+      - Hébergements: reunions/hebergements.md
       - Registre des Réunions & PV: reunions/index.md
