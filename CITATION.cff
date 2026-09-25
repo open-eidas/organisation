@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Si vous citez ce document, merci d'utiliser ces informations."
+title: "Une infrastructure de services de confiance qualifiés d'utilité publique pour eIDAS 2.0 (livre blanc OTSPI)"
+type: report
+version: "0.9"
+date-released: "2026-09-25"
+license: CC-BY-4.0
+url: "https://about.otspi.org/livre-blanc/"
+repository-code: "https://github.com/otspi/organisation"
+abstract: "Livre blanc de consultation publique de l'Open Trusted Service Provider Initiative (OTSPI) : défaillance de marché des services de confiance qualifiés, horodatage électronique qualifié comme cas d'usage pilote, autorité de certification TLS européenne, modèle de gouvernance et feuille de route."
+keywords:
+  - eIDAS
+  - services de confiance
+  - horodatage qualifié
+  - communs numériques
+authors:
+  - name: "Open Trusted Service Provider Initiative (OTSPI)"
+    email: "contact@otspi.org"
