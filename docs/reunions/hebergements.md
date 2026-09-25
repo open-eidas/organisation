@@ -3,7 +3,7 @@
 **Où tournent aujourd'hui les sites et le banc d'essai d'OTSPI, et sous quelle juridiction**
 
 !!! note "Statut du document"
-    Relevé du 25 septembre 2026, établi d'après les enregistrements DNS et les bases d'adressage publiques (localisation approximative). OTSPI défend une infrastructure de confiance hébergée en Europe : ce document ne dit pas que l'état actuel est définitif, il dit ce qu'il est, pour que chacun puisse en juger. Il sera mis à jour à chaque changement.
+    Relevé du 25 septembre 2026, établi d'après les enregistrements DNS et les bases d'adressage publiques (localisation approximative). OTSPI défend une infrastructure de confiance hébergée en Europe : ce document ne dit pas que l'état actuel est définitif, il dit ce qu'il est, pour que chacun puisse en juger. Il sera mis à jour à chaque changement. Une [version anglaise](hosting.md) est disponible.
 
 ---
 
