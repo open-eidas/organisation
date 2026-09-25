@@ -1,1 +1,4 @@
-mkdocs-material>=9.5.0
+# Versions bornées : MkDocs 2.0 est incompatible avec Material for MkDocs
+# (plugins, thèmes et gabarits) et ne doit pas être installé automatiquement.
+mkdocs>=1.6,<2
+mkdocs-material>=9.7,<10
