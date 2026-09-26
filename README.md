@@ -67,7 +67,7 @@ La gouvernance d'OTSPI applique une séparation stricte des devoirs conformémen
 │       └── index.md                 # Registre public des réunions et procès-verbaux (caviardage RGPD)
 ├── mkdocs.yml                       # Configuration Material for MkDocs (about.otspi.org)
 ├── .github/workflows/
-│   └── deploy-pages.yml             # Déploiement automatique GitHub Pages
+│   └── deploy-o2switch.yml          # Déploiement automatique chez o2switch (FTPS)
 ├── LICENSE                          # Licence Creative Commons Attribution 4.0 International
 └── README.md                        # Documentation générale du dépôt
 ```
