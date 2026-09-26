@@ -17,26 +17,27 @@ lang: en
 
 | Item | Address | Host | Company and applicable law | Indicated location |
 |---|---|---|---|---|
-| Showcase website | www.otspi.org | Infomaniak | Switzerland (adequacy decision of the European Commission under the GDPR) | Geneva |
-| Portal, white paper, statutes | about.otspi.org | GitHub Pages | US company (Microsoft); served through a content delivery network | United States, worldwide delivery network |
+| Showcase website | www.otspi.org (and otspi.org, otspi.com, otspi.eu, otspi.fr, open-eidas.eu, redirected) | o2switch | French company, EU law | France |
+| Portal, white paper, statutes | about.otspi.org | o2switch | French company, EU law | France |
 | Manifesto signatures (name, email address) | manifesto-sign.otspi.org | o2switch | French company, EU law | France |
 | Audience measurement of the showcase website (Matomo, cookieless) | stats.otspi.org | o2switch | French company, EU law | France |
-| Web demonstrator | demo.open-eidas.eu | GitHub Pages | Same | Same |
+| Web demonstrator | demo.open-eidas.eu | o2switch | French company, EU law | France |
 | Test time-stamping API | api.staging.open-eidas.eu | Scaleway | French company, EU law | Paris |
 | Source code, discussions, automated deployments | github.com/otspi | GitHub | US company | United States |
-| Name servers (DNS) | otspi.org, open-eidas.eu | Infomaniak | Switzerland | Switzerland |
+| Name servers (DNS) | otspi.org, open-eidas.eu | Infomaniak | Switzerland (adequacy decision of the European Commission under the GDPR) | Switzerland |
+| Email | contact@otspi.org | Infomaniak | Switzerland | Switzerland |
 
 ## 2. What this implies
 
 - **Test environment.** Nothing listed above carries a qualified trust service, a production key or sensitive personal data. The only personal data collected are the manifesto signatures, stored in France and withdrawable at any time through a link. Tokens issued by the test bench have no legal value.
-- **Gap with the stated ambition.** The future trust service infrastructure must be hosted on two European sites (see the [white paper](../white-paper/index.md#43-physical-hosting)). The presentation sites, the portal and the code are today partly hosted by a US company, and are therefore subject to US law.
+- **Gap with the stated ambition.** The future trust service infrastructure must be hosted on two European sites (see the [white paper](../white-paper/index.md#43-physical-hosting)). Since 26 September 2026, all websites are hosted in France. The source code, discussions and automated deployments remain on GitHub, a US company subject to US law.
 - **What is already limited.** Neither the showcase website nor the portal uses external fonts or third-party tracking services. Audience measurement for the showcase website relies on a Matomo instance run by OTSPI at o2switch, cookieless and honouring "Do Not Track"; neither the showcase website nor the signature application sets cookies.
 
 ## 3. Possible next steps
 
 | Option | Effect | Status |
 |---|---|---|
-| Host the portal with a European provider | Brings the portal under EU or Swiss law | To be studied |
+| Host the portal and the demonstrator with a European provider | Brings all websites under EU law | Done (o2switch, 26 September 2026) |
 | Mirror the code on a non-commercial European forge | Reduces dependence on a single platform | To be studied |
 | Hosting of the future infrastructure | Two European sites, certified HSMs | Provided for by the white paper |
 

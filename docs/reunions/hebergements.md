@@ -11,26 +11,27 @@
 
 | Élément | Adresse | Hébergeur | Société et droit applicable | Localisation indiquée |
 |---|---|---|---|---|
-| Vitrine | www.otspi.org | Infomaniak | Suisse (décision d'adéquation RGPD de la Commission européenne) | Genève |
-| Portail, livre blanc, statuts | about.otspi.org | GitHub Pages | Société américaine (Microsoft) ; diffusion par réseau de diffusion de contenu | États-Unis, réseau de diffusion mondial |
+| Vitrine | www.otspi.org (et otspi.org, otspi.com, otspi.eu, otspi.fr, open-eidas.eu, redirigés) | o2switch | Société française, droit de l'Union | France |
+| Portail, livre blanc, statuts | about.otspi.org | o2switch | Société française, droit de l'Union | France |
 | Signatures du manifeste (nom, adresse électronique) | manifesto-sign.otspi.org | o2switch | Société française, droit de l'Union | France |
 | Mesure d'audience de la vitrine (Matomo, sans cookie) | stats.otspi.org | o2switch | Société française, droit de l'Union | France |
-| Démonstrateur Web | demo.open-eidas.eu | GitHub Pages | Idem | Idem |
+| Démonstrateur Web | demo.open-eidas.eu | o2switch | Société française, droit de l'Union | France |
 | API d'horodatage d'essai | api.staging.open-eidas.eu | Scaleway | Société française, droit de l'Union | Paris |
 | Code source, discussions, déploiements automatisés | github.com/otspi | GitHub | Société américaine | États-Unis |
-| Serveurs de noms (DNS) | otspi.org, open-eidas.eu | Infomaniak | Suisse | Suisse |
+| Serveurs de noms (DNS) | otspi.org, open-eidas.eu | Infomaniak | Suisse (décision d'adéquation RGPD de la Commission européenne) | Suisse |
+| Messagerie | contact@otspi.org | Infomaniak | Suisse | Suisse |
 
 ## 2. Ce que cela implique
 
 - **Environnement d'essai.** Rien de ce qui est listé ci-dessus ne porte de service de confiance qualifié, de clé de production ni de donnée personnelle sensible. Les seules données personnelles recueillies sont les signatures du manifeste, conservées en France et retirables à tout moment par lien. Les jetons du banc d'essai n'ont aucune valeur juridique.
-- **Écart avec l'ambition affichée.** La future infrastructure de services de confiance devra être hébergée sur deux sites européens (voir le [livre blanc](../livre-blanc/index.md#43-hebergement-physique)). Les sites de présentation, le portail et le code sont aujourd'hui pour partie hébergés par une société américaine, donc soumis au droit américain.
+- **Écart avec l'ambition affichée.** La future infrastructure de services de confiance devra être hébergée sur deux sites européens (voir le [livre blanc](../livre-blanc/index.md#43-hebergement-physique)). Depuis le 26 septembre 2026, tous les sites Web sont hébergés en France. Le code source, les discussions et les déploiements automatisés restent sur GitHub, société américaine soumise au droit américain.
 - **Ce qui est déjà limité.** Ni la vitrine ni le portail n'utilisent de police de caractères externe ni de service tiers de suivi. La mesure d'audience de la vitrine passe par une instance Matomo gérée par OTSPI chez o2switch, sans cookie et respectueuse de la mention « Do Not Track » ; ni la vitrine ni l'application de signature ne déposent de cookie.
 
 ## 3. Pistes d'évolution
 
 | Piste | Effet | Statut |
 |---|---|---|
-| Héberger le portail chez un hébergeur européen | Ramène le portail sous droit européen ou suisse | À étudier |
+| Héberger le portail et le démonstrateur chez un hébergeur européen | Ramène tous les sites sous droit européen | Fait (o2switch, 26 septembre 2026) |
 | Miroir du code sur une forge européenne non commerciale | Réduit la dépendance à une seule plateforme | À étudier |
 | Hébergement de la future infrastructure | Deux sites européens, HSM certifiés | Prévu par le livre blanc |
 
