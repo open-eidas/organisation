@@ -1,0 +1,49 @@
+name: Surveillance quotidienne des sites
+
+on:
+  schedule:
+    - cron: "17 5 * * *"   # chaque jour, 05 h 17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  sites:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Vérifier disponibilité, redirections et certificats
+        id: check
+        run: |
+          set +e
+          bash scripts/check_sites.sh | tee /tmp/sites.txt
+          echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+
+      - name: Ouvrir un ticket en cas de problème
+        if: steps.check.outputs.code != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Surveillance des sites : problème détecté"
+          if gh issue list --state open --search "\"$title\" in:title" --json number --jq '.[0].number' | grep -q .; then
+            num=$(gh issue list --state open --search "\"$title\" in:title" --json number --jq '.[0].number')
+            { echo "Nouveau contrôle en échec le $(date -u '+%Y-%m-%d %H:%M UTC') :"; echo; echo '```'; grep ÉCHEC /tmp/sites.txt; echo '```'; } > /tmp/comment.md
+            gh issue comment "$num" --body-file /tmp/comment.md
+            exit 0
+          fi
+          {
+            echo "Le contrôle quotidien des sites hébergés chez o2switch a échoué."
+            echo
+            echo '```'
+            cat /tmp/sites.txt
+            echo '```'
+            echo
+            echo "Certificats : ils sont émis et renouvelés par le module « Let's Encrypt™ SSL » du cPanel o2switch. Fermer ce ticket une fois le problème réglé."
+          } > /tmp/body.md
+          gh issue create --title "$title" --body-file /tmp/body.md
