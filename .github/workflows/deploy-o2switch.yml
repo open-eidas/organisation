@@ -1,14 +1,12 @@
-name: Déploiement du portail sur Infomaniak (FTP)
+name: Déploiement du portail sur o2switch (FTPS)
 
-# Préparé pour la sortie de GitHub Pages ; à activer une fois le site about.otspi.org créé chez
-# Infomaniak et les secrets ABOUT_FTP_* renseignés (voir deploy/infomaniak/README.md).
-# Le déclenchement automatique à chaque push est volontairement désactivé : il sera ajouté au
-# moment de la bascule du DNS.
+# Déclenchement manuel tant que le DNS de about.otspi.org pointe vers GitHub Pages ;
+# le déclenchement à chaque push sera ajouté au moment de la bascule (voir deploy/o2switch/README.md).
 on:
   workflow_dispatch:
 
 concurrency:
-  group: "deploy-infomaniak"
+  group: "deploy-o2switch"
   cancel-in-progress: false
 
 permissions:
@@ -52,20 +50,20 @@ jobs:
         run: bash scripts/check_pdf_ua.sh
 
       - name: Add Apache configuration
-        run: cp deploy/infomaniak/htaccess site/.htaccess
+        run: cp deploy/o2switch/htaccess site/.htaccess
 
-      # L'hébergement n'expose que le FTP sans TLS : le compte utilisé doit être cantonné
-      # au seul répertoire du site about.otspi.org.
-      - name: Déploiement FTP
+      # Compte FTP dédié, cantonné au répertoire du site ; TLS obligatoire et certificat vérifié.
+      - name: Déploiement FTPS
         env:
-          FTP_HOST: ${{ secrets.ABOUT_FTP_HOST }}
-          FTP_USERNAME: ${{ secrets.ABOUT_FTP_USERNAME }}
-          LFTP_PASSWORD: ${{ secrets.ABOUT_FTP_PASSWORD }}
-          FTP_SERVER_DIR: ${{ vars.ABOUT_FTP_SERVER_DIR || './' }}
+          FTP_HOST: ${{ vars.O2_FTP_HOST }}
+          FTP_USERNAME: ${{ secrets.O2_FTP_USERNAME }}
+          LFTP_PASSWORD: ${{ secrets.O2_FTP_PASSWORD }}
         run: |
           lftp -u "$FTP_USERNAME" --env-password "ftp://$FTP_HOST" -e "
-            set ftp:ssl-allow no;
+            set ftp:ssl-force yes;
+            set ftp:ssl-protect-data yes;
+            set ssl:verify-certificate yes;
             set ftp:passive-mode yes;
             set net:max-retries 2;
-            mirror --reverse --delete --verbose --no-perms ./site/ '$FTP_SERVER_DIR';
+            mirror --reverse --delete --verbose --no-perms --exclude '^\\.ftpquota$' --exclude '^cgi-bin/' ./site/ ./;
             bye"

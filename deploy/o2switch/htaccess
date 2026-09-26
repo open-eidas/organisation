@@ -1,4 +1,6 @@
-# Configuration Apache du portail about.otspi.org (copiée à la racine du site au déploiement).
+# Configuration Apache du portail about.otspi.org chez o2switch (copiée à la racine du site au déploiement).
+
+Options -Indexes
 
 # HTTPS obligatoire
 RewriteEngine On
