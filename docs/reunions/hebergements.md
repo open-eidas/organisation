@@ -14,7 +14,7 @@
 | Vitrine | www.otspi.org (et otspi.org, otspi.com, otspi.eu, otspi.fr, open-eidas.eu, redirigés) | o2switch | Société française, droit de l'Union | France |
 | Portail, livre blanc, statuts | about.otspi.org | o2switch | Société française, droit de l'Union | France |
 | Signatures du manifeste (nom, adresse électronique) | manifesto-sign.otspi.org | o2switch | Société française, droit de l'Union | France |
-| Mesure d'audience de la vitrine (Matomo, sans cookie) | stats.otspi.org | o2switch | Société française, droit de l'Union | France |
+| Mesure d'audience des sites (Matomo Tag Manager, sans cookie) | stats.otspi.org | o2switch | Société française, droit de l'Union | France |
 | Démonstrateur Web | demo.open-eidas.eu | o2switch | Société française, droit de l'Union | France |
 | API d'horodatage d'essai | api.staging.open-eidas.eu | Scaleway | Société française, droit de l'Union | Paris |
 | Code source, discussions, déploiements automatisés | github.com/otspi | GitHub | Société américaine | États-Unis |
@@ -25,7 +25,7 @@
 
 - **Environnement d'essai.** Rien de ce qui est listé ci-dessus ne porte de service de confiance qualifié, de clé de production ni de donnée personnelle sensible. Les seules données personnelles recueillies sont les signatures du manifeste, conservées en France et retirables à tout moment par lien. Les jetons du banc d'essai n'ont aucune valeur juridique.
 - **Écart avec l'ambition affichée.** La future infrastructure de services de confiance devra être hébergée sur deux sites européens (voir le [livre blanc](../livre-blanc/index.md#43-hebergement-physique)). Depuis le 26 septembre 2026, tous les sites Web sont hébergés en France. Le code source, les discussions et les déploiements automatisés restent sur GitHub, société américaine soumise au droit américain.
-- **Ce qui est déjà limité.** Ni la vitrine ni le portail n'utilisent de police de caractères externe ni de service tiers de suivi. La mesure d'audience de la vitrine passe par une instance Matomo gérée par OTSPI chez o2switch, sans cookie et respectueuse de la mention « Do Not Track » ; ni la vitrine ni l'application de signature ne déposent de cookie.
+- **Ce qui est déjà limité.** Ni la vitrine ni le portail n'utilisent de police de caractères externe ni de service tiers de suivi. La mesure d'audience de la vitrine, du portail, du démonstrateur et du formulaire de signature passe par une instance Matomo gérée par OTSPI chez o2switch, sans cookie et respectueuse de la mention « Do Not Track » ; aucun de ces sites ne dépose de cookie. Le formulaire de signature ne mesure pas les pages dont l'adresse porte un jeton personnel (confirmation, retrait, modération).
 
 ## 3. Pistes d'évolution
 

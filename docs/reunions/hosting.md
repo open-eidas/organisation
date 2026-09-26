@@ -20,7 +20,7 @@ lang: en
 | Showcase website | www.otspi.org (and otspi.org, otspi.com, otspi.eu, otspi.fr, open-eidas.eu, redirected) | o2switch | French company, EU law | France |
 | Portal, white paper, statutes | about.otspi.org | o2switch | French company, EU law | France |
 | Manifesto signatures (name, email address) | manifesto-sign.otspi.org | o2switch | French company, EU law | France |
-| Audience measurement of the showcase website (Matomo, cookieless) | stats.otspi.org | o2switch | French company, EU law | France |
+| Audience measurement of the websites (Matomo Tag Manager, cookieless) | stats.otspi.org | o2switch | French company, EU law | France |
 | Web demonstrator | demo.open-eidas.eu | o2switch | French company, EU law | France |
 | Test time-stamping API | api.staging.open-eidas.eu | Scaleway | French company, EU law | Paris |
 | Source code, discussions, automated deployments | github.com/otspi | GitHub | US company | United States |
@@ -31,7 +31,7 @@ lang: en
 
 - **Test environment.** Nothing listed above carries a qualified trust service, a production key or sensitive personal data. The only personal data collected are the manifesto signatures, stored in France and withdrawable at any time through a link. Tokens issued by the test bench have no legal value.
 - **Gap with the stated ambition.** The future trust service infrastructure must be hosted on two European sites (see the [white paper](../white-paper/index.md#43-physical-hosting)). Since 26 September 2026, all websites are hosted in France. The source code, discussions and automated deployments remain on GitHub, a US company subject to US law.
-- **What is already limited.** Neither the showcase website nor the portal uses external fonts or third-party tracking services. Audience measurement for the showcase website relies on a Matomo instance run by OTSPI at o2switch, cookieless and honouring "Do Not Track"; neither the showcase website nor the signature application sets cookies.
+- **What is already limited.** Neither the showcase website nor the portal uses external fonts or third-party tracking services. Audience measurement for the showcase website, the portal, the demonstrator and the signature form relies on a Matomo instance run by OTSPI at o2switch, cookieless and honouring "Do Not Track"; none of these sites sets cookies. The signature form does not measure pages whose address carries a personal token (confirmation, withdrawal, moderation).
 
 ## 3. Possible next steps
 
