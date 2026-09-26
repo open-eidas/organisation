@@ -65,5 +65,5 @@ jobs:
             set ssl:verify-certificate yes;
             set ftp:passive-mode yes;
             set net:max-retries 2;
-            mirror --reverse --delete --verbose --no-perms --exclude '^\\.ftpquota$' --exclude '^cgi-bin/' ./site/ ./;
+            mirror --reverse --delete --verbose --no-perms --exclude '^\\.ftpquota$' --exclude '^cgi-bin/' --exclude '^\\.well-known/' ./site/ ./;
             bye"
