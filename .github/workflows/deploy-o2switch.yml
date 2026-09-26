@@ -1,8 +1,8 @@
 name: Déploiement du portail sur o2switch (FTPS)
 
-# Déclenchement manuel tant que le DNS de about.otspi.org pointe vers GitHub Pages ;
-# le déclenchement à chaque push sera ajouté au moment de la bascule (voir deploy/o2switch/README.md).
 on:
+  push:
+    branches: ["main"]
   workflow_dispatch:
 
 concurrency:

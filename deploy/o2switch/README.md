@@ -8,7 +8,7 @@ Ce dossier décrit l'hébergement du portail `about.otspi.org` chez o2switch (so
 - `.github/workflows/deploy-o2switch.yml` : construit le site, exporte et valide les PDF (PDF/UA-1), ajoute le `.htaccess`, puis envoie tout en FTPS (TLS obligatoire, certificat vérifié).
 - Un compte FTP dédié, cantonné au seul répertoire du site. Il est renseigné dans les secrets `O2_FTP_USERNAME` et `O2_FTP_PASSWORD` du dépôt ; l'hôte est dans la variable `O2_FTP_HOST`.
 
-## Bascule
+## Bascule (faite le 26 septembre 2026, étapes 1 à 4)
 
 1. Lancer le workflow « Déploiement du portail sur o2switch (FTPS) » à la main, puis contrôler le site en forçant la résolution : `curl --resolve about.otspi.org:443:<IP> -k https://about.otspi.org/`.
 2. Basculer le DNS (zone `otspi.org`) : remplacer l'enregistrement `about` (CNAME vers `otspi.github.io`) par un enregistrement A vers l'adresse de l'hébergement.
