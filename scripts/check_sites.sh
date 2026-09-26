@@ -2,6 +2,8 @@
 # Contrôle quotidien des sites OTSPI hébergés chez o2switch : code HTTP attendu, destination
 # des redirections et durée de validité restante des certificats TLS.
 # Sortie : un rapport lisible ; code de retour 1 si au moins un contrôle échoue.
+# signataires.php n'est pas contrôlé : o2switch ne répond pas à cette adresse depuis les serveurs
+# de GitHub Actions (le point d'accès reste joignable depuis un poste ordinaire).
 set -uo pipefail
 
 MIN_DAYS="${MIN_DAYS:-20}"
@@ -20,7 +22,6 @@ checks=(
   "https://about.otspi.org/livre-blanc/otspi-livre-blanc.pdf|200|"
   "https://demo.open-eidas.eu/|200|"
   "https://manifesto-sign.otspi.org/|200|"
-  "https://manifesto-sign.otspi.org/signataires.php|200|"
   "https://stats.otspi.org/matomo.js|200|"
   "https://open-eidas.eu/|301|https://www.otspi.org/"
   "https://www.open-eidas.eu/|301|https://www.otspi.org/"
